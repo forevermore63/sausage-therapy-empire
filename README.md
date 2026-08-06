@@ -1,2 +1,11 @@
-# sausage-therapy-empire
-Full-scale online platform for Sausage Therapy / Therapy Sausages - dachshund healing sessions, bookings, merch, digital products, NDIS, giving-first impact to grow the dream from true to tremendous
+# Therapy Sausages Empire
+
+Full online platform for Sausage Therapy / Therapy Sausages — dachshund healing sessions, bookings, digital products, merch, NDIS support and giving-first impact.
+
+Led by Emily Blue Richards. Gold Coast, Noosa & beyond.
+
+## Deploy
+
+Import this repo into Vercel. It will auto-detect React Router / Vite.
+
+Live goal: scale the dream from true to tremendous.
