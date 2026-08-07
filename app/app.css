@@ -25,3 +25,16 @@ body {
   transform: translateY(-4px);
   box-shadow: 0 12px 24px rgba(196, 92, 38, 0.18);
 }
+
+.impact-counter {
+  font-variant-numeric: tabular-nums;
+  letter-spacing: -0.02em;
+}
+
+.pulse-glow {
+  animation: pulse-glow 2.5s ease-in-out infinite;
+}
+@keyframes pulse-glow {
+  0%, 100% { box-shadow: 0 0 0 0 rgba(212, 160, 23, 0.4); }
+  50% { box-shadow: 0 0 20px 8px rgba(212, 160, 23, 0.25); }
+}
