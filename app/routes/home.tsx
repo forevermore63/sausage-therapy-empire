@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, join the Digital Academy, memberships, shop merch & track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, join the Digital Academy, memberships, Forevermore Farm experiences, shop merch & track impact.",
     },
   ];
 }
@@ -21,10 +21,12 @@ export default function Home() {
           <Link to="/" className="flex items-center gap-2 font-bold text-xl text-[#c45c26]">
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
-          <nav className="hidden md:flex items-center gap-5 text-sm font-medium">
+          <nav className="hidden md:flex items-center gap-4 text-sm font-medium">
             <a href="#sessions" className="hover:text-[#c45c26]">Sessions</a>
+            <Link to="/farm" className="hover:text-[#c45c26]">Farm</Link>
             <Link to="/academy" className="hover:text-[#c45c26]">Academy</Link>
             <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
+            <Link to="/stories" className="hover:text-[#c45c26]">Stories</Link>
             <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
             <Link to="/shop" className="hover:text-[#c45c26]">Shop</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
@@ -36,20 +38,20 @@ export default function Home() {
       {/* Hero */}
       <section className="hero-gradient text-white py-20 px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <p className="text-lg md:text-xl opacity-90 mb-3">Real dachshund therapy • Gold Coast, Noosa & beyond</p>
+          <p className="text-lg md:text-xl opacity-90 mb-3">Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Digital Academy & Memberships. 
+            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Digital Academy & Memberships. 
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/academy" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
-              Explore Academy
+            <Link to="/farm" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+              Explore the Farm
             </Link>
           </div>
         </div>
@@ -108,30 +110,60 @@ export default function Home() {
         </div>
       </section>
 
-      {/* New Online Elements - Academy & Membership */}
+      {/* Farm Highlight */}
+      <section className="py-16 px-4 bg-[#fdf6e3]">
+        <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
+          <div>
+            <p className="text-[#c45c26] font-semibold mb-2">🌿 NEW • Forevermore Farm</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#2d5016] mb-4">Hinterland Healing on the Land</h2>
+            <p className="text-gray-700 mb-6">
+              Day immersions, private retreats and corporate farm days with the full pack. Nature + sausages = nervous-system reset that lasts. Every farm experience funds land care, dog recovery and free places.
+            </p>
+            <Link to="/farm" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#a34a1e] transition inline-block">
+              Explore Farm Experiences →
+            </Link>
+          </div>
+          <div className="bg-white rounded-2xl p-8 shadow-md border border-[#c45c26]/15">
+            <ul className="space-y-3 text-gray-700">
+              <li className="flex gap-3"><span className="text-[#c45c26] font-bold">✓</span> Day Immersion from $380</li>
+              <li className="flex gap-3"><span className="text-[#c45c26] font-bold">✓</span> Private Retreat (enquire)</li>
+              <li className="flex gap-3"><span className="text-[#c45c26] font-bold">✓</span> Corporate Farm Day from $1,200</li>
+              <li className="flex gap-3"><span className="text-[#c45c26] font-bold">✓</span> NDIS & hardship places available</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      {/* Online Empire Elements */}
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">New Online Empire Elements</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Online Empire Elements Live</h2>
           <p className="text-center opacity-90 mb-12 max-w-2xl mx-auto">
-            Scale the healing far beyond geography. Digital Academy, Memberships and Shop now live so the dream grows from true to tremendous while funding more free sessions and dog care.
+            Scale the healing far beyond geography. Digital Academy, Memberships, Shop, Stories and Farm now live so the dream grows from true to tremendous while funding more free sessions and dog care.
           </p>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link to="/academy" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
               <div className="text-4xl mb-3">🎓</div>
               <h3 className="text-xl font-bold mb-2">Digital Academy</h3>
-              <p className="text-sm opacity-90 mb-4">Courses on animal-assisted therapy, building therapy dog businesses, trauma-informed dachshund work, and resilient wellness empires. Certificates + community.</p>
+              <p className="text-sm opacity-90 mb-4">Courses on animal-assisted therapy & building therapy dog businesses. Certificates + community.</p>
               <span className="font-semibold text-[#d4a017]">Enter Academy →</span>
             </Link>
             <Link to="/membership" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
               <div className="text-4xl mb-3">🌟</div>
-              <h3 className="text-xl font-bold mb-2">Sausage Circle Membership</h3>
-              <p className="text-sm opacity-90 mb-4">Monthly access to guided meditations, live Q&As with Emily, early session priority, digital downloads, and exclusive impact updates. Recurring revenue that funds the mission.</p>
+              <h3 className="text-xl font-bold mb-2">Sausage Circle</h3>
+              <p className="text-sm opacity-90 mb-4">$47/month practices, live Q&As, priority booking & impact reports. Recurring fuel for the mission.</p>
               <span className="font-semibold text-[#d4a017]">Join the Circle →</span>
+            </Link>
+            <Link to="/stories" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">💛</div>
+              <h3 className="text-xl font-bold mb-2">Healing Stories</h3>
+              <p className="text-sm opacity-90 mb-4">Real testimonials and transformations. Proof the wags work. Shareable trust engine.</p>
+              <span className="font-semibold text-[#d4a017]">Read Stories →</span>
             </Link>
             <Link to="/shop" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
               <div className="text-4xl mb-3">🎁</div>
               <h3 className="text-xl font-bold mb-2">Wiener Coaster Shop</h3>
-              <p className="text-sm opacity-90 mb-4">Digital guides, audio packs, apparel, coasters and gifts. Every purchase routes a portion straight back into free therapy places and dog welfare.</p>
+              <p className="text-sm opacity-90 mb-4">Digital guides, audio packs, apparel & gifts. Every purchase funds free places.</p>
               <span className="font-semibold text-[#d4a017]">Shop Now →</span>
             </Link>
           </div>
@@ -152,7 +184,7 @@ export default function Home() {
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#2d5016] mb-2">Ready to Feel the Wags?</h2>
-          <p className="text-gray-600 mb-8">Book a real session or start online today. Emily replies personally.</p>
+          <p className="text-gray-600 mb-8">Book a real session, come to the Farm, or start online today. Emily replies personally.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-[#c45c26] text-white font-semibold px-8 py-3.5 rounded-full hover:bg-[#a34a1e] transition">Book Session</Link>
             <Link to="/membership" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-8 py-3.5 rounded-full hover:bg-[#c45c26]/5 transition">Join Membership</Link>
@@ -168,8 +200,10 @@ export default function Home() {
             <p className="text-sm opacity-70">Led by Emily Blue Richards · Gold Coast & Noosa · Forevermore Farm</p>
           </div>
           <div className="flex flex-wrap gap-4 text-sm justify-center">
+            <Link to="/farm" className="hover:text-[#d4a017]">Farm</Link>
             <Link to="/academy" className="hover:text-[#d4a017]">Academy</Link>
             <Link to="/membership" className="hover:text-[#d4a017]">Membership</Link>
+            <Link to="/stories" className="hover:text-[#d4a017]">Stories</Link>
             <Link to="/impact" className="hover:text-[#d4a017]">Impact</Link>
             <Link to="/shop" className="hover:text-[#d4a017]">Shop</Link>
             <a href="https://www.instagram.com/sausage_therapy/" target="_blank" rel="noreferrer" className="hover:text-[#d4a017]">Instagram</a>
