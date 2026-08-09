@@ -7,4 +7,6 @@ export default [
   route("impact", "routes/impact.tsx"),
   route("shop", "routes/shop.tsx"),
   route("book", "routes/book.tsx"),
+  route("farm", "routes/farm.tsx"),
+  route("stories", "routes/stories.tsx"),
 ] satisfies RouteConfig;
