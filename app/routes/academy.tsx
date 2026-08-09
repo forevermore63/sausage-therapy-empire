@@ -16,9 +16,11 @@ export default function Academy() {
           <Link to="/" className="flex items-center gap-2 font-bold text-xl text-[#c45c26]">
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
-          <nav className="hidden md:flex items-center gap-5 text-sm font-medium">
+          <nav className="hidden md:flex items-center gap-4 text-sm font-medium">
             <Link to="/" className="hover:text-[#c45c26]">Home</Link>
+            <Link to="/farm" className="hover:text-[#c45c26]">Farm</Link>
             <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
+            <Link to="/stories" className="hover:text-[#c45c26]">Stories</Link>
             <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
             <Link to="/shop" className="hover:text-[#c45c26]">Shop</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e]">Book</Link>
