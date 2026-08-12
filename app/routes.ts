@@ -9,4 +9,8 @@ export default [
   route("book", "routes/book.tsx"),
   route("farm", "routes/farm.tsx"),
   route("stories", "routes/stories.tsx"),
+  route("events", "routes/events.tsx"),
+  route("virtual", "routes/virtual.tsx"),
+  route("journal", "routes/journal.tsx"),
+  route("give", "routes/give.tsx"),
 ] satisfies RouteConfig;
