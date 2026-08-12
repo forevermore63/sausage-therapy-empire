@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, join the Digital Academy, memberships, Forevermore Farm experiences, shop merch & track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Journal, Give & Grow and track impact.",
     },
   ];
 }
@@ -21,17 +21,20 @@ export default function Home() {
           <Link to="/" className="flex items-center gap-2 font-bold text-xl text-[#c45c26]">
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
-          <nav className="hidden md:flex items-center gap-4 text-sm font-medium">
+          <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
             <a href="#sessions" className="hover:text-[#c45c26]">Sessions</a>
+            <Link to="/events" className="hover:text-[#c45c26]">Events</Link>
             <Link to="/farm" className="hover:text-[#c45c26]">Farm</Link>
+            <Link to="/virtual" className="hover:text-[#c45c26]">Virtual</Link>
             <Link to="/academy" className="hover:text-[#c45c26]">Academy</Link>
             <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
-            <Link to="/stories" className="hover:text-[#c45c26]">Stories</Link>
+            <Link to="/journal" className="hover:text-[#c45c26]">Journal</Link>
+            <Link to="/give" className="hover:text-[#c45c26]">Give</Link>
             <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
             <Link to="/shop" className="hover:text-[#c45c26]">Shop</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
-          <Link to="/book" className="md:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
+          <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
         </div>
       </header>
 
@@ -43,15 +46,15 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Digital Academy & Memberships. 
+            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack Sessions, Digital Academy & Memberships. 
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/farm" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
-              Explore the Farm
+            <Link to="/virtual" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+              Try Virtual Pack
             </Link>
           </div>
         </div>
@@ -114,7 +117,7 @@ export default function Home() {
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-10 items-center">
           <div>
-            <p className="text-[#c45c26] font-semibold mb-2">🌿 NEW • Forevermore Farm</p>
+            <p className="text-[#c45c26] font-semibold mb-2">🌿 Forevermore Farm</p>
             <h2 className="text-3xl md:text-4xl font-bold text-[#2d5016] mb-4">Hinterland Healing on the Land</h2>
             <p className="text-gray-700 mb-6">
               Day immersions, private retreats and corporate farm days with the full pack. Nature + sausages = nervous-system reset that lasts. Every farm experience funds land care, dog recovery and free places.
@@ -134,14 +137,41 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Online Empire Elements */}
+      {/* New Online Empire Elements */}
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Online Empire Elements Live</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">New Online Empire Elements</h2>
           <p className="text-center opacity-90 mb-12 max-w-2xl mx-auto">
-            Scale the healing far beyond geography. Digital Academy, Memberships, Shop, Stories and Farm now live so the dream grows from true to tremendous while funding more free sessions and dog care.
+            The dream grows from true to tremendous. Events calendar, Virtual Pack Sessions, Healing Journal and Give & Grow now live alongside Academy, Memberships, Shop and Stories.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link to="/events" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">📅</div>
+              <h3 className="text-xl font-bold mb-2">Events Calendar</h3>
+              <p className="text-sm opacity-90 mb-4">Live dates for farm days, corporate packs, virtual circles and SNOUTSAIL. Book or enquire directly.</p>
+              <span className="font-semibold text-[#d4a017]">See Events →</span>
+            </Link>
+            <Link to="/virtual" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">💻</div>
+              <h3 className="text-xl font-bold mb-2">Virtual Pack</h3>
+              <p className="text-sm opacity-90 mb-4">Live Zoom circles, on-demand calm packs and private virtual sessions. Healing without geography.</p>
+              <span className="font-semibold text-[#d4a017]">Enter Virtual →</span>
+            </Link>
+            <Link to="/journal" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">📝</div>
+              <h3 className="text-xl font-bold mb-2">Healing Journal</h3>
+              <p className="text-sm opacity-90 mb-4">Practices, science & soul notes, NDIS access insights and empire updates that convert.</p>
+              <span className="font-semibold text-[#d4a017]">Read Journal →</span>
+            </Link>
+            <Link to="/give" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">🌱</div>
+              <h3 className="text-xl font-bold mb-2">Give & Grow</h3>
+              <p className="text-sm opacity-90 mb-4">Sponsor sessions, monthly giving and Farm & Dog Fund. Transparent allocation. Real impact.</p>
+              <span className="font-semibold text-[#d4a017]">Give Now →</span>
+            </Link>
+          </div>
+
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mt-6">
             <Link to="/academy" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
               <div className="text-4xl mb-3">🎓</div>
               <h3 className="text-xl font-bold mb-2">Digital Academy</h3>
@@ -184,7 +214,7 @@ export default function Home() {
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#2d5016] mb-2">Ready to Feel the Wags?</h2>
-          <p className="text-gray-600 mb-8">Book a real session, come to the Farm, or start online today. Emily replies personally.</p>
+          <p className="text-gray-600 mb-8">Book a real session, come to the Farm, join Virtual, or start online today. Emily replies personally.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-[#c45c26] text-white font-semibold px-8 py-3.5 rounded-full hover:bg-[#a34a1e] transition">Book Session</Link>
             <Link to="/membership" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-8 py-3.5 rounded-full hover:bg-[#c45c26]/5 transition">Join Membership</Link>
@@ -200,9 +230,13 @@ export default function Home() {
             <p className="text-sm opacity-70">Led by Emily Blue Richards · Gold Coast & Noosa · Forevermore Farm</p>
           </div>
           <div className="flex flex-wrap gap-4 text-sm justify-center">
+            <Link to="/events" className="hover:text-[#d4a017]">Events</Link>
             <Link to="/farm" className="hover:text-[#d4a017]">Farm</Link>
+            <Link to="/virtual" className="hover:text-[#d4a017]">Virtual</Link>
             <Link to="/academy" className="hover:text-[#d4a017]">Academy</Link>
             <Link to="/membership" className="hover:text-[#d4a017]">Membership</Link>
+            <Link to="/journal" className="hover:text-[#d4a017]">Journal</Link>
+            <Link to="/give" className="hover:text-[#d4a017]">Give</Link>
             <Link to="/stories" className="hover:text-[#d4a017]">Stories</Link>
             <Link to="/impact" className="hover:text-[#d4a017]">Impact</Link>
             <Link to="/shop" className="hover:text-[#d4a017]">Shop</Link>
