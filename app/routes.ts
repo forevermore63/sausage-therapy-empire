@@ -13,4 +13,6 @@ export default [
   route("virtual", "routes/virtual.tsx"),
   route("journal", "routes/journal.tsx"),
   route("give", "routes/give.tsx"),
+  route("community", "routes/community.tsx"),
+  route("legacy", "routes/legacy.tsx"),
 ] satisfies RouteConfig;
