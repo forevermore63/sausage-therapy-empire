@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Journal, Give & Grow and track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Journal, Give & Grow, Community Circle, 2032 Olympic Legacy and track impact.",
     },
   ];
 }
@@ -28,7 +28,8 @@ export default function Home() {
             <Link to="/virtual" className="hover:text-[#c45c26]">Virtual</Link>
             <Link to="/academy" className="hover:text-[#c45c26]">Academy</Link>
             <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
-            <Link to="/journal" className="hover:text-[#c45c26]">Journal</Link>
+            <Link to="/community" className="hover:text-[#c45c26]">Community</Link>
+            <Link to="/legacy" className="hover:text-[#c45c26]">Legacy</Link>
             <Link to="/give" className="hover:text-[#c45c26]">Give</Link>
             <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
             <Link to="/shop" className="hover:text-[#c45c26]">Shop</Link>
@@ -46,15 +47,15 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack Sessions, Digital Academy & Memberships. 
+            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack Sessions, Digital Academy, Sausage Circle Community & 2032 Olympic Legacy. 
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/virtual" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
-              Try Virtual Pack
+            <Link to="/community" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+              Enter Community
             </Link>
           </div>
         </div>
@@ -142,9 +143,21 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">New Online Empire Elements</h2>
           <p className="text-center opacity-90 mb-12 max-w-2xl mx-auto">
-            The dream grows from true to tremendous. Events calendar, Virtual Pack Sessions, Healing Journal and Give & Grow now live alongside Academy, Memberships, Shop and Stories.
+            The dream grows from true to tremendous. Fresh Community Circle and 2032 Olympic Legacy portals now live alongside Events, Virtual, Journal, Give, Academy, Memberships, Shop and Stories.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link to="/community" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">🤝</div>
+              <h3 className="text-xl font-bold mb-2">Sausage Circle Community</h3>
+              <p className="text-sm opacity-90 mb-4">Private digital hearth: live circles, resource vault, accountability partners & monthly giving challenges.</p>
+              <span className="font-semibold text-[#d4a017]">Enter Community →</span>
+            </Link>
+            <Link to="/legacy" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">🏅</div>
+              <h3 className="text-xl font-bold mb-2">2032 Olympic Legacy</h3>
+              <p className="text-sm opacity-90 mb-4">Grants, supplier pathways, corporate partnerships and measurable wellness infrastructure for Brisbane 2032.</p>
+              <span className="font-semibold text-[#d4a017]">Explore Legacy →</span>
+            </Link>
             <Link to="/events" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
               <div className="text-4xl mb-3">📅</div>
               <h3 className="text-xl font-bold mb-2">Events Calendar</h3>
@@ -156,18 +169,6 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-2">Virtual Pack</h3>
               <p className="text-sm opacity-90 mb-4">Live Zoom circles, on-demand calm packs and private virtual sessions. Healing without geography.</p>
               <span className="font-semibold text-[#d4a017]">Enter Virtual →</span>
-            </Link>
-            <Link to="/journal" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
-              <div className="text-4xl mb-3">📝</div>
-              <h3 className="text-xl font-bold mb-2">Healing Journal</h3>
-              <p className="text-sm opacity-90 mb-4">Practices, science & soul notes, NDIS access insights and empire updates that convert.</p>
-              <span className="font-semibold text-[#d4a017]">Read Journal →</span>
-            </Link>
-            <Link to="/give" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
-              <div className="text-4xl mb-3">🌱</div>
-              <h3 className="text-xl font-bold mb-2">Give & Grow</h3>
-              <p className="text-sm opacity-90 mb-4">Sponsor sessions, monthly giving and Farm & Dog Fund. Transparent allocation. Real impact.</p>
-              <span className="font-semibold text-[#d4a017]">Give Now →</span>
             </Link>
           </div>
 
@@ -184,11 +185,11 @@ export default function Home() {
               <p className="text-sm opacity-90 mb-4">$47/month practices, live Q&As, priority booking & impact reports. Recurring fuel for the mission.</p>
               <span className="font-semibold text-[#d4a017]">Join the Circle →</span>
             </Link>
-            <Link to="/stories" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
-              <div className="text-4xl mb-3">💛</div>
-              <h3 className="text-xl font-bold mb-2">Healing Stories</h3>
-              <p className="text-sm opacity-90 mb-4">Real testimonials and transformations. Proof the wags work. Shareable trust engine.</p>
-              <span className="font-semibold text-[#d4a017]">Read Stories →</span>
+            <Link to="/journal" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
+              <div className="text-4xl mb-3">📝</div>
+              <h3 className="text-xl font-bold mb-2">Healing Journal</h3>
+              <p className="text-sm opacity-90 mb-4">Practices, science & soul notes, NDIS access insights and empire updates that convert.</p>
+              <span className="font-semibold text-[#d4a017]">Read Journal →</span>
             </Link>
             <Link to="/shop" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
               <div className="text-4xl mb-3">🎁</div>
@@ -235,6 +236,8 @@ export default function Home() {
             <Link to="/virtual" className="hover:text-[#d4a017]">Virtual</Link>
             <Link to="/academy" className="hover:text-[#d4a017]">Academy</Link>
             <Link to="/membership" className="hover:text-[#d4a017]">Membership</Link>
+            <Link to="/community" className="hover:text-[#d4a017]">Community</Link>
+            <Link to="/legacy" className="hover:text-[#d4a017]">Legacy</Link>
             <Link to="/journal" className="hover:text-[#d4a017]">Journal</Link>
             <Link to="/give" className="hover:text-[#d4a017]">Give</Link>
             <Link to="/stories" className="hover:text-[#d4a017]">Stories</Link>
