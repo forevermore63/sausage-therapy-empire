@@ -1,6 +1,6 @@
 # Therapy Sausages Empire Platform
 
-Full-scale online platform for Sausage Therapy / Therapy Sausages — dachshund healing sessions, bookings, Digital Academy, Sausage Circle memberships, Wiener Coaster shop, Forevermore Farm experiences, Healing Stories, live Impact Dashboard, Events Calendar, Virtual Pack Sessions, Healing Journal, Give & Grow portal and giving-first conversion systems.
+Full-scale online platform for Sausage Therapy / Therapy Sausages — dachshund healing sessions, bookings, Digital Academy, Sausage Circle memberships, Wiener Coaster shop, Forevermore Farm experiences, Healing Stories, live Impact Dashboard, Events Calendar, Virtual Pack Sessions, Healing Journal, Give & Grow portal, **Sausage Circle Community** and **2032 Olympic Legacy** portals — all giving-first conversion systems.
 
 Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
@@ -8,15 +8,17 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 - **Digital Academy** (`/academy`) — Foundations of Dachshund Therapy ($297) + Therapy Empire Builder ($997)
 - **Sausage Circle Membership** (`/membership`) — $47/month recurring with practices, live Q&As, priority booking, impact reports
+- **Sausage Circle Community** (`/community`) — NEW: Private digital hearth for members — live circles, resource vault, accountability partners, monthly giving challenges
+- **2032 Olympic Legacy** (`/legacy`) — NEW: Grants, supplier pathways, corporate partnerships and measurable wellness infrastructure for Brisbane 2032
 - **Live Impact Dashboard** (`/impact`) — transparent metrics (hearts healed, $ returned to dogs, NDIS sessions, allocation breakdown)
 - **Wiener Coaster Shop** (`/shop`) — digital guides, audio packs, merch & gift bundles with giving-first allocation
 - **Full Booking Flow** (`/book`) — Individual, Corporate, SNOUTSAIL boat, NDIS-ready enquiry form
 - **Forevermore Farm** (`/farm`) — Day immersions, private retreats, corporate farm days
 - **Healing Stories** (`/stories`) — Real testimonials & transformation engine for trust + SEO + conversion
-- **Events Calendar** (`/events`) — NEW: Live & upcoming sessions, farm days, virtual Q&As, corporate openings
-- **Virtual Pack Sessions** (`/virtual`) — NEW: Live Zoom circles, on-demand calm packs, private virtual sessions — healing without geography
-- **Healing Journal** (`/journal`) — NEW: SEO content hub with practices, science & soul notes, access insights, empire updates
-- **Give & Grow** (`/give`) — NEW: Sponsor sessions, monthly giving, Farm & Dog Fund with transparent allocation
+- **Events Calendar** (`/events`) — Live & upcoming sessions, farm days, virtual Q&As, corporate openings
+- **Virtual Pack Sessions** (`/virtual`) — Live Zoom circles, on-demand calm packs, private virtual sessions — healing without geography
+- **Healing Journal** (`/journal`) — SEO content hub with practices, science & soul notes, access insights, empire updates
+- **Give & Grow** (`/give`) — Sponsor sessions, monthly giving, Farm & Dog Fund with transparent allocation
 - Enhanced multi-page navigation + lead magnet (7-Day Calm Challenge)
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and wired for mailto + social conversion.
