@@ -1,6 +1,6 @@
 # Therapy Sausages Empire Platform
 
-Full-scale online platform for Sausage Therapy / Therapy Sausages — dachshund healing sessions, bookings, Digital Academy, Sausage Circle memberships, Wiener Coaster shop, Forevermore Farm experiences, Healing Stories, live Impact Dashboard, Events Calendar, Virtual Pack Sessions, Healing Journal, Give & Grow portal, **Sausage Circle Community** and **2032 Olympic Legacy** portals — all giving-first conversion systems.
+Full-scale online platform for Sausage Therapy / Therapy Sausages — dachshund healing sessions, bookings, Digital Academy, Sausage Circle memberships, Wiener Coaster shop, Forevermore Farm experiences, Healing Stories, live Impact Dashboard, Events Calendar, Virtual Pack Sessions, Healing Journal, Give & Grow portal and giving-first conversion systems.
 
 Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
@@ -8,8 +8,6 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 - **Digital Academy** (`/academy`) — Foundations of Dachshund Therapy ($297) + Therapy Empire Builder ($997)
 - **Sausage Circle Membership** (`/membership`) — $47/month recurring with practices, live Q&As, priority booking, impact reports
-- **Sausage Circle Community** (`/community`) — NEW: Private digital hearth for members — live circles, resource vault, accountability partners, monthly giving challenges
-- **2032 Olympic Legacy** (`/legacy`) — NEW: Grants, supplier pathways, corporate partnerships and measurable wellness infrastructure for Brisbane 2032
 - **Live Impact Dashboard** (`/impact`) — transparent metrics (hearts healed, $ returned to dogs, NDIS sessions, allocation breakdown)
 - **Wiener Coaster Shop** (`/shop`) — digital guides, audio packs, merch & gift bundles with giving-first allocation
 - **Full Booking Flow** (`/book`) — Individual, Corporate, SNOUTSAIL boat, NDIS-ready enquiry form
@@ -25,9 +23,9 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 
 ## Live
 Repo: https://github.com/forevermore63/sausage-therapy-empire  
-Vercel project: sausage-therapy-empire (auto-deploys on push to main)
+Vercel project: therapy-sausages-empire (auto-deploys on push to main)
 
 ## Deploy
-Push to main triggers Vercel. Auto-detects React Router / Vite. No extra config required.
+Push to main triggers Vercel. Auto-detects React Router / Vite. Configured with @vercel/react-router preset.
 
 From true to tremendous. The empire is online and expanding.
