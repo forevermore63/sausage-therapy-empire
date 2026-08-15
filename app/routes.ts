@@ -18,4 +18,5 @@ export default [
   route("podcast", "routes/podcast.tsx"),
   route("refer", "routes/refer.tsx"),
   route("wisdom", "routes/wisdom.tsx"),
+  route("command", "routes/command.tsx"),
 ] satisfies RouteConfig;
