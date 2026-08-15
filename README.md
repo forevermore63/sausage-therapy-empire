@@ -1,11 +1,12 @@
 # Therapy Sausages Empire Platform
 
-Full-scale online platform for Sausage Therapy / Therapy Sausages — dachshund healing sessions, bookings, Digital Academy, Sausage Circle memberships, Wiener Coaster shop, Forevermore Farm experiences, Healing Stories, live Impact Dashboard, Events Calendar, Virtual Pack Sessions, Healing Journal, Give & Grow portal and giving-first conversion systems.
+Full-scale online platform for Sausage Therapy / Therapy Sausages — dachshund healing sessions, bookings, Digital Academy, Sausage Circle memberships, Wiener Coaster shop, Forevermore Farm experiences, Healing Stories, live Impact Dashboard, Events Calendar, Virtual Pack Sessions, Healing Journal, Give & Grow portal, Community, 2032 Olympic Legacy, Podcast, Referral engine, Wisdom library and the new Perpetual Wealth Command Center.
 
 Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 **Online elements fully implemented to grow the dream from true to tremendous:**
 
+- **Perpetual Wealth Command Center** (`/command`) — NEW: Live revenue streams, impact metrics, next surge actions, giving allocation transparency. The heartbeat of the empire.
 - **Digital Academy** (`/academy`) — Foundations of Dachshund Therapy ($297) + Therapy Empire Builder ($997)
 - **Sausage Circle Membership** (`/membership`) — $47/month recurring with practices, live Q&As, priority booking, impact reports
 - **Live Impact Dashboard** (`/impact`) — transparent metrics (hearts healed, $ returned to dogs, NDIS sessions, allocation breakdown)
@@ -17,7 +18,11 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 - **Virtual Pack Sessions** (`/virtual`) — Live Zoom circles, on-demand calm packs, private virtual sessions — healing without geography
 - **Healing Journal** (`/journal`) — SEO content hub with practices, science & soul notes, access insights, empire updates
 - **Give & Grow** (`/give`) — Sponsor sessions, monthly giving, Farm & Dog Fund with transparent allocation
-- Enhanced multi-page navigation + lead magnet (7-Day Calm Challenge)
+- **Sausage Circle Community** (`/community`) — Private digital hearth
+- **2032 Olympic Legacy** (`/legacy`) — Grants, supplier pathways, corporate partnerships
+- **Podcast** (`/podcast`) — Healing Hearts with Every Wag episodes
+- **Referral Engine** (`/refer`) — Viral growth mechanics
+- **Wisdom Library** (`/wisdom`) — Practices, science, soul notes
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and wired for mailto + social conversion.
 
@@ -28,4 +33,4 @@ Vercel project: therapy-sausages-empire (auto-deploys on push to main)
 ## Deploy
 Push to main triggers Vercel. Auto-detects React Router / Vite. Configured with @vercel/react-router preset.
 
-From true to tremendous. The empire is online and expanding.
+From true to tremendous. The empire is online and expanding. New Command Center live.
