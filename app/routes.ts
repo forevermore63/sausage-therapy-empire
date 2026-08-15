@@ -15,4 +15,7 @@ export default [
   route("give", "routes/give.tsx"),
   route("community", "routes/community.tsx"),
   route("legacy", "routes/legacy.tsx"),
+  route("podcast", "routes/podcast.tsx"),
+  route("refer", "routes/refer.tsx"),
+  route("wisdom", "routes/wisdom.tsx"),
 ] satisfies RouteConfig;
