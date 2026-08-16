@@ -1,5 +1,6 @@
 import type { Route } from "./+types/command";
 import { Link } from "react-router";
+import { useState, useEffect } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
@@ -23,16 +24,44 @@ const streams = [
   { name: "Give & Grow Sponsors", monthly: "$620", growth: "+8%", status: "Live" },
 ];
 
-const actions = [
-  { title: "Activate Stripe Checkout on /shop & /academy", priority: "High", impact: "Immediate revenue capture" },
-  { title: "Launch referral rewards automation", priority: "High", impact: "Viral member growth" },
-  { title: "Publish 3 new podcast episodes + show notes", priority: "Medium", impact: "Authority + email list" },
-  { title: "Connect Calendly / booking calendar to /book", priority: "High", impact: "Reduce friction 40%" },
-  { title: "Seed 2032 Olympic supplier registration pack", priority: "Medium", impact: "Long-term legacy contracts" },
-  { title: "Deploy automated welcome + nurture sequences", priority: "High", impact: "Higher conversion & LTV" },
+const initialActions = [
+  { id: "stripe", title: "Activate Stripe Checkout on /shop & /academy & memberships", priority: "High", impact: "Immediate revenue capture", done: false },
+  { id: "referral", title: "Launch referral rewards automation", priority: "High", impact: "Viral member growth", done: false },
+  { id: "podcast", title: "Publish 3 new podcast episodes + show notes", priority: "Medium", impact: "Authority + email list", done: false },
+  { id: "calendly", title: "Connect Calendly / booking calendar to /book", priority: "High", impact: "Reduce friction 40%", done: false },
+  { id: "olympic", title: "Seed 2032 Olympic supplier registration pack", priority: "Medium", impact: "Long-term legacy contracts", done: false },
+  { id: "nurture", title: "Deploy automated welcome + nurture sequences", priority: "High", impact: "Higher conversion & LTV", done: false },
 ];
 
 export default function Command() {
+  const [actions, setActions] = useState(initialActions);
+  const [loaded, setLoaded] = useState(false);
+
+  useEffect(() => {
+    try {
+      const saved = localStorage.getItem("sausage-command-actions");
+      if (saved) {
+        const parsed = JSON.parse(saved);
+        setActions(parsed);
+      }
+    } catch (e) {}
+    setLoaded(true);
+  }, []);
+
+  useEffect(() => {
+    if (loaded) {
+      localStorage.setItem("sausage-command-actions", JSON.stringify(actions));
+    }
+  }, [actions, loaded]);
+
+  const toggle = (id: string) => {
+    setActions((prev) =>
+      prev.map((a) => (a.id === id ? { ...a, done: !a.done } : a))
+    );
+  };
+
+  const completed = actions.filter((a) => a.done).length;
+
   return (
     <div className="min-h-screen bg-[#0f1410] text-white">
       <header className="sticky top-0 z-50 bg-[#0f1410]/95 backdrop-blur border-b border-[#d4a017]/20">
@@ -55,7 +84,7 @@ export default function Command() {
             <p className="text-[#d4a017] font-semibold mb-2 tracking-wide uppercase text-sm">Perpetual Wealth Engine</p>
             <h1 className="text-4xl md:text-5xl font-bold mb-4">Command Center</h1>
             <p className="text-lg opacity-80 max-w-2xl mx-auto">
-              Live view of every revenue stream, impact metric and next action required to grow the dream from true to tremendous. Updated for the empire.
+              Live view of every revenue stream, impact metric and next action required to grow the dream from true to tremendous. Interactive & self-directed.
             </p>
           </div>
 
@@ -77,9 +106,9 @@ export default function Command() {
               <p className="text-xs opacity-70 mt-1">Transparent allocation</p>
             </div>
             <div className="bg-[#1a2218] rounded-2xl p-6 border border-[#d4a017]/20">
-              <p className="text-sm opacity-70 mb-1">Active Engines</p>
-              <p className="text-3xl font-bold text-white">8</p>
-              <p className="text-xs text-green-400 mt-1">All online</p>
+              <p className="text-sm opacity-70 mb-1">Actions Complete</p>
+              <p className="text-3xl font-bold text-white">{completed}/{actions.length}</p>
+              <p className="text-xs text-green-400 mt-1">Self-directed progress</p>
             </div>
           </div>
 
@@ -100,20 +129,57 @@ export default function Command() {
             ))}
           </div>
 
-          {/* Next Actions */}
-          <h2 className="text-2xl font-bold mb-6 text-[#d4a017]">Next Surge Actions</h2>
+          {/* Next Actions - Interactive */}
+          <h2 className="text-2xl font-bold mb-2 text-[#d4a017]">Next Surge Actions</h2>
+          <p className="text-sm opacity-70 mb-6">Mark complete as you activate. Progress saves in your browser — self-directed and persistent.</p>
           <div className="space-y-3 mb-12">
-            {actions.map((a, i) => (
-              <div key={i} className="bg-[#1a2218] rounded-xl p-5 border border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-3">
-                <div>
-                  <p className="font-semibold">{a.title}</p>
-                  <p className="text-sm opacity-60">{a.impact}</p>
+            {actions.map((a) => (
+              <div
+                key={a.id}
+                className={`bg-[#1a2218] rounded-xl p-5 border border-white/5 flex flex-col sm:flex-row sm:items-center justify-between gap-3 ${a.done ? "opacity-60" : ""}`}
+              >
+                <div className="flex items-start gap-3">
+                  <button
+                    onClick={() => toggle(a.id)}
+                    className={`mt-1 w-6 h-6 rounded border-2 flex items-center justify-center flex-shrink-0 ${a.done ? "bg-[#d4a017] border-[#d4a017] text-black" : "border-[#d4a017]/50"}`}
+                    aria-label="Toggle complete"
+                  >
+                    {a.done ? "✓" : ""}
+                  </button>
+                  <div>
+                    <p className={`font-semibold ${a.done ? "line-through" : ""}`}>{a.title}</p>
+                    <p className="text-sm opacity-60">{a.impact}</p>
+                  </div>
                 </div>
                 <span className={`text-xs font-bold px-3 py-1 rounded-full ${a.priority === "High" ? "bg-[#c45c26]/20 text-[#c45c26]" : "bg-[#d4a017]/20 text-[#d4a017]"}`}>
                   {a.priority}
                 </span>
               </div>
             ))}
+          </div>
+
+          {/* Marketing Automation Playbook */}
+          <div className="bg-[#1a2218] rounded-2xl p-8 mb-12 border border-[#d4a017]/20">
+            <h2 className="text-2xl font-bold mb-4 text-[#d4a017]">Marketing Automation Playbook (Ready to Deploy)</h2>
+            <p className="opacity-80 mb-6">Copy these sequences into ConvertKit, Resend, Mailchimp or Gmail Automations. They turn browsers into members and members into advocates.</p>
+            <div className="space-y-4 text-sm">
+              <div>
+                <p className="font-semibold text-[#c45c26]">1. Welcome Sequence (Day 0–7)</p>
+                <p className="opacity-70">Email 1: Thank you + free 7-Day Calm Challenge. Email 2: Story of first sausage session. Email 3: Soft invitation to book or join Circle.</p>
+              </div>
+              <div>
+                <p className="font-semibold text-[#c45c26]">2. Post-Booking Nurture</p>
+                <p className="opacity-70">Confirmation → Pre-session calm audio → Post-session impact report + membership offer.</p>
+              </div>
+              <div>
+                <p className="font-semibold text-[#c45c26]">3. Member Onboarding</p>
+                <p className="opacity-70">Welcome pack + first live Q&A reminder → Weekly practice drop → Monthly impact statement.</p>
+              </div>
+              <div>
+                <p className="font-semibold text-[#c45c26]">4. Referral Loop</p>
+                <p className="opacity-70">After any positive outcome → unique referral link → reward (free audio or session credit).</p>
+              </div>
+            </div>
           </div>
 
           {/* Giving Allocation */}
