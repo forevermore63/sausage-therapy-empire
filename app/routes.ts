@@ -22,4 +22,7 @@ export default [
   route("ndis", "routes/ndis.tsx"),
   route("visual", "routes/visual.tsx"),
   route("calm", "routes/calm.tsx"),
+  route("oracle", "routes/oracle.tsx"),
+  route("puppies", "routes/puppies.tsx"),
+  route("grants", "routes/grants.tsx"),
 ] satisfies RouteConfig;
