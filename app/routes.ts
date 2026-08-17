@@ -19,4 +19,7 @@ export default [
   route("refer", "routes/refer.tsx"),
   route("wisdom", "routes/wisdom.tsx"),
   route("command", "routes/command.tsx"),
+  route("ndis", "routes/ndis.tsx"),
+  route("visual", "routes/visual.tsx"),
+  route("calm", "routes/calm.tsx"),
 ] satisfies RouteConfig;
