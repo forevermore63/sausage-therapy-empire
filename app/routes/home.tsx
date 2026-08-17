@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Journal, Give & Grow, Community Circle, 2032 Olympic Legacy and track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Journal, Give & Grow, Community Circle, 2032 Olympic Legacy, Sausage Oracle, Therapy Dachshund Waitlist, Grant Surge and track impact.",
     },
   ];
 }
@@ -28,11 +28,9 @@ export default function Home() {
             <Link to="/virtual" className="hover:text-[#c45c26]">Virtual</Link>
             <Link to="/academy" className="hover:text-[#c45c26]">Academy</Link>
             <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
-            <Link to="/community" className="hover:text-[#c45c26]">Community</Link>
-            <Link to="/legacy" className="hover:text-[#c45c26]">Legacy</Link>
-            <Link to="/give" className="hover:text-[#c45c26]">Give</Link>
-            <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
-            <Link to="/shop" className="hover:text-[#c45c26]">Shop</Link>
+            <Link to="/oracle" className="hover:text-[#c45c26]">Oracle</Link>
+            <Link to="/puppies" className="hover:text-[#c45c26]">Puppies</Link>
+            <Link to="/grants" className="hover:text-[#c45c26]">Grants</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -47,15 +45,15 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack Sessions, Digital Academy, Sausage Circle Community & 2032 Olympic Legacy. 
+            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack Sessions, Digital Academy, Sausage Circle Community, 2032 Olympic Legacy, Sausage Oracle, Therapy Dachshund Waitlist & Grant Surge. 
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/community" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
-              Enter Community
+            <Link to="/oracle" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+              Consult the Oracle
             </Link>
           </div>
         </div>
@@ -138,12 +136,42 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Newest Online Elements - Tremendous Surge */}
+      <section className="py-16 px-4 bg-[#c45c26] text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
+            From true to tremendous. Three high-leverage portals just launched to accelerate bookings, placements, funding and daily wisdom.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link to="/oracle" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🔮</div>
+              <h3 className="text-xl font-bold mb-2">Sausage Oracle</h3>
+              <p className="text-sm opacity-95 mb-4">Daily dachshund wisdom + personal guidance form. Free nervous-system resets and empire-aligned insight.</p>
+              <span className="font-semibold text-[#d4a017]">Consult the Oracle →</span>
+            </Link>
+            <Link to="/puppies" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🐕</div>
+              <h3 className="text-xl font-bold mb-2">Therapy Dachshund Waitlist</h3>
+              <p className="text-sm opacity-95 mb-4">Ethical placement for temperament-tested minis destined for therapy, NDIS and forever families.</p>
+              <span className="font-semibold text-[#d4a017]">Join Waitlist →</span>
+            </Link>
+            <Link to="/grants" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">💰</div>
+              <h3 className="text-xl font-bold mb-2">Grant Surge Portal</h3>
+              <p className="text-sm opacity-95 mb-4">Female Founders, NDIS/ILC, 2032 Olympics pathways + ready frameworks to fund the empire.</p>
+              <span className="font-semibold text-[#d4a017]">Open Grants →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* New Online Empire Elements */}
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">New Online Empire Elements</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Full Online Empire</h2>
           <p className="text-center opacity-90 mb-12 max-w-2xl mx-auto">
-            The dream grows from true to tremendous. Fresh Community Circle and 2032 Olympic Legacy portals now live alongside Events, Virtual, Journal, Give, Academy, Memberships, Shop and Stories.
+            Community, Legacy, Events, Virtual, Academy, Membership, Journal, Shop and more — all live and conversion-ready.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
             <Link to="/community" className="bg-white/10 rounded-2xl p-6 hover:bg-white/15 transition border border-white/20">
@@ -231,6 +259,9 @@ export default function Home() {
             <p className="text-sm opacity-70">Led by Emily Blue Richards · Gold Coast & Noosa · Forevermore Farm</p>
           </div>
           <div className="flex flex-wrap gap-4 text-sm justify-center">
+            <Link to="/oracle" className="hover:text-[#d4a017]">Oracle</Link>
+            <Link to="/puppies" className="hover:text-[#d4a017]">Puppies</Link>
+            <Link to="/grants" className="hover:text-[#d4a017]">Grants</Link>
             <Link to="/events" className="hover:text-[#d4a017]">Events</Link>
             <Link to="/farm" className="hover:text-[#d4a017]">Farm</Link>
             <Link to="/virtual" className="hover:text-[#d4a017]">Virtual</Link>
@@ -238,9 +269,6 @@ export default function Home() {
             <Link to="/membership" className="hover:text-[#d4a017]">Membership</Link>
             <Link to="/community" className="hover:text-[#d4a017]">Community</Link>
             <Link to="/legacy" className="hover:text-[#d4a017]">Legacy</Link>
-            <Link to="/journal" className="hover:text-[#d4a017]">Journal</Link>
-            <Link to="/give" className="hover:text-[#d4a017]">Give</Link>
-            <Link to="/stories" className="hover:text-[#d4a017]">Stories</Link>
             <Link to="/impact" className="hover:text-[#d4a017]">Impact</Link>
             <Link to="/shop" className="hover:text-[#d4a017]">Shop</Link>
             <a href="https://www.instagram.com/sausage_therapy/" target="_blank" rel="noreferrer" className="hover:text-[#d4a017]">Instagram</a>
