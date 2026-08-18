@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Journal, Give & Grow, Community Circle, 2032 Olympic Legacy, Sausage Oracle, Therapy Dachshund Waitlist, Grant Surge and track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Therapy Match, Pack Live, Sausage Surge Challenge, Partners Portal, Sausage Oracle, Therapy Dachshund Waitlist, Grant Surge and track impact.",
     },
   ];
 }
@@ -25,12 +25,11 @@ export default function Home() {
             <a href="#sessions" className="hover:text-[#c45c26]">Sessions</a>
             <Link to="/events" className="hover:text-[#c45c26]">Events</Link>
             <Link to="/farm" className="hover:text-[#c45c26]">Farm</Link>
-            <Link to="/virtual" className="hover:text-[#c45c26]">Virtual</Link>
-            <Link to="/academy" className="hover:text-[#c45c26]">Academy</Link>
-            <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
+            <Link to="/match" className="hover:text-[#c45c26]">Match</Link>
+            <Link to="/live" className="hover:text-[#c45c26]">Live</Link>
+            <Link to="/surge" className="hover:text-[#c45c26]">Surge</Link>
             <Link to="/oracle" className="hover:text-[#c45c26]">Oracle</Link>
-            <Link to="/puppies" className="hover:text-[#c45c26]">Puppies</Link>
-            <Link to="/grants" className="hover:text-[#c45c26]">Grants</Link>
+            <Link to="/partners" className="hover:text-[#c45c26]">Partners</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -45,15 +44,15 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack Sessions, Digital Academy, Sausage Circle Community, 2032 Olympic Legacy, Sausage Oracle, Therapy Dachshund Waitlist & Grant Surge. 
+            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack, Therapy Match, Pack Live, Sausage Surge Challenge & Partners Portal. 
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/oracle" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
-              Consult the Oracle
+            <Link to="/match" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+              Take Therapy Match
             </Link>
           </div>
         </div>
@@ -141,26 +140,56 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            From true to tremendous. Three high-leverage portals just launched to accelerate bookings, placements, funding and daily wisdom.
+            From true to tremendous. Four high-leverage portals just launched to accelerate bookings, viral growth, live presence and partnerships.
           </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
+            <Link to="/match" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🎯</div>
+              <h3 className="text-xl font-bold mb-2">Therapy Match</h3>
+              <p className="text-sm opacity-95 mb-4">3-question quiz that routes you to the perfect session, virtual, farm or membership. Instant conversion.</p>
+              <span className="font-semibold text-[#d4a017]">Take the Match →</span>
+            </Link>
+            <Link to="/live" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">📡</div>
+              <h3 className="text-xl font-bold mb-2">Pack Live</h3>
+              <p className="text-sm opacity-95 mb-4">Live streams + on-demand calm recordings. Real-time pack presence from farm and Gold Coast.</p>
+              <span className="font-semibold text-[#d4a017]">Enter Live →</span>
+            </Link>
+            <Link to="/surge" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🚀</div>
+              <h3 className="text-xl font-bold mb-2">Sausage Surge</h3>
+              <p className="text-sm opacity-95 mb-4">30-day viral challenge with daily micro-actions, sharing prompts and referral boosts.</p>
+              <span className="font-semibold text-[#d4a017]">Join the Surge →</span>
+            </Link>
+            <Link to="/partners" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🤝</div>
+              <h3 className="text-xl font-bold mb-2">Partners Portal</h3>
+              <p className="text-sm opacity-95 mb-4">NDIS, corporate, affiliate and therapist pathways. Grow together while funding free places.</p>
+              <span className="font-semibold text-[#d4a017]">Partner With Us →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Previous New Elements */}
+      <section className="py-12 px-4 bg-[#d4a017]/15">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Also Live & Growing</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/oracle" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🔮</div>
-              <h3 className="text-xl font-bold mb-2">Sausage Oracle</h3>
-              <p className="text-sm opacity-95 mb-4">Daily dachshund wisdom + personal guidance form. Free nervous-system resets and empire-aligned insight.</p>
-              <span className="font-semibold text-[#d4a017]">Consult the Oracle →</span>
+            <Link to="/oracle" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">🔮</div>
+              <h3 className="font-bold text-[#c45c26]">Sausage Oracle</h3>
+              <p className="text-sm text-gray-600">Daily wisdom + personal guidance</p>
             </Link>
-            <Link to="/puppies" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🐕</div>
-              <h3 className="text-xl font-bold mb-2">Therapy Dachshund Waitlist</h3>
-              <p className="text-sm opacity-95 mb-4">Ethical placement for temperament-tested minis destined for therapy, NDIS and forever families.</p>
-              <span className="font-semibold text-[#d4a017]">Join Waitlist →</span>
+            <Link to="/puppies" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">🐕</div>
+              <h3 className="font-bold text-[#c45c26]">Therapy Dachshund Waitlist</h3>
+              <p className="text-sm text-gray-600">Ethical placement for therapy minis</p>
             </Link>
-            <Link to="/grants" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">💰</div>
-              <h3 className="text-xl font-bold mb-2">Grant Surge Portal</h3>
-              <p className="text-sm opacity-95 mb-4">Female Founders, NDIS/ILC, 2032 Olympics pathways + ready frameworks to fund the empire.</p>
-              <span className="font-semibold text-[#d4a017]">Open Grants →</span>
+            <Link to="/grants" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">💰</div>
+              <h3 className="font-bold text-[#c45c26]">Grant Surge Portal</h3>
+              <p className="text-sm text-gray-600">Funding pathways & frameworks</p>
             </Link>
           </div>
         </div>
@@ -259,6 +288,10 @@ export default function Home() {
             <p className="text-sm opacity-70">Led by Emily Blue Richards · Gold Coast & Noosa · Forevermore Farm</p>
           </div>
           <div className="flex flex-wrap gap-4 text-sm justify-center">
+            <Link to="/match" className="hover:text-[#d4a017]">Match</Link>
+            <Link to="/live" className="hover:text-[#d4a017]">Live</Link>
+            <Link to="/surge" className="hover:text-[#d4a017]">Surge</Link>
+            <Link to="/partners" className="hover:text-[#d4a017]">Partners</Link>
             <Link to="/oracle" className="hover:text-[#d4a017]">Oracle</Link>
             <Link to="/puppies" className="hover:text-[#d4a017]">Puppies</Link>
             <Link to="/grants" className="hover:text-[#d4a017]">Grants</Link>
