@@ -12,17 +12,21 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Online Elements (True → Tremendous Surge)
+### Brand-New Online Elements (True → Tremendous Surge) — August 2026
 
-- **Sausage Oracle** (`/oracle`) — Daily rotating dachshund wisdom + personal guidance form. Free nervous-system resets and empire-aligned insight. Instant conversion asset.
-- **Therapy Dachshund Waitlist & Placement** (`/puppies`) — Ethical waitlist for temperament-tested miniature dachshunds destined for therapy, NDIS, emotional support and forever families. Application form + clear process.
-- **Grant Surge Portal** (`/grants`) — Funding engine: Female Founders, NDIS/ILC, 2032 Olympics pathways + ready-to-adapt application frameworks and impact evidence anchors.
+- **Therapy Match** (`/match`) — Interactive 3-question quiz that routes visitors to the perfect session, virtual, farm, membership or product. Instant recommendations + email capture. High-converting lead engine.
+- **Pack Live** (`/live`) — Live stream hub + on-demand calm recordings. Notification signup for upcoming pack streams and farm lives.
+- **Sausage Surge Challenge** (`/surge`) — 30-day viral growth challenge with daily micro-actions, sharing prompts and referral boosts. Fuels organic reach and community momentum.
+- **Partners Portal** (`/partners`) — Dedicated application + pathways for NDIS providers, corporates, affiliates, creators and fellow therapists. Multiplies distribution and revenue while staying giving-first.
 
-### Previous New Online Elements
+### Previous High-Leverage Elements
 
-- **NDIS Portal** (`/ndis`) — Dedicated participant, Support Coordinator and Plan Manager pathway.
-- **Visual Wealth Hub** (`/visual`) — Stock royalties + creator funds pipeline for dachshund/farm/therapy visuals.
-- **7-Day Dachshund Calm Challenge** (`/calm`) — Free high-converting lead magnet.
+- **Sausage Oracle** (`/oracle`) — Daily rotating dachshund wisdom + personal guidance form.
+- **Therapy Dachshund Waitlist & Placement** (`/puppies`) — Ethical waitlist for temperament-tested miniature dachshunds.
+- **Grant Surge Portal** (`/grants`) — Funding engine: Female Founders, NDIS/ILC, 2032 Olympics pathways.
+- **NDIS Portal** (`/ndis`)
+- **Visual Wealth Hub** (`/visual`)
+- **7-Day Dachshund Calm Challenge** (`/calm`)
 
 ### Full Online Empire Elements
 
@@ -50,11 +54,12 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 2. **Calendar Booking** (Calendly / Cal.com into `/book`)
 3. **Email & Marketing Sequences** (swap mailto forms to Formspree / Tally / webhook)
 4. **Visual Content First Batch** (Google Photos → Adobe Stock / Shutterstock / Pond5)
-5. **Unpause / Redeploy** on Vercel if the project shows “temporarily paused”
-6. **Custom Domain** (optional)
+5. **Live Stream Embed** (YouTube / Instagram Live into `/live`)
+6. **Unpause / Redeploy** on Vercel if needed
+7. **Custom Domain** (optional)
 
 ## Deploy
 
 Push to `main` → Vercel auto-deploys (or trigger redeploy after unpausing).
 
-From true to tremendous. The empire just gained three powerful new online engines. The next surge is ready.
+From true to tremendous. Four powerful new online engines just went live. The next surge is already in motion.

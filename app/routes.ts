@@ -25,4 +25,8 @@ export default [
   route("oracle", "routes/oracle.tsx"),
   route("puppies", "routes/puppies.tsx"),
   route("grants", "routes/grants.tsx"),
+  route("match", "routes/match.tsx"),
+  route("live", "routes/live.tsx"),
+  route("surge", "routes/surge.tsx"),
+  route("partners", "routes/partners.tsx"),
 ] satisfies RouteConfig;
