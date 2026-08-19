@@ -8,19 +8,23 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — Newest Online Elements Live
+## Status: Tremendous Expansion — Newest Online Elements Live (August 2026)
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Online Elements (True → Tremendous Surge) — August 2026
+### Brand-New Tremendous Growth Engines (True → Tremendous)
+
+- **Corporate Wellness ROI Calculator** (`/roi`) — Instant B2B engine. Input team size + stress + turnover → projected annual savings + recommended pack visits + direct booking path. Converts corporate enquiries into paid sessions while funding free places.
+- **Daily Sausage Coach** (`/coach`) — Always-on interactive daily practice + journal prompt (date-seeded). Share button + email capture. Builds daily habit and email list with zero ongoing cost.
+- **Wag Points Loyalty** (`/wagpoints`) — Gamified retention & referral system. Earn points for bookings, memberships, referrals, giving and reviews. Redeem for free sessions, merch, priority farm spots. Manual tracking at launch for accuracy and personal care.
+- **NDIS & Funding Navigator** (`/navigator`) — 60-second quiz → tailored next steps + sample wording for plan managers, self-managed participants, private payers and grant seekers. Removes friction between “maybe” and booked session.
+
+### Previous High-Leverage Elements
 
 - **Therapy Match** (`/match`) — Interactive 3-question quiz that routes visitors to the perfect session, virtual, farm, membership or product. Instant recommendations + email capture. High-converting lead engine.
 - **Pack Live** (`/live`) — Live stream hub + on-demand calm recordings. Notification signup for upcoming pack streams and farm lives.
 - **Sausage Surge Challenge** (`/surge`) — 30-day viral growth challenge with daily micro-actions, sharing prompts and referral boosts. Fuels organic reach and community momentum.
 - **Partners Portal** (`/partners`) — Dedicated application + pathways for NDIS providers, corporates, affiliates, creators and fellow therapists. Multiplies distribution and revenue while staying giving-first.
-
-### Previous High-Leverage Elements
-
 - **Sausage Oracle** (`/oracle`) — Daily rotating dachshund wisdom + personal guidance form.
 - **Therapy Dachshund Waitlist & Placement** (`/puppies`) — Ethical waitlist for temperament-tested miniature dachshunds.
 - **Grant Surge Portal** (`/grants`) — Funding engine: Female Founders, NDIS/ILC, 2032 Olympics pathways.
@@ -57,6 +61,7 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 5. **Live Stream Embed** (YouTube / Instagram Live into `/live`)
 6. **Unpause / Redeploy** on Vercel if needed
 7. **Custom Domain** (optional)
+8. **Wag Points tracking** — simple Google Sheet or Airtable linked to email confirmations
 
 ## Deploy
 
