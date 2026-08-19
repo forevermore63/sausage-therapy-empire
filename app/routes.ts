@@ -29,4 +29,8 @@ export default [
   route("live", "routes/live.tsx"),
   route("surge", "routes/surge.tsx"),
   route("partners", "routes/partners.tsx"),
+  route("roi", "routes/roi.tsx"),
+  route("coach", "routes/coach.tsx"),
+  route("wagpoints", "routes/wagpoints.tsx"),
+  route("navigator", "routes/navigator.tsx"),
 ] satisfies RouteConfig;
