@@ -33,4 +33,7 @@ export default [
   route("coach", "routes/coach.tsx"),
   route("wagpoints", "routes/wagpoints.tsx"),
   route("navigator", "routes/navigator.tsx"),
+  route("ai", "routes/ai.tsx"),
+  route("retreat", "routes/retreat.tsx"),
+  route("gift", "routes/gift.tsx"),
 ] satisfies RouteConfig;
