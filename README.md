@@ -12,15 +12,18 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Tremendous Growth Engines (True → Tremendous)
+### Brand-New Tremendous Growth Engines (True → Tremendous) — August 21 2026 Surge
+
+- **Sausage AI Companion** (`/ai`) — Always-on interactive digital dachshund coach. Daily wisdom, instant calm guidance, practices, NDIS tips and booking pathways. Free, private, habit-building and list-growing. Zero marginal cost.
+- **Forevermore Farm Retreats** (`/retreat`) — High-ticket day immersions, overnight resets and private 3-day retreats. Premium revenue engine that funds free places and accelerates the path from true to tremendous.
+- **Gift a Session & Corporate Gift Cards** (`/gift`) — Beautiful gifting flow for individual sessions, farm days, virtual series, memberships and corporate packs. High perceived value, instant certificates, viral reach through generosity.
+
+### Previous High-Leverage Elements
 
 - **Corporate Wellness ROI Calculator** (`/roi`) — Instant B2B engine. Input team size + stress + turnover → projected annual savings + recommended pack visits + direct booking path. Converts corporate enquiries into paid sessions while funding free places.
 - **Daily Sausage Coach** (`/coach`) — Always-on interactive daily practice + journal prompt (date-seeded). Share button + email capture. Builds daily habit and email list with zero ongoing cost.
 - **Wag Points Loyalty** (`/wagpoints`) — Gamified retention & referral system. Earn points for bookings, memberships, referrals, giving and reviews. Redeem for free sessions, merch, priority farm spots. Manual tracking at launch for accuracy and personal care.
 - **NDIS & Funding Navigator** (`/navigator`) — 60-second quiz → tailored next steps + sample wording for plan managers, self-managed participants, private payers and grant seekers. Removes friction between “maybe” and booked session.
-
-### Previous High-Leverage Elements
-
 - **Therapy Match** (`/match`) — Interactive 3-question quiz that routes visitors to the perfect session, virtual, farm, membership or product. Instant recommendations + email capture. High-converting lead engine.
 - **Pack Live** (`/live`) — Live stream hub + on-demand calm recordings. Notification signup for upcoming pack streams and farm lives.
 - **Sausage Surge Challenge** (`/surge`) — 30-day viral growth challenge with daily micro-actions, sharing prompts and referral boosts. Fuels organic reach and community momentum.
@@ -54,7 +57,7 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 
 ## Activation Checklist (make the automation real)
 
-1. **Stripe Payment Links** (Shop / Academy / Membership)
+1. **Stripe Payment Links** (Shop / Academy / Membership / Gift)
 2. **Calendar Booking** (Calendly / Cal.com into `/book`)
 3. **Email & Marketing Sequences** (swap mailto forms to Formspree / Tally / webhook)
 4. **Visual Content First Batch** (Google Photos → Adobe Stock / Shutterstock / Pond5)
@@ -67,4 +70,4 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 
 Push to `main` → Vercel auto-deploys (or trigger redeploy after unpausing).
 
-From true to tremendous. Four powerful new online engines just went live. The next surge is already in motion.
+From true to tremendous. Three powerful new online engines just went live. The next surge is already in motion.
