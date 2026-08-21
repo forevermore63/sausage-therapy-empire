@@ -36,4 +36,7 @@ export default [
   route("ai", "routes/ai.tsx"),
   route("retreat", "routes/retreat.tsx"),
   route("gift", "routes/gift.tsx"),
+  route("certify", "routes/certify.tsx"),
+  route("ambassador", "routes/ambassador.tsx"),
+  route("packbuilder", "routes/packbuilder.tsx"),
 ] satisfies RouteConfig;
