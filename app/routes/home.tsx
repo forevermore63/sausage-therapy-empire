@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Therapy Match, Pack Live, Sausage Surge Challenge, Partners Portal, Sausage AI Companion, Farm Retreats, Gift Sessions and track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Virtual Pack, Events, Digital Academy, memberships, Forevermore Farm, Therapy Match, Pack Live, Sausage Surge Challenge, Partners Portal, Sausage AI Companion, Farm Retreats, Gift Sessions, Practitioner Certification, Ambassador Program, Custom Pack Builder and track impact.",
     },
   ];
 }
@@ -26,8 +26,8 @@ export default function Home() {
             <Link to="/events" className="hover:text-[#c45c26]">Events</Link>
             <Link to="/farm" className="hover:text-[#c45c26]">Farm</Link>
             <Link to="/ai" className="hover:text-[#c45c26]">AI Companion</Link>
-            <Link to="/retreat" className="hover:text-[#c45c26]">Retreats</Link>
-            <Link to="/gift" className="hover:text-[#c45c26]">Gift</Link>
+            <Link to="/certify" className="hover:text-[#c45c26]">Certify</Link>
+            <Link to="/packbuilder" className="hover:text-[#c45c26]">Pack Builder</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -42,15 +42,15 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack, Sausage AI Companion, high-ticket Retreats & Gift Sessions. 
+            Led by Emily Blue Richards. Individual sessions, corporate events, SNOUTSAIL boat experiences, Forevermore Farm immersions, Virtual Pack, Sausage AI Companion, high-ticket Retreats, Gift Sessions, Practitioner Certification & Custom Pack Builder. 
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/ai" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
-              Try Sausage AI Companion
+            <Link to="/packbuilder" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+              Build Your Custom Pack
             </Link>
           </div>
         </div>
@@ -138,31 +138,31 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Newest Online Elements - Tremendous Surge */}
+      {/* Newest Online Elements - August 22 Tremendous Surge */}
       <section className="py-16 px-4 bg-[#c45c26] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — August 22 Surge</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            From true to tremendous. Three powerful new engines just launched to accelerate daily engagement, high-ticket revenue and viral gifting.
+            From true to tremendous. Three powerful new engines just launched: high-ticket certification, viral ambassador leverage, and a custom pack builder that converts.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/ai" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🤖</div>
-              <h3 className="text-xl font-bold mb-2">Sausage AI Companion</h3>
-              <p className="text-sm opacity-95 mb-4">Always-on digital dachshund coach. Instant calm, daily wisdom, practices and NDIS guidance. Free & private.</p>
-              <span className="font-semibold text-[#d4a017]">Talk to the Pack →</span>
+            <Link to="/certify" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🎓</div>
+              <h3 className="text-xl font-bold mb-2">Practitioner Certification</h3>
+              <p className="text-sm opacity-95 mb-4">High-ticket digital program ($1,997). Master ethical dachshund therapy, NDIS systems and giving-first business models. Scale the method.</p>
+              <span className="font-semibold text-[#d4a017]">Enrol & Certify →</span>
             </Link>
-            <Link to="/retreat" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🏕️</div>
-              <h3 className="text-xl font-bold mb-2">Farm Retreats</h3>
-              <p className="text-sm opacity-95 mb-4">High-ticket day immersions, overnight resets and private 3-day retreats. Premium revenue that funds free places.</p>
-              <span className="font-semibold text-[#d4a017]">Explore Retreats →</span>
+            <Link to="/ambassador" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🚀</div>
+              <h3 className="text-xl font-bold mb-2">Ambassador Program</h3>
+              <p className="text-sm opacity-95 mb-4">Earn commissions on sessions, memberships, certification and products. Wag Points, farm priority and public impact credit. Viral growth.</p>
+              <span className="font-semibold text-[#d4a017]">Apply to Join →</span>
             </Link>
-            <Link to="/gift" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🎁</div>
-              <h3 className="text-xl font-bold mb-2">Gift a Session</h3>
-              <p className="text-sm opacity-95 mb-4">Beautiful digital certificates for sessions, farm days, virtual series and corporate packs. Generosity that spreads.</p>
-              <span className="font-semibold text-[#d4a017]">Gift the Wags →</span>
+            <Link to="/packbuilder" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🧩</div>
+              <h3 className="text-xl font-bold mb-2">Custom Pack Builder</h3>
+              <p className="text-sm opacity-95 mb-4">Mix sessions, farm days, virtual series and memberships. See live total and send your perfect pack to Emily in one click.</p>
+              <span className="font-semibold text-[#d4a017]">Build Your Pack →</span>
             </Link>
           </div>
         </div>
@@ -173,25 +173,25 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Also Live & Growing</h2>
           <div className="grid md:grid-cols-3 lg:grid-cols-6 gap-4">
+            <Link to="/ai" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
+              <div className="text-2xl mb-1">🤖</div>
+              <h3 className="font-bold text-[#c45c26] text-sm">AI Companion</h3>
+            </Link>
+            <Link to="/retreat" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
+              <div className="text-2xl mb-1">🏕️</div>
+              <h3 className="font-bold text-[#c45c26] text-sm">Farm Retreats</h3>
+            </Link>
+            <Link to="/gift" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
+              <div className="text-2xl mb-1">🎁</div>
+              <h3 className="font-bold text-[#c45c26] text-sm">Gift a Session</h3>
+            </Link>
             <Link to="/match" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
               <div className="text-2xl mb-1">🎯</div>
               <h3 className="font-bold text-[#c45c26] text-sm">Therapy Match</h3>
             </Link>
-            <Link to="/live" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
-              <div className="text-2xl mb-1">📡</div>
-              <h3 className="font-bold text-[#c45c26] text-sm">Pack Live</h3>
-            </Link>
-            <Link to="/surge" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
-              <div className="text-2xl mb-1">🚀</div>
-              <h3 className="font-bold text-[#c45c26] text-sm">Sausage Surge</h3>
-            </Link>
             <Link to="/roi" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
               <div className="text-2xl mb-1">📊</div>
               <h3 className="font-bold text-[#c45c26] text-sm">ROI Calculator</h3>
-            </Link>
-            <Link to="/oracle" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
-              <div className="text-2xl mb-1">🔮</div>
-              <h3 className="font-bold text-[#c45c26] text-sm">Sausage Oracle</h3>
             </Link>
             <Link to="/grants" className="bg-white rounded-2xl p-4 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition text-center">
               <div className="text-2xl mb-1">💰</div>
@@ -278,10 +278,10 @@ export default function Home() {
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#2d5016] mb-2">Ready to Feel the Wags?</h2>
-          <p className="text-gray-600 mb-8">Book a real session, come to the Farm, join Virtual, gift a session, or start with the AI Companion today. Emily replies personally.</p>
+          <p className="text-gray-600 mb-8">Book a real session, build a custom pack, join Virtual, gift a session, or start with the AI Companion today. Emily replies personally.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-[#c45c26] text-white font-semibold px-8 py-3.5 rounded-full hover:bg-[#a34a1e] transition">Book Session</Link>
-            <Link to="/gift" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-8 py-3.5 rounded-full hover:bg-[#c45c26]/5 transition">Gift a Session</Link>
+            <Link to="/packbuilder" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-8 py-3.5 rounded-full hover:bg-[#c45c26]/5 transition">Build Custom Pack</Link>
           </div>
         </div>
       </section>
@@ -294,11 +294,12 @@ export default function Home() {
             <p className="text-sm opacity-70">Led by Emily Blue Richards · Gold Coast & Noosa · Forevermore Farm</p>
           </div>
           <div className="flex flex-wrap gap-4 text-sm justify-center">
+            <Link to="/certify" className="hover:text-[#d4a017]">Certification</Link>
+            <Link to="/ambassador" className="hover:text-[#d4a017]">Ambassador</Link>
+            <Link to="/packbuilder" className="hover:text-[#d4a017]">Pack Builder</Link>
             <Link to="/ai" className="hover:text-[#d4a017]">AI Companion</Link>
             <Link to="/retreat" className="hover:text-[#d4a017]">Retreats</Link>
             <Link to="/gift" className="hover:text-[#d4a017]">Gift</Link>
-            <Link to="/match" className="hover:text-[#d4a017]">Match</Link>
-            <Link to="/live" className="hover:text-[#d4a017]">Live</Link>
             <Link to="/farm" className="hover:text-[#d4a017]">Farm</Link>
             <Link to="/virtual" className="hover:text-[#d4a017]">Virtual</Link>
             <Link to="/academy" className="hover:text-[#d4a017]">Academy</Link>
