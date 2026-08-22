@@ -39,4 +39,7 @@ export default [
   route("certify", "routes/certify.tsx"),
   route("ambassador", "routes/ambassador.tsx"),
   route("packbuilder", "routes/packbuilder.tsx"),
+  route("franchise", "routes/franchise.tsx"),
+  route("audio", "routes/audio.tsx"),
+  route("cam", "routes/cam.tsx"),
 ] satisfies RouteConfig;
