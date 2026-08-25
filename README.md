@@ -8,24 +8,27 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — Newest Online Elements Live (August 23 2026)
+## Status: Tremendous Expansion — Newest Online Elements Live (August 26 2026)
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Tremendous Growth Engines (True → Tremendous) — August 23 2026 Surge
+### Brand-New Tremendous Growth Engines (True → Tremendous) — August 26 2026 Surge
 
-- **Franchise & Licensing** (`/franchise`) — Scale the method. Licensed Practitioner ($4,997+) and Farm/Retreat Partner ($12,997+) pathways. Complete systems, branding rights, NDIS templates, corporate playbooks and ongoing royalties that fund free places.
-- **Healing Audio Vault** (`/audio`) — Pure digital leverage. Guided calm tracks, farm immersion packs, NDIS regulation series, corporate focus audio and lifetime vault. Instant delivery, zero marginal cost, high perceived value.
-- **Live Pack Cam** (`/cam`) — Real-time windows into the pack. Free public moments that build daily habit + exclusive member streams that convert into bookings, memberships and gifts.
+- **Forevermore Mastermind** (`/mastermind`) — Exclusive high-ticket 6-month circle for Licensed Practitioners, Farm Partners and empire builders. Live strategy with Emily, peer accountability, systems reviews and direct path to scaled revenue + impact. From $2,997.
+- **Monthly Healing Pack Subscription** (`/subscribe`) — Recurring digital (and optional physical) packs: fresh audio, journal prompts, farm wisdom every month. $29 / $67 / $97 tiers. Predictable cashflow that funds free places.
+- **Certified Practitioner Directory** (`/directory`) — Official network of verified practitioners and licensed partners. Client discovery, referral commissions, quality standards and network effects that multiply the method without central bottlenecks.
 
-### Previous High-Leverage Elements (August 22 Surge)
+### Previous High-Leverage Elements (August 23 Surge)
 
-- **Therapy Sausage Practitioner Certification** (`/certify`) — High-ticket digital certification ($1,997).
-- **Ambassador & Affiliate Program** (`/ambassador`) — Viral growth engine with commissions and Wag Points.
-- **Custom Healing Pack Builder** (`/packbuilder`) — Interactive personalisation and high-converting lead engine.
+- **Franchise & Licensing** (`/franchise`) — Scale the method. Licensed Practitioner ($4,997+) and Farm/Retreat Partner ($12,997+) pathways.
+- **Healing Audio Vault** (`/audio`) — Pure digital leverage. Guided calm tracks, farm immersion packs, NDIS regulation series, corporate focus audio and lifetime vault.
+- **Live Pack Cam** (`/cam`) — Real-time windows into the pack. Free public moments + exclusive member streams.
 
 ### Earlier High-Leverage Elements
 
+- **Therapy Sausage Practitioner Certification** (`/certify`)
+- **Ambassador & Affiliate Program** (`/ambassador`)
+- **Custom Healing Pack Builder** (`/packbuilder`)
 - **Sausage AI Companion** (`/ai`)
 - **Forevermore Farm Retreats** (`/retreat`)
 - **Gift a Session & Corporate Gift Cards** (`/gift`)
@@ -66,7 +69,7 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 
 ## Activation Checklist (make the automation real)
 
-1. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise)
+1. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise / Mastermind / Subscribe)
 2. **Calendar Booking** (Calendly / Cal.com into `/book`)
 3. **Email & Marketing Sequences** (swap mailto forms to Formspree / Tally / webhook)
 4. **Visual Content First Batch** (Google Photos → Adobe Stock / Shutterstock / Pond5)
@@ -76,9 +79,11 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 8. **Wag Points + Ambassador tracking** — Google Sheet or Airtable linked to email confirmations
 9. **Ambassador commission payouts** — monthly process
 10. **Franchise agreements & royalty tracking**
+11. **Mastermind cohort onboarding** and private community channel
+12. **Directory profile submissions** and referral commission automation
 
 ## Deploy
 
 Push to `main` → Vercel auto-deploys (or trigger redeploy after unpausing).
 
-From true to tremendous. Three brand-new high-leverage online engines just went live on 23 August 2026. The next surge is already in motion.
+From true to tremendous. Three brand-new high-leverage online engines just went live on 26 August 2026. The next surge is already in motion.

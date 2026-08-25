@@ -42,4 +42,7 @@ export default [
   route("franchise", "routes/franchise.tsx"),
   route("audio", "routes/audio.tsx"),
   route("cam", "routes/cam.tsx"),
+  route("mastermind", "routes/mastermind.tsx"),
+  route("subscribe", "routes/subscribe.tsx"),
+  route("directory", "routes/directory.tsx"),
 ] satisfies RouteConfig;
