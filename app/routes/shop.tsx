@@ -7,12 +7,20 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Digital guides, audio packs, apparel and gifts from the Therapy Sausages empire. Every purchase routes a portion back into free therapy places and dog welfare.",
+        "Digital guides, audio packs, apparel and gifts from the Therapy Sausages empire. Every purchase routes a portion back into free therapy places and dog welfare. New: Gore-Tex Support Sausage Outfits available now.",
     },
   ];
 }
 
 const products = [
+  {
+    id: "gore-tex-support-outfit",
+    name: "Gore-Tex Support Sausage Outfit",
+    type: "Physical Apparel • Available Now – Custom Fit",
+    price: "From $149",
+    description: "Premium waterproof breathable Gore-Tex inspired support coat with built-in harness and inbuilt short lead system. Spine-protecting design for dachshunds (IVDD prevention), full belly coverage, dual D-rings, reflective, TherapySausages branded. Measure your dog (back, chest, neck) for perfect fit. Ships Australia-wide. Portion of every sale funds free therapy places and the pack. Order now – production starts immediately on confirmation.",
+    emoji: "🧥",
+  },
   {
     id: "calm-challenge",
     name: "7-Day Dachshund Calm Challenge",
@@ -86,7 +94,7 @@ export default function Shop() {
           <p className="text-lg opacity-90 mb-2">🎁 Wiener Coaster Shop</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Support the Mission. Take the Healing Home.</h1>
           <p className="text-lg opacity-95">
-            Digital products, audio and physical merch. Every single purchase allocates a transparent portion straight back into dog welfare and free or subsidised therapy places.
+            Digital products, audio and physical merch. Every single purchase allocates a transparent portion straight back into dog welfare and free or subsidised therapy places. <strong>New: Gore-Tex Support Sausage Outfits now available for order and shipment.</strong>
           </p>
         </div>
       </section>
@@ -102,10 +110,10 @@ export default function Shop() {
               <div className="flex items-center justify-between">
                 <p className="text-2xl font-bold text-[#2d5016]">{p.price}</p>
                 <a
-                  href={`mailto:emily@therapysausages.com?subject=Shop%20Order%20-%20${encodeURIComponent(p.name)}&body=Hi%20Emily%2C%0A%0AI%20would%20like%20to%20purchase%3A%20${encodeURIComponent(p.name)}%0A%0AName%3A%0AShipping%20address%20(if%20physical)%3A%0A%0AThanks!`}
+                  href={`mailto:emily@therapysausages.com?subject=Shop%20Order%20-%20${encodeURIComponent(p.name)}&body=Hi%20Emily%2C%0A%0AI%20would%20like%20to%20purchase%3A%20${encodeURIComponent(p.name)}%0A%0AName%3A%0AShipping%20address%20(if%20physical)%3A%0ADog%20measurements%20(back%20length%2C%20chest%20girth%2C%20neck)%20if%20apparel%3A%0APreferred%20colour%3A%0A%0AThanks!`}
                   className="bg-[#c45c26] text-white text-sm font-semibold px-4 py-2 rounded-full hover:bg-[#a34a1e] transition"
                 >
-                  Order
+                  Order Now
                 </a>
               </div>
             </div>
