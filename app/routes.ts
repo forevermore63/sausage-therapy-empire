@@ -45,4 +45,7 @@ export default [
   route("mastermind", "routes/mastermind.tsx"),
   route("subscribe", "routes/subscribe.tsx"),
   route("directory", "routes/directory.tsx"),
+  route("sponsor", "routes/sponsor.tsx"),
+  route("corporate", "routes/corporate.tsx"),
+  route("cohort", "routes/cohort.tsx"),
 ] satisfies RouteConfig;
