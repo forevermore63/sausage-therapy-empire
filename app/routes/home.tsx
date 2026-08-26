@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Forevermore Mastermind, Monthly Healing Packs, Certified Practitioner Directory, Franchise, Audio Vault, Live Cam and track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Impact Sponsorship, Corporate Wellness, Live Practitioner Cohorts, Forevermore Mastermind, Monthly Healing Packs, Certified Directory and track impact.",
     },
   ];
 }
@@ -23,9 +23,9 @@ export default function Home() {
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
             <a href="#sessions" className="hover:text-[#c45c26]">Sessions</a>
-            <Link to="/mastermind" className="hover:text-[#c45c26]">Mastermind</Link>
-            <Link to="/subscribe" className="hover:text-[#c45c26]">Subscribe</Link>
-            <Link to="/directory" className="hover:text-[#c45c26]">Directory</Link>
+            <Link to="/sponsor" className="hover:text-[#c45c26]">Sponsor</Link>
+            <Link to="/corporate" className="hover:text-[#c45c26]">Corporate</Link>
+            <Link to="/cohort" className="hover:text-[#c45c26]">Cohorts</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -40,15 +40,15 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. Individual sessions, corporate events, Forevermore Farm immersions, Virtual Pack, high-ticket Mastermind, Monthly Healing Packs, Certified Directory, Franchise, Audio Vault & Live Pack Cam.
+            Led by Emily Blue Richards. Individual sessions, corporate wellness, Impact Sponsorship Marketplace, Live Practitioner Cohorts, Forevermore Mastermind, Monthly Healing Packs, Certified Directory, Franchise, Audio Vault & Live Pack Cam.
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/mastermind" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
-              Join the Mastermind
+            <Link to="/sponsor" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+              Sponsor Impact
             </Link>
           </div>
         </div>
@@ -79,31 +79,55 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Newest Online Elements - August 26 Tremendous Surge */}
+      {/* Newest Online Elements - August 27 Tremendous Surge */}
       <section className="py-16 px-4 bg-[#c45c26] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — August 26 Tremendous Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — August 27 Tremendous Surge</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            From true to tremendous. Three powerful new engines just launched: Forevermore Mastermind for high-ticket scale, Monthly Healing Pack Subscriptions for recurring fuel, and the Certified Practitioner Directory for network effects that multiply healing.
+            From true to tremendous. Three powerful new engines just launched: Impact Sponsorship Marketplace for direct giving, Corporate Wellness Hub for team scale, and Live Practitioner Cohorts that turn knowledge into booked practice.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/mastermind" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🔥</div>
-              <h3 className="text-xl font-bold mb-2">Forevermore Mastermind</h3>
-              <p className="text-sm opacity-95 mb-4">Exclusive 6-month high-ticket circle for practitioners and farm partners. Live strategy with Emily, peer accountability and systems that scale revenue + impact. From $2,997.</p>
-              <span className="font-semibold text-[#d4a017]">Apply Now →</span>
+            <Link to="/sponsor" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">💛</div>
+              <h3 className="text-xl font-bold mb-2">Impact Sponsorship</h3>
+              <p className="text-sm opacity-95 mb-4">Fund free NDIS sessions ($180), dog recoveries ($350) or farm healing days ($480). Transparent certificates and live impact tracking. Corporate group options.</p>
+              <span className="font-semibold text-[#d4a017]">Sponsor a Place →</span>
             </Link>
-            <Link to="/subscribe" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">📦</div>
-              <h3 className="text-xl font-bold mb-2">Monthly Healing Packs</h3>
-              <p className="text-sm opacity-95 mb-4">Recurring digital (and optional physical) packs every month. Fresh audio, journal prompts and farm wisdom. $29 / $67 / $97. Predictable cashflow that funds free places.</p>
-              <span className="font-semibold text-[#d4a017]">Start Subscription →</span>
+            <Link to="/corporate" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🏢</div>
+              <h3 className="text-xl font-bold mb-2">Corporate Wellness Hub</h3>
+              <p className="text-sm opacity-95 mb-4">Office pack visits from $450, Corporate Farm Days from $1,200, ongoing programs. Measurable calm + giving-first brand alignment + 2032 readiness.</p>
+              <span className="font-semibold text-[#d4a017]">Request Proposal →</span>
             </Link>
-            <Link to="/directory" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🗺️</div>
-              <h3 className="text-xl font-bold mb-2">Certified Directory</h3>
-              <p className="text-sm opacity-95 mb-4">Official network of verified practitioners and licensed partners. Client discovery, referral commissions and quality standards that multiply the method.</p>
-              <span className="font-semibold text-[#d4a017]">Browse Directory →</span>
+            <Link to="/cohort" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🎓</div>
+              <h3 className="text-xl font-bold mb-2">Live Practitioner Cohorts</h3>
+              <p className="text-sm opacity-95 mb-4">8-week live group training from $1,497. Peer practice, NDIS readiness, business launch support and pathway into Directory / Mastermind / Franchise.</p>
+              <span className="font-semibold text-[#d4a017]">Apply for Cohort →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Previous Surge - August 26 */}
+      <section className="py-12 px-4 bg-[#d4a017]/20">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Also Live — August 26 Surge</h2>
+          <div className="grid md:grid-cols-3 gap-6">
+            <Link to="/mastermind" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">🔥</div>
+              <h3 className="font-bold text-[#c45c26]">Forevermore Mastermind</h3>
+              <p className="text-sm text-gray-600">High-ticket 6-month circle from $2,997</p>
+            </Link>
+            <Link to="/subscribe" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">📦</div>
+              <h3 className="font-bold text-[#c45c26]">Monthly Healing Packs</h3>
+              <p className="text-sm text-gray-600">Recurring $29 / $67 / $97 tiers</p>
+            </Link>
+            <Link to="/directory" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">🗺️</div>
+              <h3 className="font-bold text-[#c45c26]">Certified Directory</h3>
+              <p className="text-sm text-gray-600">Verified practitioners & partners</p>
             </Link>
           </div>
         </div>
@@ -125,7 +149,7 @@ export default function Home() {
             <h3 className="text-xl font-bold text-[#c45c26] mb-2">Corporate & Groups</h3>
             <p className="text-3xl font-bold mb-2">From $450</p>
             <p className="text-gray-700 mb-4">Office visits, team days, private parties. Stress reduction that actually works. Pack of miniature dachshunds included.</p>
-            <Link to="/book" className="text-[#c45c26] font-semibold hover:underline">Enquire →</Link>
+            <Link to="/corporate" className="text-[#c45c26] font-semibold hover:underline">Corporate Hub →</Link>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-md card-hover border border-[#c45c26]/10">
             <div className="text-4xl mb-4">⛵</div>
@@ -276,10 +300,10 @@ export default function Home() {
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-[#2d5016] mb-2">Ready to Feel the Wags?</h2>
-          <p className="text-gray-600 mb-8">Book a real session, join the Mastermind, start a Monthly Pack, or explore the Directory today. Emily replies personally.</p>
+          <p className="text-gray-600 mb-8">Book a real session, sponsor impact, request a corporate proposal, or apply for the next practitioner cohort. Emily replies personally.</p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-[#c45c26] text-white font-semibold px-8 py-3.5 rounded-full hover:bg-[#a34a1e] transition">Book Session</Link>
-            <Link to="/mastermind" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-8 py-3.5 rounded-full hover:bg-[#c45c26]/5 transition">Join Mastermind</Link>
+            <Link to="/sponsor" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-8 py-3.5 rounded-full hover:bg-[#c45c26]/5 transition">Sponsor Impact</Link>
           </div>
         </div>
       </section>
@@ -292,6 +316,9 @@ export default function Home() {
             <p className="text-sm opacity-70">Led by Emily Blue Richards · Gold Coast & Noosa · Forevermore Farm</p>
           </div>
           <div className="flex flex-wrap gap-4 text-sm justify-center">
+            <Link to="/sponsor" className="hover:text-[#d4a017]">Sponsor</Link>
+            <Link to="/corporate" className="hover:text-[#d4a017]">Corporate</Link>
+            <Link to="/cohort" className="hover:text-[#d4a017]">Cohorts</Link>
             <Link to="/mastermind" className="hover:text-[#d4a017]">Mastermind</Link>
             <Link to="/subscribe" className="hover:text-[#d4a017]">Subscribe</Link>
             <Link to="/directory" className="hover:text-[#d4a017]">Directory</Link>
