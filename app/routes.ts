@@ -8,6 +8,7 @@ export default [
   route("shop", "routes/shop.tsx"),
   route("book", "routes/book.tsx"),
   route("farm", "routes/farm.tsx"),
+  route("campus", "routes/campus.tsx"),
   route("stories", "routes/stories.tsx"),
   route("events", "routes/events.tsx"),
   route("virtual", "routes/virtual.tsx"),
