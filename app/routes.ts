@@ -49,4 +49,7 @@ export default [
   route("corporate", "routes/corporate.tsx"),
   route("cohort", "routes/cohort.tsx"),
   route("drinks", "routes/drinks.tsx"),
+  route("tremendous", "routes/tremendous.tsx"),
+  route("passive", "routes/passive.tsx"),
+  route("hours", "routes/hours.tsx"),
 ] satisfies RouteConfig;

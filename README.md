@@ -8,11 +8,17 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — Newest Online Elements Live (August 27 2026)
+## Status: Tremendous Expansion — Newest Online Elements Live (31 August 2026)
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Tremendous Growth Engines (True → Tremendous) — August 27 2026 Surge
+### Brand-New Tremendous Growth Engines (True → Tremendous) — 31 August 2026 Surge
+
+- **True → Tremendous Tracker** (`/tremendous`) — Live empire scoreboard, growth levers, and exact next-action checklist that turns the dream measurable and executable.
+- **Passive Income Engines** (`/passive`) — One-page command centre for every digital product, membership and recurring revenue stream (Academy, Healing Packs, Audio Vault, Membership, Shop, Hours, Mastermind, Certification, Visual Wealth).
+- **Sausage Hours** (`/hours`) — Protect an hour of pure presence. Gift or claim protected time. Presence over extraction. Corporate blocks and sponsored hours available.
+
+### Previous Tremendous Growth Engines — 27 August 2026 Surge
 
 - **Impact Sponsorship Marketplace** (`/sponsor`) — Directly fund free NDIS sessions ($180), dog recoveries ($350) or farm healing day places ($480). Transparent impact certificates and live dashboard tracking. Corporate group sponsorships available.
 - **Corporate Wellness Hub** (`/corporate`) — Office pack visits from $450, Corporate Farm Days from $1,200, ongoing wellness programs. Measurable calm + giving-first brand alignment + 2032 readiness.
@@ -49,6 +55,7 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 - **NDIS Portal** (`/ndis`)
 - **Visual Wealth Hub** (`/visual`)
 - **7-Day Dachshund Calm Challenge** (`/calm`)
+- **Drinks & Support Fund** (`/drinks`)
 
 ### Full Online Empire Elements
 
@@ -72,12 +79,12 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 
 ## Activation Checklist (make the automation real)
 
-1. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise / Mastermind / Subscribe / Sponsor / Corporate / Cohort)
-2. **Calendar Booking** (Calendly / Cal.com into `/book`)
-3. **Email & Marketing Sequences** (swap mailto forms to Formspree / Tally / webhook)
-4. **Visual Content First Batch** (Google Photos → Adobe Stock / Shutterstock / Pond5)
-5. **Live Stream Embed** (YouTube / Instagram Live into `/live` and `/cam`)
-6. **Unpause / Redeploy** on Vercel if needed
+1. **Unpause / Redeploy** on Vercel (required — current deployments are paused)
+2. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise / Mastermind / Subscribe / Sponsor / Corporate / Cohort / Hours)
+3. **Calendar Booking** (Calendly / Cal.com into `/book`)
+4. **Email & Marketing Sequences** (swap mailto forms to Formspree / Tally / webhook)
+5. **Visual Content First Batch** (Google Photos → Adobe Stock / Shutterstock / Pond5)
+6. **Live Stream Embed** (YouTube / Instagram Live into `/live` and `/cam`)
 7. **Custom Domain** (optional)
 8. **Wag Points + Ambassador tracking** — Google Sheet or Airtable linked to email confirmations
 9. **Ambassador commission payouts** — monthly process
@@ -87,9 +94,10 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 13. **Sponsorship delivery tracking** and certificate generation
 14. **Corporate proposal templates** and ROI follow-up sequences
 15. **Cohort waitlist → enrolment → payment flow**
+16. **Sausage Hours fulfilment** (calendar hold + certificate generation)
 
 ## Deploy
 
 Push to `main` → Vercel auto-deploys (or trigger redeploy after unpausing).
 
-From true to tremendous. Three brand-new high-leverage online engines just went live on 27 August 2026. The next surge is already in motion.
+From true to tremendous. Three brand-new high-leverage online engines just went live on 31 August 2026. The next surge is already in motion.
