@@ -53,4 +53,9 @@ export default [
   route("tremendous", "routes/tremendous.tsx"),
   route("passive", "routes/passive.tsx"),
   route("hours", "routes/hours.tsx"),
+  // Brand-new September 2026 Surge — True → Tremendous
+  route("resilience", "routes/resilience.tsx"),
+  route("sanctuary", "routes/sanctuary.tsx"),
+  route("microgive", "routes/microgive.tsx"),
+  route("protocol", "routes/protocol.tsx"),
 ] satisfies RouteConfig;
