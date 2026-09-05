@@ -61,4 +61,7 @@ export default [
   route("claim", "routes/claim.tsx"),
   route("stock", "routes/stock.tsx"),
   route("presence", "routes/presence.tsx"),
+  route("upsurge", "routes/upsurge.tsx"),
+  route("circles", "routes/circles.tsx"),
+  route("vault", "routes/vault.tsx"),
 ] satisfies RouteConfig;
