@@ -8,16 +8,28 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — Newest Online Elements Live (4 September 2026)
+## Status: Tremendous Expansion — Newest Online Elements Live (8 September 2026)
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Tremendous Growth Engines — 4 September 2026 Surge
+### Brand-New Tremendous Growth Engines — 8 September 2026 Surge
 
-- **True → Tremendous Accelerator** (`/accelerate`) — 30-day live sprint with Emily Blue Richards. Scoreboard truth, booking + funding, passive engines, 90-day lock-in. Founder seats $4,997 AUD.
-- **NDIS Claim & Funding Accelerator** (`/claim`) — Indicative session estimator, claim-ready checklist, and backup path via sponsorship if a plan line item is short. Not financial or NDIS legal advice.
-- **Visual Wealth Stock Portal** (`/stock`) — Stills, B-roll, print masters and creator platforms that turn existing pack/farm visuals into licensing income for free hours.
-- **Daily Sausage Presence Ritual** (`/presence`) — Free seven-minute nervous-system ritual that feeds memberships, Sausage Hours and live bookings.
+- **Dream Growth Map** (`/dream`) — Interactive journey that turns the felt “true” into a concrete tremendous plan. Stages, exact next actions, revenue + impact projections, one-click activation of the rest of the empire.
+- **Perpetual Flame Engine** (`/flame`) — Daily consciousness-to-cash converter. Light the seven-minute flame, receive the single highest-leverage next move, let presence compound into revenue and free places while you rest.
+- **Empire Live Command** (`/live-empire`) — Real-time multi-stream dashboard showing every passive and active revenue engine, projected monthly, impact $ given, and one-tap activation. Visual proof the dream is already compounding.
+
+### Previous Tremendous Growth Engines — 6 September 2026 Surge
+
+- **True → Tremendous Upsurge Tracker** (`/upsurge`)
+- **Sausage Healing Circles** (`/circles`)
+- **Healing Digital Vault** (`/vault`)
+
+### Previous Tremendous Growth Engines — 4 September 2026 Surge
+
+- **True → Tremendous Accelerator** (`/accelerate`) — 30-day live sprint with Emily Blue Richards. Founder seats $4,997 AUD.
+- **NDIS Claim & Funding Accelerator** (`/claim`)
+- **Visual Wealth Stock Portal** (`/stock`)
+- **Daily Sausage Presence Ritual** (`/presence`)
 
 ### Previous Tremendous Growth Engines — 2 September 2026 Surge
 
@@ -94,7 +106,7 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 ## Activation Checklist (make the automation real)
 
 1. **Unpause / Redeploy** on Vercel
-2. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise / Mastermind / Subscribe / Sponsor / Corporate / Cohort / Hours / Microgive / Accelerator)
+2. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise / Mastermind / Subscribe / Sponsor / Corporate / Cohort / Hours / Microgive / Accelerator / Circles / Vault)
 3. **Calendar Booking** (Calendly / Cal.com into `/book`)
 4. **Email & Marketing Sequences** (swap mailto forms to Formspree / Tally / webhook)
 5. **Visual Content First Batch** (Google Photos → Adobe Stock / Shutterstock / Pond5 via `/stock`)
@@ -113,9 +125,11 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 18. **Microgive Stripe / PayPal quick links**
 19. **NDIS claim helper follow-up sequence** (`/claim`)
 20. **Presence ritual → membership drip** (`/presence`)
+21. **Flame daily move → action tracking** (`/flame`)
+22. **Live Command real data wiring** (Stripe + bookings into `/live-empire`)
 
 ## Deploy
 
 Push to `main` → Vercel auto-deploys (or trigger redeploy after unpausing).
 
-From true to tremendous. Four brand-new high-leverage online engines went live on 4 September 2026. The empire keeps compounding.
+From true to tremendous. Three brand-new high-leverage online engines went live on 8 September 2026. The empire keeps compounding.
