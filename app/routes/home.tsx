@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, True→Tremendous Tracker, Passive Engines, Sausage Hours, Impact Sponsorship, Corporate Wellness, Live Practitioner Cohorts and track impact.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Dream Growth Map, Perpetual Flame Engine, Empire Live Command, Upsurge Tracker, Passive Engines, Sausage Hours and more.",
     },
   ];
 }
@@ -22,10 +22,9 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
-            <Link to="/tremendous" className="hover:text-[#c45c26]">Tremendous</Link>
-            <Link to="/passive" className="hover:text-[#c45c26]">Passive</Link>
-            <Link to="/hours" className="hover:text-[#c45c26]">Hours</Link>
-            <Link to="/sponsor" className="hover:text-[#c45c26]">Sponsor</Link>
+            <Link to="/dream" className="hover:text-[#c45c26]">Dream</Link>
+            <Link to="/flame" className="hover:text-[#c45c26]">Flame</Link>
+            <Link to="/live-empire" className="hover:text-[#c45c26]">Live Command</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -40,14 +39,14 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: True→Tremendous Tracker, Passive Income Engines, Sausage Hours, Impact Sponsorship, Corporate Wellness, Practitioner Cohorts, Mastermind, Memberships & more.
+            Led by Emily Blue Richards. From true to tremendous: Dream Growth Map, Perpetual Flame Engine, Empire Live Command, Upsurge Tracker, Passive Engines, Sausage Hours, Impact Sponsorship & more.
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/tremendous" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+            <Link to="/dream" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               True → Tremendous →
             </Link>
           </div>
@@ -79,109 +78,85 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Newest Online Elements - 6 September 2026 Tremendous Surge */}
+      {/* Newest Online Elements - 8 September 2026 Tremendous Surge */}
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — 6 September 2026 Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — 8 September 2026 Surge</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            From true to tremendous. Three high-leverage engines just launched: personal Upsurge Tracker, Sausage Healing Circles, and the Healing Digital Vault. Revenue + presence + scale in one move.
+            From true to tremendous. Three high-leverage engines just launched: Dream Growth Map, Perpetual Flame Engine, and Empire Live Command. Presence → action → revenue → impact in one continuous loop.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <Link to="/dream" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🗺️</div>
+              <h3 className="text-xl font-bold mb-2">Dream Growth Map</h3>
+              <p className="text-sm opacity-95 mb-4">Interactive journey from felt truth to executed tremendous plan. Clear stages, exact next actions, revenue + impact projections.</p>
+              <span className="font-semibold text-[#d4a017]">Open Map →</span>
+            </Link>
+            <Link to="/flame" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🔥</div>
+              <h3 className="text-xl font-bold mb-2">Perpetual Flame Engine</h3>
+              <p className="text-sm opacity-95 mb-4">Daily consciousness-to-cash converter. Light the flame, receive the single highest-leverage move, let presence compound while you rest.</p>
+              <span className="font-semibold text-[#d4a017]">Light the Flame →</span>
+            </Link>
+            <Link to="/live-empire" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">📊</div>
+              <h3 className="text-xl font-bold mb-2">Empire Live Command</h3>
+              <p className="text-sm opacity-95 mb-4">Real-time multi-stream dashboard. Projected monthly, impact redirected, one-tap activation of every engine. Proof the dream is compounding.</p>
+              <span className="font-semibold text-[#d4a017]">Open Command →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Previous Newest - 6 September 2026 Tremendous Surge */}
+      <section className="py-16 px-4 bg-[#c45c26] text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous Surge — 6 September 2026</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
+            Upsurge Tracker, Healing Circles and Digital Vault still live and compounding.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6">
             <Link to="/upsurge" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🚀</div>
               <h3 className="text-xl font-bold mb-2">True → Tremendous Upsurge Tracker</h3>
-              <p className="text-sm opacity-95 mb-4">Personal living scoreboard. Track presence streaks, sessions, hours, giving and referrals. Turn intention into measurable momentum.</p>
+              <p className="text-sm opacity-95 mb-4">Personal living scoreboard. Track presence, sessions, hours, giving and referrals.</p>
               <span className="font-semibold text-[#d4a017]">Open Tracker →</span>
             </Link>
             <Link to="/circles" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">⭕</div>
               <h3 className="text-xl font-bold mb-2">Sausage Healing Circles</h3>
-              <p className="text-sm opacity-95 mb-4">Small high-trust monthly circles + optional farm days. Open $97/mo · Founders $297/mo. Presence compounds when we gather.</p>
+              <p className="text-sm opacity-95 mb-4">Small high-trust monthly circles + optional farm days. Open $97/mo · Founders $297/mo.</p>
               <span className="font-semibold text-[#d4a017]">Join a Circle →</span>
             </Link>
             <Link to="/vault" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🗄️</div>
               <h3 className="text-xl font-bold mb-2">Healing Digital Vault</h3>
-              <p className="text-sm opacity-95 mb-4">Instant digital products, protocols, audio & kits from $37–$247. Passive revenue that funds free places while you rest.</p>
+              <p className="text-sm opacity-95 mb-4">Instant digital products, protocols, audio & kits from $37–$247. Passive revenue that funds free places.</p>
               <span className="font-semibold text-[#d4a017]">Browse Vault →</span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Previous Newest - 31 August 2026 Tremendous Surge */}
-      <section className="py-16 px-4 bg-[#c45c26] text-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous Surge — 31 August 2026</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            From true to tremendous. Three powerful engines: the living growth scoreboard, the complete passive income command centre, and Sausage Hours — protected time for pure presence.
-          </p>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/tremendous" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">📈</div>
-              <h3 className="text-xl font-bold mb-2">True → Tremendous Tracker</h3>
-              <p className="text-sm opacity-95 mb-4">Live empire scoreboard, growth levers and exact next-action checklist that turns the dream measurable and executable.</p>
-              <span className="font-semibold text-[#d4a017]">Open Tracker →</span>
-            </Link>
-            <Link to="/passive" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">💰</div>
-              <h3 className="text-xl font-bold mb-2">Passive Income Engines</h3>
-              <p className="text-sm opacity-95 mb-4">One-page command centre for every digital product, membership and recurring stream. Sell while you sleep. Fund free places while you rest.</p>
-              <span className="font-semibold text-[#d4a017]">View Engines →</span>
-            </Link>
-            <Link to="/hours" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">⏳</div>
-              <h3 className="text-xl font-bold mb-2">Sausage Hours</h3>
-              <p className="text-sm opacity-95 mb-4">Protect an hour of pure presence. Gift or claim protected time. Presence over extraction. Corporate blocks and sponsored hours available.</p>
-              <span className="font-semibold text-[#d4a017]">Protect an Hour →</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Previous Tremendous - August 27 */}
+      {/* Previous - 31 August */}
       <section className="py-12 px-4 bg-[#d4a017]/20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Still Live — 27 August Tremendous Engines</h2>
+          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Still Live — 31 August Engines</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/sponsor" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">💛</div>
-              <h3 className="font-bold text-[#c45c26]">Impact Sponsorship</h3>
-              <p className="text-sm text-gray-600">Fund free NDIS sessions, dog recoveries & farm days</p>
+            <Link to="/tremendous" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">📈</div>
+              <h3 className="font-bold text-[#c45c26]">True → Tremendous Tracker</h3>
+              <p className="text-sm text-gray-600">Live empire scoreboard & next-action checklist</p>
             </Link>
-            <Link to="/corporate" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">🏢</div>
-              <h3 className="font-bold text-[#c45c26]">Corporate Wellness Hub</h3>
-              <p className="text-sm text-gray-600">Office packs from $450 · Farm days from $1,200</p>
+            <Link to="/passive" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">💰</div>
+              <h3 className="font-bold text-[#c45c26]">Passive Income Engines</h3>
+              <p className="text-sm text-gray-600">Sell while you sleep. Fund free places while you rest.</p>
             </Link>
-            <Link to="/cohort" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">🎓</div>
-              <h3 className="font-bold text-[#c45c26]">Live Practitioner Cohorts</h3>
-              <p className="text-sm text-gray-600">8-week training from $1,497 → Directory pathway</p>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Previous Surge - August 26 */}
-      <section className="py-12 px-4 bg-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Also Live — August 26 Surge</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/mastermind" className="bg-[#fdf6e3] rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">🔥</div>
-              <h3 className="font-bold text-[#c45c26]">Forevermore Mastermind</h3>
-              <p className="text-sm text-gray-600">High-ticket 6-month circle from $2,997</p>
-            </Link>
-            <Link to="/subscribe" className="bg-[#fdf6e3] rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">📦</div>
-              <h3 className="font-bold text-[#c45c26]">Monthly Healing Packs</h3>
-              <p className="text-sm text-gray-600">Recurring $29 / $67 / $97 tiers</p>
-            </Link>
-            <Link to="/directory" className="bg-[#fdf6e3] rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">🗺️</div>
-              <h3 className="font-bold text-[#c45c26]">Certified Directory</h3>
-              <p className="text-sm text-gray-600">Verified practitioners & partners</p>
+            <Link to="/hours" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">⏳</div>
+              <h3 className="font-bold text-[#c45c26]">Sausage Hours</h3>
+              <p className="text-sm text-gray-600">Protect an hour of pure presence</p>
             </Link>
           </div>
         </div>
@@ -249,11 +224,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Full Online Empire Live</h2>
           <p className="opacity-90 mb-8 max-w-2xl mx-auto">
-            Upsurge Tracker · Healing Circles · Digital Vault · Sausage Hours · Passive Engines · Impact Dashboard · NDIS Navigator · Farm · Memberships · Academy · and 50+ more conversion-ready pages.
+            Dream Growth Map · Perpetual Flame · Live Command · Upsurge Tracker · Healing Circles · Digital Vault · Sausage Hours · Passive Engines · Impact Dashboard · and 50+ more conversion-ready pages.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/upsurge" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
-              Start Your Upsurge
+            <Link to="/dream" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
+              Start the Dream Map
             </Link>
             <Link to="/book" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               Book a Session
@@ -270,7 +245,7 @@ export default function Home() {
           <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
           <Link to="/shop" className="hover:text-[#c45c26]">Shop</Link>
           <Link to="/farm" className="hover:text-[#c45c26]">Farm</Link>
-          <Link to="/command" className="hover:text-[#c45c26]">Command Center</Link>
+          <Link to="/live-empire" className="hover:text-[#c45c26]">Live Command</Link>
         </div>
       </footer>
     </div>
