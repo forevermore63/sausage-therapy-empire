@@ -64,4 +64,7 @@ export default [
   route("upsurge", "routes/upsurge.tsx"),
   route("circles", "routes/circles.tsx"),
   route("vault", "routes/vault.tsx"),
+  route("dream", "routes/dream.tsx"),
+  route("flame", "routes/flame.tsx"),
+  route("live-empire", "routes/live-empire.tsx"),
 ] satisfies RouteConfig;
