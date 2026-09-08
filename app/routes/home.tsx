@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Dream Growth Map, Perpetual Flame Engine, Empire Live Command, Upsurge Tracker, Passive Engines, Sausage Hours and more.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Bloom Engine, Dream Seed Fund, Opportunity Radar, Dream Growth Map, Perpetual Flame Engine, Empire Live Command and more.",
     },
   ];
 }
@@ -22,9 +22,9 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
-            <Link to="/dream" className="hover:text-[#c45c26]">Dream</Link>
-            <Link to="/flame" className="hover:text-[#c45c26]">Flame</Link>
-            <Link to="/live-empire" className="hover:text-[#c45c26]">Live Command</Link>
+            <Link to="/bloom" className="hover:text-[#c45c26]">Bloom</Link>
+            <Link to="/seed" className="hover:text-[#c45c26]">Seed</Link>
+            <Link to="/radar" className="hover:text-[#c45c26]">Radar</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -39,14 +39,14 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Dream Growth Map, Perpetual Flame Engine, Empire Live Command, Upsurge Tracker, Passive Engines, Sausage Hours, Impact Sponsorship & more.
+            Led by Emily Blue Richards. From true to tremendous: Bloom Engine, Dream Seed Fund, Opportunity Radar, Dream Growth Map, Perpetual Flame Engine, Empire Live Command & more.
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/dream" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+            <Link to="/bloom" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               True → Tremendous →
             </Link>
           </div>
@@ -78,85 +78,85 @@ export default function Home() {
         </p>
       </section>
 
-      {/* Newest Online Elements - 8 September 2026 Tremendous Surge */}
+      {/* Newest Online Elements - 9 September 2026 Tremendous Surge */}
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — 8 September 2026 Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — 9 September 2026 Surge</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            From true to tremendous. Three high-leverage engines just launched: Dream Growth Map, Perpetual Flame Engine, and Empire Live Command. Presence → action → revenue → impact in one continuous loop.
+            From true to tremendous. Three high-leverage engines just launched: Bloom Engine, Dream Seed Fund, and Opportunity Radar. One action compounds into revenue, impact and free places.
           </p>
           <div className="grid md:grid-cols-3 gap-6 mb-12">
+            <Link to="/bloom" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌸</div>
+              <h3 className="text-xl font-bold mb-2">Bloom Engine</h3>
+              <p className="text-sm opacity-95 mb-4">Turn one protected action into exponential revenue + impact. Interactive multiplier that closes the intention-to-system gap.</p>
+              <span className="font-semibold text-[#d4a017]">Activate Bloom →</span>
+            </Link>
+            <Link to="/seed" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌱</div>
+              <h3 className="text-xl font-bold mb-2">Dream Seed Fund</h3>
+              <p className="text-sm opacity-95 mb-4">Micro-support with matching. $17–$297 seeds unlock free places, dog recovery and Forevermore Farm care.</p>
+              <span className="font-semibold text-[#d4a017]">Plant a Seed →</span>
+            </Link>
+            <Link to="/radar" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">📡</div>
+              <h3 className="text-xl font-bold mb-2">Opportunity Radar</h3>
+              <p className="text-sm opacity-95 mb-4">Live scored list of the single highest-leverage next moves. Always know exactly what to do next.</p>
+              <span className="font-semibold text-[#d4a017]">Open Radar →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      {/* Previous - 8 September 2026 Tremendous Surge */}
+      <section className="py-16 px-4 bg-[#c45c26] text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Still Compounding — 8 September 2026 Surge</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
+            Dream Growth Map, Perpetual Flame Engine and Empire Live Command remain core engines.
+          </p>
+          <div className="grid md:grid-cols-3 gap-6">
             <Link to="/dream" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🗺️</div>
               <h3 className="text-xl font-bold mb-2">Dream Growth Map</h3>
-              <p className="text-sm opacity-95 mb-4">Interactive journey from felt truth to executed tremendous plan. Clear stages, exact next actions, revenue + impact projections.</p>
+              <p className="text-sm opacity-95 mb-4">Interactive journey from felt truth to executed tremendous plan.</p>
               <span className="font-semibold text-[#d4a017]">Open Map →</span>
             </Link>
             <Link to="/flame" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🔥</div>
               <h3 className="text-xl font-bold mb-2">Perpetual Flame Engine</h3>
-              <p className="text-sm opacity-95 mb-4">Daily consciousness-to-cash converter. Light the flame, receive the single highest-leverage move, let presence compound while you rest.</p>
+              <p className="text-sm opacity-95 mb-4">Daily consciousness-to-cash converter. Light the flame, receive the highest-leverage move.</p>
               <span className="font-semibold text-[#d4a017]">Light the Flame →</span>
             </Link>
             <Link to="/live-empire" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">📊</div>
               <h3 className="text-xl font-bold mb-2">Empire Live Command</h3>
-              <p className="text-sm opacity-95 mb-4">Real-time multi-stream dashboard. Projected monthly, impact redirected, one-tap activation of every engine. Proof the dream is compounding.</p>
+              <p className="text-sm opacity-95 mb-4">Real-time multi-stream dashboard. Proof the dream is compounding.</p>
               <span className="font-semibold text-[#d4a017]">Open Command →</span>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Previous Newest - 6 September 2026 Tremendous Surge */}
-      <section className="py-16 px-4 bg-[#c45c26] text-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous Surge — 6 September 2026</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            Upsurge Tracker, Healing Circles and Digital Vault still live and compounding.
-          </p>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/upsurge" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🚀</div>
-              <h3 className="text-xl font-bold mb-2">True → Tremendous Upsurge Tracker</h3>
-              <p className="text-sm opacity-95 mb-4">Personal living scoreboard. Track presence, sessions, hours, giving and referrals.</p>
-              <span className="font-semibold text-[#d4a017]">Open Tracker →</span>
-            </Link>
-            <Link to="/circles" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">⭕</div>
-              <h3 className="text-xl font-bold mb-2">Sausage Healing Circles</h3>
-              <p className="text-sm opacity-95 mb-4">Small high-trust monthly circles + optional farm days. Open $97/mo · Founders $297/mo.</p>
-              <span className="font-semibold text-[#d4a017]">Join a Circle →</span>
-            </Link>
-            <Link to="/vault" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🗄️</div>
-              <h3 className="text-xl font-bold mb-2">Healing Digital Vault</h3>
-              <p className="text-sm opacity-95 mb-4">Instant digital products, protocols, audio & kits from $37–$247. Passive revenue that funds free places.</p>
-              <span className="font-semibold text-[#d4a017]">Browse Vault →</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      {/* Previous - 31 August */}
+      {/* Previous - 6 September */}
       <section className="py-12 px-4 bg-[#d4a017]/20">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Still Live — 31 August Engines</h2>
+          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Still Live — 6 & 31 August Engines</h2>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/tremendous" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">📈</div>
-              <h3 className="font-bold text-[#c45c26]">True → Tremendous Tracker</h3>
-              <p className="text-sm text-gray-600">Live empire scoreboard & next-action checklist</p>
+            <Link to="/upsurge" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
+              <div className="text-3xl mb-2">🚀</div>
+              <h3 className="font-bold text-[#c45c26]">Upsurge Tracker</h3>
+              <p className="text-sm text-gray-600">Personal living scoreboard</p>
             </Link>
             <Link to="/passive" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
               <div className="text-3xl mb-2">💰</div>
               <h3 className="font-bold text-[#c45c26]">Passive Income Engines</h3>
-              <p className="text-sm text-gray-600">Sell while you sleep. Fund free places while you rest.</p>
+              <p className="text-sm text-gray-600">Sell while you sleep</p>
             </Link>
             <Link to="/hours" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
               <div className="text-3xl mb-2">⏳</div>
               <h3 className="font-bold text-[#c45c26]">Sausage Hours</h3>
-              <p className="text-sm text-gray-600">Protect an hour of pure presence</p>
+              <p className="text-sm text-gray-600">Protect pure presence</p>
             </Link>
           </div>
         </div>
@@ -224,11 +224,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Full Online Empire Live</h2>
           <p className="opacity-90 mb-8 max-w-2xl mx-auto">
-            Dream Growth Map · Perpetual Flame · Live Command · Upsurge Tracker · Healing Circles · Digital Vault · Sausage Hours · Passive Engines · Impact Dashboard · and 50+ more conversion-ready pages.
+            Bloom Engine · Dream Seed Fund · Opportunity Radar · Dream Growth Map · Perpetual Flame · Live Command · Upsurge Tracker · Healing Circles · Digital Vault · Sausage Hours · Passive Engines · Impact Dashboard · and 50+ more conversion-ready pages.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/dream" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
-              Start the Dream Map
+            <Link to="/bloom" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
+              Start with Bloom
             </Link>
             <Link to="/book" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               Book a Session
@@ -242,9 +242,9 @@ export default function Home() {
         <p className="mt-2">Giving-first · NDIS-friendly · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
           <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
-          <Link to="/membership" className="hover:text-[#c45c26]">Membership</Link>
-          <Link to="/shop" className="hover:text-[#c45c26]">Shop</Link>
-          <Link to="/farm" className="hover:text-[#c45c26]">Farm</Link>
+          <Link to="/bloom" className="hover:text-[#c45c26]">Bloom</Link>
+          <Link to="/seed" className="hover:text-[#c45c26]">Seed Fund</Link>
+          <Link to="/radar" className="hover:text-[#c45c26]">Radar</Link>
           <Link to="/live-empire" className="hover:text-[#c45c26]">Live Command</Link>
         </div>
       </footer>
