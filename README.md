@@ -8,11 +8,17 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — Newest Online Elements Live (8 September 2026)
+## Status: Tremendous Expansion — Newest Online Elements Live (9 September 2026)
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Tremendous Growth Engines — 8 September 2026 Surge
+### Brand-New Tremendous Growth Engines — 9 September 2026 Surge
+
+- **Bloom Engine** (`/bloom`) — Turns one protected action (Sausage Hour, Vault sale, Circle invite) into exponential revenue + impact. Interactive multiplier map that closes the gap between intention and live systems.
+- **Dream Seed Fund** (`/seed`) — Micro-support tiers ($17–$297) with matching, unlocks and automatic direction to free places, dog recovery and Forevermore Farm. Visible on the Impact Dashboard.
+- **Opportunity Radar** (`/radar`) — Live scored list of the single highest-leverage next moves across the entire empire. Always know exactly what to do next on the true → tremendous path.
+
+### Previous Tremendous Growth Engines — 8 September 2026 Surge
 
 - **Dream Growth Map** (`/dream`) — Interactive journey that turns the felt “true” into a concrete tremendous plan. Stages, exact next actions, revenue + impact projections, one-click activation of the rest of the empire.
 - **Perpetual Flame Engine** (`/flame`) — Daily consciousness-to-cash converter. Light the seven-minute flame, receive the single highest-leverage next move, let presence compound into revenue and free places while you rest.
@@ -106,7 +112,7 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 ## Activation Checklist (make the automation real)
 
 1. **Unpause / Redeploy** on Vercel
-2. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise / Mastermind / Subscribe / Sponsor / Corporate / Cohort / Hours / Microgive / Accelerator / Circles / Vault)
+2. **Stripe Payment Links** (Shop / Academy / Membership / Gift / Certification / Audio / Franchise / Mastermind / Subscribe / Sponsor / Corporate / Cohort / Hours / Microgive / Accelerator / Circles / Vault / Seed Fund)
 3. **Calendar Booking** (Calendly / Cal.com into `/book`)
 4. **Email & Marketing Sequences** (swap mailto forms to Formspree / Tally / webhook)
 5. **Visual Content First Batch** (Google Photos → Adobe Stock / Shutterstock / Pond5 via `/stock`)
@@ -127,9 +133,12 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 20. **Presence ritual → membership drip** (`/presence`)
 21. **Flame daily move → action tracking** (`/flame`)
 22. **Live Command real data wiring** (Stripe + bookings into `/live-empire`)
+23. **Bloom activation tracking** (`/bloom`)
+24. **Dream Seed Fund payment + match logic** (`/seed`)
+25. **Opportunity Radar scoring updates** (`/radar`)
 
 ## Deploy
 
 Push to `main` → Vercel auto-deploys (or trigger redeploy after unpausing).
 
-From true to tremendous. Three brand-new high-leverage online engines went live on 8 September 2026. The empire keeps compounding.
+From true to tremendous. Three brand-new high-leverage online engines went live on 9 September 2026 (Bloom Engine, Dream Seed Fund, Opportunity Radar). The empire keeps compounding.

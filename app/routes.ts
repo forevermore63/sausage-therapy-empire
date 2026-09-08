@@ -67,4 +67,7 @@ export default [
   route("dream", "routes/dream.tsx"),
   route("flame", "routes/flame.tsx"),
   route("live-empire", "routes/live-empire.tsx"),
+  route("bloom", "routes/bloom.tsx"),
+  route("seed", "routes/seed.tsx"),
+  route("radar", "routes/radar.tsx"),
 ] satisfies RouteConfig;
