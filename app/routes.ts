@@ -70,4 +70,7 @@ export default [
   route("bloom", "routes/bloom.tsx"),
   route("seed", "routes/seed.tsx"),
   route("radar", "routes/radar.tsx"),
+  route("cascade", "routes/cascade.tsx"),
+  route("forge", "routes/forge.tsx"),
+  route("wave", "routes/wave.tsx"),
 ] satisfies RouteConfig;
