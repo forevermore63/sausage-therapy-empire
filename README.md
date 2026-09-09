@@ -8,11 +8,17 @@ Led by Emily Blue Richards. Gold Coast, Noosa & Forevermore Farm.
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — Newest Online Elements Live (9 September 2026)
+## Status: Tremendous Expansion — Newest Online Elements Live (10 September 2026)
 
 All pages are production-ready, mobile-responsive, branded in the cream / sausage / forest / gold palette, and conversion-focused.
 
-### Brand-New Tremendous Growth Engines — 9 September 2026 Surge
+### Brand-New Tremendous Growth Engines — 10 September 2026 Surge
+
+- **Cascade Engine** (`/cascade`) — Turns a single therapy booking into an automated waterfall of digital upsells, membership invitations, referral cascades and impact gifts. One session multiplies into multi-stream revenue and free places.
+- **Legacy Forge** (`/forge`) — Converts healing stories, trauma-informed protocols, farm wisdom and the 2032 Olympic vision into permanent digital assets, IP and teaching tools that compound across generations.
+- **Wave Amplifier** (`/wave`) — Systematises authentic pack and farm content into multi-platform waves (stock, social, podcast, email) that drive bookings, memberships and visual wealth royalties.
+
+### Previous Tremendous Growth Engines — 9 September 2026 Surge
 
 - **Bloom Engine** (`/bloom`) — Turns one protected action (Sausage Hour, Vault sale, Circle invite) into exponential revenue + impact. Interactive multiplier map that closes the gap between intention and live systems.
 - **Dream Seed Fund** (`/seed`) — Micro-support tiers ($17–$297) with matching, unlocks and automatic direction to free places, dog recovery and Forevermore Farm. Visible on the Impact Dashboard.
@@ -136,9 +142,12 @@ All pages are production-ready, mobile-responsive, branded in the cream / sausag
 23. **Bloom activation tracking** (`/bloom`)
 24. **Dream Seed Fund payment + match logic** (`/seed`)
 25. **Opportunity Radar scoring updates** (`/radar`)
+26. **Cascade booking → upsell waterfall wiring** (`/cascade`)
+27. **Legacy Forge asset packaging into Academy / Certification** (`/forge`)
+28. **Wave Amplifier content calendar + stock batch pipeline** (`/wave`)
 
 ## Deploy
 
 Push to `main` → Vercel auto-deploys (or trigger redeploy after unpausing).
 
-From true to tremendous. Three brand-new high-leverage online engines went live on 9 September 2026 (Bloom Engine, Dream Seed Fund, Opportunity Radar). The empire keeps compounding.
+From true to tremendous. Three brand-new high-leverage online engines went live on 10 September 2026 (Cascade Engine, Legacy Forge, Wave Amplifier). The empire keeps compounding.
