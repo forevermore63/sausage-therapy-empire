@@ -76,4 +76,7 @@ export default [
   route("orbit", "routes/orbit.tsx"),
   route("resonance", "routes/resonance.tsx"),
   route("horizon", "routes/horizon.tsx"),
+  route("constellation", "routes/constellation.tsx"),
+  route("ignition", "routes/ignition.tsx"),
+  route("harvest", "routes/harvest.tsx"),
 ] satisfies RouteConfig;
