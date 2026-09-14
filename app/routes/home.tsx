@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Book sessions, Orbit Engine, Resonance Field, Horizon Projector, Cascade Engine, Legacy Forge, Wave Amplifier and more.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Beacon, Hearth, Signal Tower, Living Mosaic and the full empire from true to tremendous.",
     },
   ];
 }
@@ -21,9 +21,9 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
-            <Link to="/orbit" className="hover:text-[#c45c26]">Orbit</Link>
-            <Link to="/resonance" className="hover:text-[#c45c26]">Resonance</Link>
-            <Link to="/horizon" className="hover:text-[#c45c26]">Horizon</Link>
+            <Link to="/beacon" className="hover:text-[#c45c26]">Beacon</Link>
+            <Link to="/hearth" className="hover:text-[#c45c26]">Hearth</Link>
+            <Link to="/signal" className="hover:text-[#c45c26]">Signal</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -37,14 +37,14 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Orbit Engine, Resonance Field, Horizon Projector, Cascade Engine, Legacy Forge, Wave Amplifier & more.
+            Led by Emily Blue Richards. From true to tremendous: Beacon, Hearth, Signal Tower, Living Mosaic + Orbit, Resonance, Horizon.
             NDIS-friendly. Giving-first — every booking and purchase supports dog welfare and free therapy access.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/orbit" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+            <Link to="/beacon" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               True → Tremendous →
             </Link>
           </div>
@@ -77,28 +77,34 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New Online Elements — 12 September 2026 Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 15 September 2026 Tremendous Surge</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            From true to tremendous. Three new high-leverage engines: Orbit Engine, Resonance Field and Horizon Projector. Perpetual loops, precision matching and 10-year clarity that compounds while you rest.
+            Four new high-leverage engines so the dream grows without you repeating yourself: visibility, home, inbound signal, living proof.
           </p>
-          <div className="grid md:grid-cols-3 gap-6 mb-12">
-            <Link to="/orbit" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">♾️</div>
-              <h3 className="text-xl font-bold mb-2">Orbit Engine</h3>
-              <p className="text-sm opacity-95 mb-4">Every booking, content piece and dollar enters self-reinforcing perpetual orbits that keep generating revenue and free places.</p>
-              <span className="font-semibold text-[#d4a017]">Activate Orbit →</span>
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4">
+            <Link to="/beacon" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🚨</div>
+              <h3 className="text-xl font-bold mb-2">The Beacon</h3>
+              <p className="text-sm opacity-95 mb-4">Living press kit + 2032 discovery page. Copy-ready lines for media, grants and partners.</p>
+              <span className="font-semibold text-[#d4a017]">Light Beacon →</span>
             </Link>
-            <Link to="/resonance" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌀</div>
-              <h3 className="text-xl font-bold mb-2">Resonance Field</h3>
-              <p className="text-sm opacity-95 mb-4">Match human nervous systems to exact pack energy, then auto-route into the highest-leverage offer or free place.</p>
-              <span className="font-semibold text-[#d4a017]">Open Resonance →</span>
+            <Link to="/hearth" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🔥</div>
+              <h3 className="text-xl font-bold mb-2">The Hearth</h3>
+              <p className="text-sm opacity-95 mb-4">Online home of the remaining pack. Sit, come to the land, keep a place warm, gift a seat.</p>
+              <span className="font-semibold text-[#d4a017]">Sit by the fire →</span>
             </Link>
-            <Link to="/horizon" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌅</div>
-              <h3 className="text-xl font-bold mb-2">Horizon Projector</h3>
-              <p className="text-sm opacity-95 mb-4">See the 10-year tremendous future, then receive the exact this-week actions that make it inevitable.</p>
-              <span className="font-semibold text-[#d4a017]">Project Horizon →</span>
+            <Link to="/signal" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">📡</div>
+              <h3 className="text-xl font-bold mb-2">Signal Tower</h3>
+              <p className="text-sm opacity-95 mb-4">Inbound lanes for bookings, corporate, media and grants. Stop chasing. Let them signal.</p>
+              <span className="font-semibold text-[#d4a017]">Open tower →</span>
+            </Link>
+            <Link to="/mosaic" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🪜</div>
+              <h3 className="text-xl font-bold mb-2">Living Mosaic</h3>
+              <p className="text-sm opacity-95 mb-4">Social proof that grows itself. Every session and gift adds a tile visitors can feel.</p>
+              <span className="font-semibold text-[#d4a017]">See the field →</span>
             </Link>
           </div>
         </div>
@@ -106,51 +112,28 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#c45c26] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Still Compounding — 10 September 2026 Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Still Compounding — Orbit · Resonance · Horizon</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            Cascade Engine, Legacy Forge and Wave Amplifier remain core engines.
+            Perpetual loops, precision matching and 10-year clarity remain live.
           </p>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/cascade" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌊</div>
-              <h3 className="text-xl font-bold mb-2">Cascade Engine</h3>
-              <p className="text-sm opacity-95 mb-4">One booking → full revenue waterfall of upsells, memberships, referrals and free places.</p>
-              <span className="font-semibold text-[#d4a017]">Activate Cascade →</span>
+            <Link to="/orbit" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">♾️</div>
+              <h3 className="text-xl font-bold mb-2">Orbit Engine</h3>
+              <p className="text-sm opacity-95 mb-4">Every booking, content piece and dollar enters self-reinforcing perpetual orbits.</p>
+              <span className="font-semibold text-[#d4a017]">Activate Orbit →</span>
             </Link>
-            <Link to="/forge" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">⚒️</div>
-              <h3 className="text-xl font-bold mb-2">Legacy Forge</h3>
-              <p className="text-sm opacity-95 mb-4">Turn stories, protocols and Olympic vision into permanent compounding IP and digital assets.</p>
-              <span className="font-semibold text-[#d4a017]">Forge Legacy →</span>
+            <Link to="/resonance" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌀</div>
+              <h3 className="text-xl font-bold mb-2">Resonance Field</h3>
+              <p className="text-sm opacity-95 mb-4">Match nervous systems to pack energy, then route to the highest-leverage offer.</p>
+              <span className="font-semibold text-[#d4a017]">Open Resonance →</span>
             </Link>
-            <Link to="/wave" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">📡</div>
-              <h3 className="text-xl font-bold mb-2">Wave Amplifier</h3>
-              <p className="text-sm opacity-95 mb-4">One authentic pack moment becomes multi-platform content that drives bookings and royalties.</p>
-              <span className="font-semibold text-[#d4a017]">Amplify Wave →</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
-      <section className="py-12 px-4 bg-[#d4a017]/20">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-2xl font-bold text-center text-[#2d5016] mb-8">Still Live — Bloom · Seed · Radar · Dream · Flame · Live Command</h2>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/bloom" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">🌸</div>
-              <h3 className="font-bold text-[#c45c26]">Bloom Engine</h3>
-              <p className="text-sm text-gray-600">One action → exponential revenue + impact</p>
-            </Link>
-            <Link to="/seed" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">🌱</div>
-              <h3 className="font-bold text-[#c45c26]">Dream Seed Fund</h3>
-              <p className="text-sm text-gray-600">Micro-support with matching</p>
-            </Link>
-            <Link to="/radar" className="bg-white rounded-2xl p-5 shadow-md border border-[#c45c26]/10 hover:shadow-lg transition">
-              <div className="text-3xl mb-2">📡</div>
-              <h3 className="font-bold text-[#c45c26]">Opportunity Radar</h3>
-              <p className="text-sm text-gray-600">Highest-leverage next moves</p>
+            <Link to="/horizon" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌅</div>
+              <h3 className="text-xl font-bold mb-2">Horizon Projector</h3>
+              <p className="text-sm opacity-95 mb-4">See the 10-year tremendous future, then take this week's exact actions.</p>
+              <span className="font-semibold text-[#d4a017]">Project Horizon →</span>
             </Link>
           </div>
         </div>
@@ -195,8 +178,8 @@ export default function Home() {
               <Link to="/farm" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#a34a1e] transition inline-block">
                 Explore Farm →
               </Link>
-              <Link to="/retreat" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-6 py-3 rounded-full hover:bg-[#c45c26]/5 transition inline-block">
-                View Retreats →
+              <Link to="/hearth" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-6 py-3 rounded-full hover:bg-[#c45c26]/5 transition inline-block">
+                Open the Hearth →
               </Link>
             </div>
           </div>
@@ -215,11 +198,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Full Online Empire Live</h2>
           <p className="opacity-90 mb-8 max-w-2xl mx-auto">
-            Orbit · Resonance · Horizon · Cascade · Forge · Wave · Bloom · Seed · Radar · Dream · Flame · Live Command · Upsurge · Circles · Vault · Hours · Passive · Impact · and 50+ more conversion-ready pages.
+            Beacon · Hearth · Signal · Mosaic · Orbit · Resonance · Horizon · Cascade · Forge · Wave · Bloom · Seed · Radar · and 50+ more conversion-ready pages.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/orbit" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
-              Start with Orbit
+            <Link to="/beacon" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
+              Start with Beacon
             </Link>
             <Link to="/book" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               Book a Session
@@ -232,11 +215,11 @@ export default function Home() {
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
         <p className="mt-2">Giving-first · NDIS-friendly · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
+          <Link to="/beacon" className="hover:text-[#c45c26]">Beacon</Link>
+          <Link to="/hearth" className="hover:text-[#c45c26]">Hearth</Link>
+          <Link to="/signal" className="hover:text-[#c45c26]">Signal</Link>
+          <Link to="/mosaic" className="hover:text-[#c45c26]">Mosaic</Link>
           <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
-          <Link to="/orbit" className="hover:text-[#c45c26]">Orbit</Link>
-          <Link to="/resonance" className="hover:text-[#c45c26]">Resonance</Link>
-          <Link to="/horizon" className="hover:text-[#c45c26]">Horizon</Link>
-          <Link to="/live-empire" className="hover:text-[#c45c26]">Live Command</Link>
         </div>
       </footer>
     </div>
