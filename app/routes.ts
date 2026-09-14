@@ -79,4 +79,8 @@ export default [
   route("constellation", "routes/constellation.tsx"),
   route("ignition", "routes/ignition.tsx"),
   route("harvest", "routes/harvest.tsx"),
+  route("beacon", "routes/beacon.tsx"),
+  route("hearth", "routes/hearth.tsx"),
+  route("signal", "routes/signal.tsx"),
+  route("mosaic", "routes/mosaic.tsx"),
 ] satisfies RouteConfig;
