@@ -83,4 +83,8 @@ export default [
   route("hearth", "routes/hearth.tsx"),
   route("signal", "routes/signal.tsx"),
   route("mosaic", "routes/mosaic.tsx"),
+  route("tide", "routes/tide.tsx"),
+  route("kinship", "routes/kinship.tsx"),
+  route("world", "routes/world.tsx"),
+  route("field", "routes/field.tsx"),
 ] satisfies RouteConfig;
