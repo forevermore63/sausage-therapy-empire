@@ -87,4 +87,8 @@ export default [
   route("kinship", "routes/kinship.tsx"),
   route("world", "routes/world.tsx"),
   route("field", "routes/field.tsx"),
+  route("compass", "routes/compass.tsx"),
+  route("lantern", "routes/lantern.tsx"),
+  route("pact", "routes/pact.tsx"),
+  route("harbor", "routes/harbor.tsx"),
 ] satisfies RouteConfig;
