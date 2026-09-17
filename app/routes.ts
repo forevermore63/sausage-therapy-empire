@@ -91,4 +91,8 @@ export default [
   route("lantern", "routes/lantern.tsx"),
   route("pact", "routes/pact.tsx"),
   route("harbor", "routes/harbor.tsx"),
+  route("ember", "routes/ember.tsx"),
+  route("threshold", "routes/threshold.tsx"),
+  route("wellspring", "routes/wellspring.tsx"),
+  route("bridge", "routes/bridge.tsx"),
 ] satisfies RouteConfig;
