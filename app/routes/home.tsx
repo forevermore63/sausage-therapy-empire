@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Compass, Lantern, Pact, Harbor — from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Wellspring, Current, Nest and Loom grow the dream from true to tremendous.",
     },
   ];
 }
@@ -21,9 +21,10 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
-            <Link to="/compass" className="hover:text-[#c45c26]">Compass</Link>
-            <Link to="/pact" className="hover:text-[#c45c26]">Pact</Link>
-            <Link to="/harbor" className="hover:text-[#c45c26]">Harbor</Link>
+            <Link to="/wellspring" className="hover:text-[#c45c26]">Wellspring</Link>
+            <Link to="/current" className="hover:text-[#c45c26]">Current</Link>
+            <Link to="/nest" className="hover:text-[#c45c26]">Nest</Link>
+            <Link to="/loom" className="hover:text-[#c45c26]">Loom</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -37,14 +38,14 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Compass, Lantern, Pact and Harbor join Beacon, Hearth, Signal and Mosaic.
+            Led by Emily Blue Richards. From true to tremendous: Wellspring, Current, Nest and Loom join Compass, Lantern, Pact and Harbor.
             NDIS-friendly. Giving-first.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/compass" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+            <Link to="/wellspring" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               True → Tremendous →
             </Link>
           </div>
@@ -77,34 +78,34 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 17 September 2026 Tremendous Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 21 September 2026 Tremendous Surge</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
             Four new online engines so the dream grows without you repeating yourself.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4">
-            <Link to="/compass" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🧭</div>
-              <h3 className="text-xl font-bold mb-2">The Compass</h3>
-              <p className="text-sm opacity-95 mb-4">One question. One next step. Routes every visitor to book, give, train or sit.</p>
-              <span className="font-semibold text-[#d4a017]">Take the Compass →</span>
+            <Link to="/wellspring" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌊</div>
+              <h3 className="text-xl font-bold mb-2">Wellspring</h3>
+              <p className="text-sm opacity-95 mb-4">Sponsor a free place. Drop $28 · Stream $84 · Spring $280. The well stays full.</p>
+              <span className="font-semibold text-[#d4a017]">Fill the well →</span>
             </Link>
-            <Link to="/lantern" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">💡</div>
-              <h3 className="text-xl font-bold mb-2">The Lantern</h3>
-              <p className="text-sm opacity-95 mb-4">12-night aftercare product. Healing that holds when the pack has gone home.</p>
-              <span className="font-semibold text-[#d4a017]">Light Lantern →</span>
+            <Link to="/current" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌬️</div>
+              <h3 className="text-xl font-bold mb-2">Current</h3>
+              <p className="text-sm opacity-95 mb-4">Air and load check before the pack arrives. Harbor-safe routing for sensitive bodies.</p>
+              <span className="font-semibold text-[#d4a017]">Check the air →</span>
             </Link>
-            <Link to="/pact" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🤝</div>
-              <h3 className="text-xl font-bold mb-2">The Pact</h3>
-              <p className="text-sm opacity-95 mb-4">Monthly recurring engine. Wag $19 · Hearth $49 · Grove $149. Free places funded.</p>
-              <span className="font-semibold text-[#d4a017]">Make the Pact →</span>
+            <Link to="/nest" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🏡</div>
+              <h3 className="text-xl font-bold mb-2">Nest</h3>
+              <p className="text-sm opacity-95 mb-4">Careful homes for the remaining therapy line. Slow placement on purpose.</p>
+              <span className="font-semibold text-[#d4a017]">Find a nest →</span>
             </Link>
-            <Link to="/harbor" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌅</div>
-              <h3 className="text-xl font-bold mb-2">Harbor</h3>
-              <p className="text-sm opacity-95 mb-4">Low-load first door for CIRS, immunocompromised and chemically sensitive bodies.</p>
-              <span className="font-semibold text-[#d4a017]">Enter Harbor →</span>
+            <Link to="/loom" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🧺</div>
+              <h3 className="text-xl font-bold mb-2">Loom</h3>
+              <p className="text-sm opacity-95 mb-4">One real day woven into story, shop, grant and visual threads.</p>
+              <span className="font-semibold text-[#d4a017]">Start weaving →</span>
             </Link>
           </div>
         </div>
@@ -114,24 +115,24 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Still Compounding</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            Beacon · Hearth · Signal · Mosaic · Orbit · Resonance · Horizon remain live.
+            Compass · Lantern · Pact · Harbor · Beacon · Orbit · Resonance · Horizon remain live.
           </p>
           <div className="grid md:grid-cols-4 gap-6">
-            <Link to="/beacon" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Beacon</h3>
-              <p className="text-sm opacity-95">Living press kit.</p>
+            <Link to="/compass" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Compass</h3>
+              <p className="text-sm opacity-95">One next step.</p>
+            </Link>
+            <Link to="/pact" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Pact</h3>
+              <p className="text-sm opacity-95">Monthly engine.</p>
+            </Link>
+            <Link to="/harbor" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Harbor</h3>
+              <p className="text-sm opacity-95">Low-load door.</p>
             </Link>
             <Link to="/orbit" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <h3 className="text-xl font-bold mb-2">Orbit</h3>
               <p className="text-sm opacity-95">Perpetual loops.</p>
-            </Link>
-            <Link to="/resonance" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Resonance</h3>
-              <p className="text-sm opacity-95">Precision matching.</p>
-            </Link>
-            <Link to="/horizon" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Horizon</h3>
-              <p className="text-sm opacity-95">10-year projector.</p>
             </Link>
           </div>
         </div>
@@ -176,8 +177,8 @@ export default function Home() {
               <Link to="/farm" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#a34a1e] transition inline-block">
                 Explore Farm →
               </Link>
-              <Link to="/harbor" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-6 py-3 rounded-full hover:bg-[#c45c26]/5 transition inline-block">
-                Harbor first →
+              <Link to="/current" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-6 py-3 rounded-full hover:bg-[#c45c26]/5 transition inline-block">
+                Check Current first →
               </Link>
             </div>
           </div>
@@ -196,11 +197,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Full Online Empire Live</h2>
           <p className="opacity-90 mb-8 max-w-2xl mx-auto">
-            Compass · Lantern · Pact · Harbor · Beacon · Hearth · Signal · Mosaic · and 50+ more conversion-ready pages.
+            Wellspring · Current · Nest · Loom · Compass · Pact · Harbor and 50+ more conversion-ready pages.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/compass" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
-              Start with Compass
+            <Link to="/wellspring" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
+              Start with Wellspring
             </Link>
             <Link to="/book" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               Book a Session
@@ -213,10 +214,10 @@ export default function Home() {
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
         <p className="mt-2">Giving-first · NDIS-friendly · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
-          <Link to="/compass" className="hover:text-[#c45c26]">Compass</Link>
-          <Link to="/lantern" className="hover:text-[#c45c26]">Lantern</Link>
-          <Link to="/pact" className="hover:text-[#c45c26]">Pact</Link>
-          <Link to="/harbor" className="hover:text-[#c45c26]">Harbor</Link>
+          <Link to="/wellspring" className="hover:text-[#c45c26]">Wellspring</Link>
+          <Link to="/current" className="hover:text-[#c45c26]">Current</Link>
+          <Link to="/nest" className="hover:text-[#c45c26]">Nest</Link>
+          <Link to="/loom" className="hover:text-[#c45c26]">Loom</Link>
           <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
         </div>
       </footer>
