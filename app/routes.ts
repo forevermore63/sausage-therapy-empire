@@ -95,4 +95,12 @@ export default [
   route("threshold", "routes/threshold.tsx"),
   route("wellspring", "routes/wellspring.tsx"),
   route("bridge", "routes/bridge.tsx"),
+  route("kindling", "routes/kindling.tsx"),
+  route("passport", "routes/passport.tsx"),
+  route("founders", "routes/founders.tsx"),
+  route("trail", "routes/trail.tsx"),
+  route("pulse", "routes/pulse.tsx"),
+  route("vessel", "routes/vessel.tsx"),
+  route("crown", "routes/crown.tsx"),
+  route("root", "routes/root.tsx"),
 ] satisfies RouteConfig;

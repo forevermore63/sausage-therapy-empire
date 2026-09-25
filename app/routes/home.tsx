@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Kindling, Trail, Passport and Founders grow the dream from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Pulse, Vessel, Crown and Root grow the dream from true to tremendous.",
     },
   ];
 }
@@ -21,10 +21,10 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
-            <Link to="/kindling" className="hover:text-[#c45c26]">Kindling</Link>
-            <Link to="/trail" className="hover:text-[#c45c26]">Trail</Link>
-            <Link to="/passport" className="hover:text-[#c45c26]">Passport</Link>
-            <Link to="/founders" className="hover:text-[#c45c26]">Founders</Link>
+            <Link to="/pulse" className="hover:text-[#c45c26]">Pulse</Link>
+            <Link to="/vessel" className="hover:text-[#c45c26]">Vessel</Link>
+            <Link to="/crown" className="hover:text-[#c45c26]">Crown</Link>
+            <Link to="/root" className="hover:text-[#c45c26]">Root</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -38,14 +38,14 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Kindling, Trail, Passport and Founders join Wellspring, Current, Nest and Loom.
+            Led by Emily Blue Richards. From true to tremendous: Pulse, Vessel, Crown and Root join Kindling, Trail, Passport and Founders.
             NDIS-friendly. Giving-first.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/kindling" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+            <Link to="/pulse" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               True → Tremendous →
             </Link>
           </div>
@@ -78,34 +78,34 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 22 September 2026 Tremendous Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 26 September 2026 Tremendous Surge</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
             Four new online engines so the dream grows without you repeating yourself.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4">
-            <Link to="/kindling" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🔥</div>
-              <h3 className="text-xl font-bold mb-2">Kindling</h3>
-              <p className="text-sm opacity-95 mb-4">Gift a session, farm day or free place. Instant certificate. $28–$450.</p>
-              <span className="font-semibold text-[#d4a017]">Light it →</span>
+            <Link to="/pulse" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">❤️</div>
+              <h3 className="text-xl font-bold mb-2">Pulse</h3>
+              <p className="text-sm opacity-95 mb-4">Weekly 7-minute pack check-in. $19 or inside Pact. Low-energy days count.</p>
+              <span className="font-semibold text-[#d4a017]">Hold the beat →</span>
             </Link>
-            <Link to="/trail" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌿</div>
-              <h3 className="text-xl font-bold mb-2">Tremendous Trail</h3>
-              <p className="text-sm opacity-95 mb-4">21-day paid challenge. $47 or inside Pact. Low-energy days still count.</p>
-              <span className="font-semibold text-[#d4a017]">Walk it →</span>
+            <Link to="/vessel" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🚗</div>
+              <h3 className="text-xl font-bold mb-2">Vessel</h3>
+              <p className="text-sm opacity-95 mb-4">Sponsor a Wiener Coaster kilometre. Mobile clinic on the road.</p>
+              <span className="font-semibold text-[#d4a017]">Move the pack →</span>
             </Link>
-            <Link to="/passport" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🛂</div>
-              <h3 className="text-xl font-bold mb-2">Pack Passport</h3>
-              <p className="text-sm opacity-95 mb-4">Digital belonging card for Circle, NDIS families and therapy-line homes.</p>
-              <span className="font-semibold text-[#d4a017]">Issue one →</span>
+            <Link to="/crown" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">👑</div>
+              <h3 className="text-xl font-bold mb-2">Crown</h3>
+              <p className="text-sm opacity-95 mb-4">2032 Olympic supplier and legacy hub. ICN-ready wellbeing.</p>
+              <span className="font-semibold text-[#d4a017]">Claim the lane →</span>
             </Link>
-            <Link to="/founders" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌟</div>
-              <h3 className="text-xl font-bold mb-2">Founders Circle</h3>
-              <p className="text-sm opacity-95 mb-4">Twelve seats. $2,400/year. Funds pack, land and free places.</p>
-              <span className="font-semibold text-[#d4a017]">Take a seat →</span>
+            <Link to="/root" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌱</div>
+              <h3 className="text-xl font-bold mb-2">Root</h3>
+              <p className="text-sm opacity-95 mb-4">Trees, fence and acre care for Forevermore. Land that holds the pack.</p>
+              <span className="font-semibold text-[#d4a017]">Plant it →</span>
             </Link>
           </div>
         </div>
@@ -115,24 +115,24 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Still Compounding</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            Wellspring · Current · Nest · Loom · Compass · Pact · Harbor remain live.
+            Kindling · Trail · Passport · Founders · Wellspring remain live.
           </p>
           <div className="grid md:grid-cols-4 gap-6">
-            <Link to="/wellspring" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Wellspring</h3>
-              <p className="text-sm opacity-95">Sponsor a free place.</p>
+            <Link to="/kindling" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Kindling</h3>
+              <p className="text-sm opacity-95">Gift a session.</p>
             </Link>
-            <Link to="/current" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Current</h3>
-              <p className="text-sm opacity-95">Air and load check.</p>
+            <Link to="/trail" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Trail</h3>
+              <p className="text-sm opacity-95">21-day challenge.</p>
             </Link>
-            <Link to="/nest" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Nest</h3>
-              <p className="text-sm opacity-95">Careful homes.</p>
+            <Link to="/passport" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Passport</h3>
+              <p className="text-sm opacity-95">Belonging card.</p>
             </Link>
-            <Link to="/loom" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Loom</h3>
-              <p className="text-sm opacity-95">One day woven.</p>
+            <Link to="/founders" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Founders</h3>
+              <p className="text-sm opacity-95">Twelve seats.</p>
             </Link>
           </div>
         </div>
@@ -177,8 +177,8 @@ export default function Home() {
               <Link to="/farm" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full hover:bg-[#a34a1e] transition inline-block">
                 Explore Farm →
               </Link>
-              <Link to="/current" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-6 py-3 rounded-full hover:bg-[#c45c26]/5 transition inline-block">
-                Check Current first →
+              <Link to="/root" className="border-2 border-[#c45c26] text-[#c45c26] font-semibold px-6 py-3 rounded-full hover:bg-[#c45c26]/5 transition inline-block">
+                Root the land →
               </Link>
             </div>
           </div>
@@ -197,11 +197,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Full Online Empire Live</h2>
           <p className="opacity-90 mb-8 max-w-2xl mx-auto">
-            Kindling · Trail · Passport · Founders · Wellspring · Current and 50+ more conversion-ready pages.
+            Pulse · Vessel · Crown · Root plus Kindling, Trail and 50+ conversion-ready pages.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/kindling" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
-              Start with Kindling
+            <Link to="/pulse" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
+              Start with Pulse
             </Link>
             <Link to="/book" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               Book a Session
@@ -214,10 +214,10 @@ export default function Home() {
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
         <p className="mt-2">Giving-first · NDIS-friendly · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
-          <Link to="/kindling" className="hover:text-[#c45c26]">Kindling</Link>
-          <Link to="/trail" className="hover:text-[#c45c26]">Trail</Link>
-          <Link to="/passport" className="hover:text-[#c45c26]">Passport</Link>
-          <Link to="/founders" className="hover:text-[#c45c26]">Founders</Link>
+          <Link to="/pulse" className="hover:text-[#c45c26]">Pulse</Link>
+          <Link to="/vessel" className="hover:text-[#c45c26]">Vessel</Link>
+          <Link to="/crown" className="hover:text-[#c45c26]">Crown</Link>
+          <Link to="/root" className="hover:text-[#c45c26]">Root</Link>
           <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
         </div>
       </footer>
