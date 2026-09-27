@@ -103,4 +103,8 @@ export default [
   route("vessel", "routes/vessel.tsx"),
   route("crown", "routes/crown.tsx"),
   route("root", "routes/root.tsx"),
+  route("chorus", "routes/chorus.tsx"),
+  route("keeper", "routes/keeper.tsx"),
+  route("lumen", "routes/lumen.tsx"),
+  route("grove", "routes/grove.tsx"),
 ] satisfies RouteConfig;
