@@ -107,4 +107,8 @@ export default [
   route("keeper", "routes/keeper.tsx"),
   route("lumen", "routes/lumen.tsx"),
   route("grove", "routes/grove.tsx"),
+  route("aegis", "routes/aegis.tsx"),
+  route("nomad", "routes/nomad.tsx"),
+  route("summit", "routes/summit.tsx"),
+  route("ledger", "routes/ledger.tsx"),
 ] satisfies RouteConfig;
