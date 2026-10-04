@@ -111,4 +111,8 @@ export default [
   route("nomad", "routes/nomad.tsx"),
   route("summit", "routes/summit.tsx"),
   route("ledger", "routes/ledger.tsx"),
+  route("meridian", "routes/meridian.tsx"),
+  route("charter", "routes/charter.tsx"),
+  route("dawn", "routes/dawn.tsx"),
+  route("ribbon", "routes/ribbon.tsx"),
 ] satisfies RouteConfig;

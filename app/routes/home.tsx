@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa & beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Aegis, Nomad, Summit and Ledger grow the dream from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Meridian, Charter, Dawn and Ribbon grow the dream from true to tremendous.",
     },
   ];
 }
@@ -21,10 +21,10 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
-            <Link to="/aegis" className="hover:text-[#c45c26]">Aegis</Link>
-            <Link to="/nomad" className="hover:text-[#c45c26]">Nomad</Link>
-            <Link to="/summit" className="hover:text-[#c45c26]">Summit</Link>
-            <Link to="/ledger" className="hover:text-[#c45c26]">Ledger</Link>
+            <Link to="/meridian" className="hover:text-[#c45c26]">Meridian</Link>
+            <Link to="/charter" className="hover:text-[#c45c26]">Charter</Link>
+            <Link to="/dawn" className="hover:text-[#c45c26]">Dawn</Link>
+            <Link to="/ribbon" className="hover:text-[#c45c26]">Ribbon</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -38,14 +38,14 @@ export default function Home() {
             Healing Hearts<br />with Every Wag
           </h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Aegis, Nomad, Summit and Ledger join Pulse, Vessel, Crown and Root.
+            Led by Emily Blue Richards. From true to tremendous: Meridian, Charter, Dawn and Ribbon join Aegis, Nomad, Summit and Ledger.
             NDIS-friendly. Giving-first.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">
               Book a Session
             </Link>
-            <Link to="/aegis" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
+            <Link to="/meridian" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               True → Tremendous →
             </Link>
           </div>
@@ -78,34 +78,34 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 30 September 2026 Tremendous Surge</h2>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 5 October 2026 True to Tremendous</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            Four new online engines so the dream grows without you repeating yourself.
+            Four new online engines. Screen sessions, workplace retainers, morning rituals, and gifts that keep giving.
           </p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-4">
-            <Link to="/aegis" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🛡️</div>
-              <h3 className="text-xl font-bold mb-2">Aegis</h3>
-              <p className="text-sm opacity-95 mb-4">Air-and-load shield for sensitive bodies. $39 membership.</p>
-              <span className="font-semibold text-[#d4a017]">Raise the shield →</span>
-            </Link>
-            <Link to="/nomad" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🚗</div>
-              <h3 className="text-xl font-bold mb-2">Nomad</h3>
-              <p className="text-sm opacity-95 mb-4">Wiener Coaster tour dates, seats and sponsored kilometres.</p>
-              <span className="font-semibold text-[#d4a017]">Move the clinic →</span>
-            </Link>
-            <Link to="/summit" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🏆</div>
-              <h3 className="text-xl font-bold mb-2">Summit</h3>
-              <p className="text-sm opacity-95 mb-4">2027 industry gathering. Practitioner, org and stream tickets.</p>
+            <Link to="/meridian" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">📡</div>
+              <h3 className="text-xl font-bold mb-2">Meridian</h3>
+              <p className="text-sm opacity-95 mb-4">Screen-side pack visit from anywhere. From $89.</p>
               <span className="font-semibold text-[#d4a017]">Hold a seat →</span>
             </Link>
-            <Link to="/ledger" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">📒</div>
-              <h3 className="text-xl font-bold mb-2">Ledger</h3>
-              <p className="text-sm opacity-95 mb-4">Public money-in and given-back proof. Trust that converts.</p>
-              <span className="font-semibold text-[#d4a017]">See the numbers →</span>
+            <Link to="/charter" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">📜</div>
+              <h3 className="text-xl font-bold mb-2">Charter</h3>
+              <p className="text-sm opacity-95 mb-4">Annual workplace pack retainer. From $4,800.</p>
+              <span className="font-semibold text-[#d4a017]">Open a Charter →</span>
+            </Link>
+            <Link to="/dawn" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🌅</div>
+              <h3 className="text-xl font-bold mb-2">Dawn</h3>
+              <p className="text-sm opacity-95 mb-4">Three-minute morning ritual. $19 a month.</p>
+              <span className="font-semibold text-[#d4a017]">Start tomorrow →</span>
+            </Link>
+            <Link to="/ribbon" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🎀</div>
+              <h3 className="text-xl font-bold mb-2">Ribbon</h3>
+              <p className="text-sm opacity-95 mb-4">Monthly gift of the pack. From $29.</p>
+              <span className="font-semibold text-[#d4a017]">Tie a Ribbon →</span>
             </Link>
           </div>
         </div>
@@ -115,24 +115,24 @@ export default function Home() {
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Still Compounding</h2>
           <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
-            Pulse · Vessel · Crown · Root · Kindling remain live.
+            Aegis · Nomad · Summit · Ledger remain live beside Pulse, Vessel, Crown and Root.
           </p>
           <div className="grid md:grid-cols-4 gap-6">
-            <Link to="/pulse" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Pulse</h3>
-              <p className="text-sm opacity-95">Weekly check-in.</p>
+            <Link to="/aegis" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Aegis</h3>
+              <p className="text-sm opacity-95">Air-and-load shield.</p>
             </Link>
-            <Link to="/vessel" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Vessel</h3>
-              <p className="text-sm opacity-95">Sponsor a kilometre.</p>
+            <Link to="/nomad" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Nomad</h3>
+              <p className="text-sm opacity-95">Wiener Coaster tour.</p>
             </Link>
-            <Link to="/crown" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Crown</h3>
-              <p className="text-sm opacity-95">2032 Olympic lane.</p>
+            <Link to="/summit" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Summit</h3>
+              <p className="text-sm opacity-95">2027 industry gathering.</p>
             </Link>
-            <Link to="/root" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <h3 className="text-xl font-bold mb-2">Root</h3>
-              <p className="text-sm opacity-95">Land that holds the pack.</p>
+            <Link to="/ledger" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <h3 className="text-xl font-bold mb-2">Ledger</h3>
+              <p className="text-sm opacity-95">Public money proof.</p>
             </Link>
           </div>
         </div>
@@ -145,22 +145,22 @@ export default function Home() {
             <div className="text-4xl mb-4">💛</div>
             <h3 className="text-xl font-bold text-[#c45c26] mb-2">Individual Healing</h3>
             <p className="text-3xl font-bold mb-2">From $150</p>
-            <p className="text-gray-700 mb-4">45–60 min one-on-one or family with the pack. NDIS-friendly. Mobile Gold Coast / Noosa.</p>
+            <p className="text-gray-700 mb-4">45–60 min one-on-one or family with the pack. NDIS-friendly where a qualified practitioner and plan allow. Mobile Gold Coast / Noosa.</p>
             <Link to="/book" className="text-[#c45c26] font-semibold hover:underline">Book →</Link>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-md card-hover border border-[#c45c26]/10">
             <div className="text-4xl mb-4">🏢</div>
             <h3 className="text-xl font-bold text-[#c45c26] mb-2">Corporate & Groups</h3>
             <p className="text-3xl font-bold mb-2">From $450</p>
-            <p className="text-gray-700 mb-4">Office visits, team days, private parties. Pack of miniature dachshunds included.</p>
-            <Link to="/corporate" className="text-[#c45c26] font-semibold hover:underline">Corporate Hub →</Link>
+            <p className="text-gray-700 mb-4">Office visits, team days, private parties. Pack of miniature dachshunds included. Annual path is Charter.</p>
+            <Link to="/charter" className="text-[#c45c26] font-semibold hover:underline">Charter →</Link>
           </div>
           <div className="bg-white rounded-2xl p-6 shadow-md card-hover border border-[#c45c26]/10">
-            <div className="text-4xl mb-4">⛵</div>
-            <h3 className="text-xl font-bold text-[#c45c26] mb-2">SNOUTSAIL Boat</h3>
-            <p className="text-3xl font-bold mb-2">Enquire</p>
-            <p className="text-gray-700 mb-4">Marina + hinterland combination for deeper healing and corporate standout.</p>
-            <Link to="/book" className="text-[#c45c26] font-semibold hover:underline">Enquire →</Link>
+            <div className="text-4xl mb-4">📡</div>
+            <h3 className="text-xl font-bold text-[#c45c26] mb-2">Meridian Screen</h3>
+            <p className="text-3xl font-bold mb-2">From $89</p>
+            <p className="text-gray-700 mb-4">Live pack on screen for people who cannot travel this week.</p>
+            <Link to="/meridian" className="text-[#c45c26] font-semibold hover:underline">Hold a seat →</Link>
           </div>
         </div>
       </section>
@@ -197,11 +197,11 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Full Online Empire Live</h2>
           <p className="opacity-90 mb-8 max-w-2xl mx-auto">
-            Aegis · Nomad · Summit · Ledger plus Pulse, Vessel and 50+ conversion-ready pages.
+            Meridian · Charter · Dawn · Ribbon plus Aegis, Nomad, Summit, Ledger and 50+ conversion-ready pages.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link to="/aegis" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
-              Start with Aegis
+            <Link to="/meridian" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
+              Start with Meridian
             </Link>
             <Link to="/book" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">
               Book a Session
@@ -212,13 +212,13 @@ export default function Home() {
 
       <footer className="py-8 px-4 bg-[#fdf6e3] border-t border-[#c45c26]/20 text-center text-sm text-gray-600">
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
-        <p className="mt-2">Giving-first · NDIS-friendly · From true to tremendous</p>
+        <p className="mt-2">Giving-first · NDIS-friendly where the plan and practitioner allow · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
-          <Link to="/aegis" className="hover:text-[#c45c26]">Aegis</Link>
-          <Link to="/nomad" className="hover:text-[#c45c26]">Nomad</Link>
-          <Link to="/summit" className="hover:text-[#c45c26]">Summit</Link>
+          <Link to="/meridian" className="hover:text-[#c45c26]">Meridian</Link>
+          <Link to="/charter" className="hover:text-[#c45c26]">Charter</Link>
+          <Link to="/dawn" className="hover:text-[#c45c26]">Dawn</Link>
+          <Link to="/ribbon" className="hover:text-[#c45c26]">Ribbon</Link>
           <Link to="/ledger" className="hover:text-[#c45c26]">Ledger</Link>
-          <Link to="/impact" className="hover:text-[#c45c26]">Impact</Link>
         </div>
       </footer>
     </div>
