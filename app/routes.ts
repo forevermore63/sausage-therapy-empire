@@ -115,4 +115,10 @@ export default [
   route("charter", "routes/charter.tsx"),
   route("dawn", "routes/dawn.tsx"),
   route("ribbon", "routes/ribbon.tsx"),
+  route("nightwatch", "routes/nightwatch.tsx"),
+  route("dispatch", "routes/dispatch.tsx"),
+  route("olympiad", "routes/olympiad.tsx"),
+  route("aftercare", "routes/aftercare.tsx"),
+  route("patron", "routes/patron.tsx"),
+  route("relay", "routes/relay.tsx"),
 ] satisfies RouteConfig;

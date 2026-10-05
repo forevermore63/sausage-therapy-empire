@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Meridian, Charter, Dawn and Ribbon grow the dream from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron and Relay grow the dream from true to tremendous.",
     },
   ];
 }
@@ -25,6 +25,7 @@ export default function Home() {
             <Link to="/charter" className="hover:text-[#c45c26]">Charter</Link>
             <Link to="/dawn" className="hover:text-[#c45c26]">Dawn</Link>
             <Link to="/ribbon" className="hover:text-[#c45c26]">Ribbon</Link>
+            <Link to="/relay" className="hover:text-[#c45c26]">Relay</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -106,6 +107,54 @@ export default function Home() {
               <h3 className="text-xl font-bold mb-2">Ribbon</h3>
               <p className="text-sm opacity-95 mb-4">Monthly gift of the pack. From $29.</p>
               <span className="font-semibold text-[#d4a017]">Tie a Ribbon →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+
+      <section className="py-16 px-4 bg-[#1c140c] text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 6 October 2026 Tremendous Layer</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">
+            Six new online engines. Night calm, a rolling dispatch, the 2032 desk, a 7-day protocol, monthly patrons, and a router that picks the door.
+          </p>
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link to="/nightwatch" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🌙</div>
+              <h3 className="text-xl font-bold mb-2">Night Watch</h3>
+              <p className="text-sm opacity-95 mb-4">Late screen settling. $39, or $59 a month.</p>
+              <span className="font-semibold text-[#d4a017]">Hold a late window →</span>
+            </Link>
+            <Link to="/dispatch" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🚐</div>
+              <h3 className="text-xl font-bold mb-2">Dispatch</h3>
+              <p className="text-sm opacity-95 mb-4">Wiener Coaster and coffee van, one request.</p>
+              <span className="font-semibold text-[#d4a017]">Request a roll-out →</span>
+            </Link>
+            <Link to="/olympiad" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🏅</div>
+              <h3 className="text-xl font-bold mb-2">Olympiad Desk</h3>
+              <p className="text-sm opacity-95 mb-4">2032 hospitality, recovery, legacy interest.</p>
+              <span className="font-semibold text-[#d4a017]">Lodge interest →</span>
+            </Link>
+            <Link to="/aftercare" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">📜</div>
+              <h3 className="text-xl font-bold mb-2">Aftercare</h3>
+              <p className="text-sm opacity-95 mb-4">7-day protocol. $37. Opens on the page.</p>
+              <span className="font-semibold text-[#d4a017]">Open the week →</span>
+            </Link>
+            <Link to="/patron" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">💛</div>
+              <h3 className="text-xl font-bold mb-2">Patron Circle</h3>
+              <p className="text-sm opacity-95 mb-4">$11, $33 or $88 a month. Ledger-visible.</p>
+              <span className="font-semibold text-[#d4a017]">Take a seat →</span>
+            </Link>
+            <Link to="/relay" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🧭</div>
+              <h3 className="text-xl font-bold mb-2">Relay</h3>
+              <p className="text-sm opacity-95 mb-4">Three questions. The right door.</p>
+              <span className="font-semibold text-[#d4a017]">Start Relay →</span>
             </Link>
           </div>
         </div>
@@ -197,7 +246,7 @@ export default function Home() {
         <div className="max-w-6xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">Full Online Empire Live</h2>
           <p className="opacity-90 mb-8 max-w-2xl mx-auto">
-            Meridian · Charter · Dawn · Ribbon plus Aegis, Nomad, Summit, Ledger and 50+ conversion-ready pages.
+            Night Watch · Dispatch · Olympiad · Aftercare · Patron · Relay plus Meridian, Charter, Dawn, Ribbon and the rest of the empire.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/meridian" className="bg-white text-[#2d5016] font-semibold px-8 py-3.5 rounded-full hover:bg-[#fdf6e3] transition">
@@ -218,6 +267,9 @@ export default function Home() {
           <Link to="/charter" className="hover:text-[#c45c26]">Charter</Link>
           <Link to="/dawn" className="hover:text-[#c45c26]">Dawn</Link>
           <Link to="/ribbon" className="hover:text-[#c45c26]">Ribbon</Link>
+          <Link to="/nightwatch" className="hover:text-[#c45c26]">Night Watch</Link>
+          <Link to="/dispatch" className="hover:text-[#c45c26]">Dispatch</Link>
+          <Link to="/relay" className="hover:text-[#c45c26]">Relay</Link>
           <Link to="/ledger" className="hover:text-[#c45c26]">Ledger</Link>
         </div>
       </footer>
