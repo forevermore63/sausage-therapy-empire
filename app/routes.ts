@@ -121,4 +121,8 @@ export default [
   route("aftercare", "routes/aftercare.tsx"),
   route("patron", "routes/patron.tsx"),
   route("relay", "routes/relay.tsx"),
+  route("spark", "routes/spark.tsx"),
+  route("thrive", "routes/thrive.tsx"),
+  route("anchor", "routes/anchor.tsx"),
+  route("flourish", "routes/flourish.tsx"),
 ] satisfies RouteConfig;

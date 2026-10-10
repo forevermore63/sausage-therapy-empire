@@ -6,15 +6,15 @@ Full-scale online platform for Sausage Therapy / Therapy Sausages. Led by Emily 
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — 9 October 2026
+## Status: Tremendous Expansion — 11 October 2026
 
-Four new online engines pushed to main. Vercel deploys from this branch.
+Four brand-new online engines pushed to main. Vercel deploys from this branch.
 
-- **Wick** (`/wick`) — $9, 90-second spark. $2 to dog welfare. Door into Dawn.
-- **Orchard** (`/orchard`) — coffee van and farm days. Cup and Wag $40, Harvest Hour $180, Orchard Day $380.
-- **Spool** (`/spool`) — this week's posts ready to copy. Distribution without a blank page.
-- **Vale** (`/vale`) — 14-day companion after loss. $47. $10 to dog welfare. Not a crisis service.
+- **Spark** (`/spark`) — Instant $19 pack greeting. 60-second voice note + photo. $5 to dog welfare.
+- **Thrive** (`/thrive`) — 30-day pack challenge. $67. Daily rituals + Meridian credit. $15 to dogs.
+- **Anchor** (`/anchor`) — Corporate wellness retainer. From $2,400. Multi-session with reporting.
+- **Flourish** (`/flourish`) — Licensed visual packs of the therapy dachshunds. From $49. Visual wealth for clinics and creators.
 
-Previous live layers remain: Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron, Relay, and the rest of the empire.
+Previous live layers remain: Wick, Orchard, Spool, Vale, Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron, Relay, and the full empire.
 
-Holds save on the device until Stripe payment links are attached.
+Holds save on the device until Stripe payment links are attached. Giving-first. From true to tremendous.
