@@ -125,4 +125,7 @@ export default [
   route("thrive", "routes/thrive.tsx"),
   route("anchor", "routes/anchor.tsx"),
   route("flourish", "routes/flourish.tsx"),
+  route("aurora", "routes/aurora.tsx"),
+  route("haven", "routes/haven.tsx"),
+  route("catalyst", "routes/catalyst.tsx"),
 ] satisfies RouteConfig;
