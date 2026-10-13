@@ -128,4 +128,7 @@ export default [
   route("aurora", "routes/aurora.tsx"),
   route("haven", "routes/haven.tsx"),
   route("catalyst", "routes/catalyst.tsx"),
+  route("radiance", "routes/radiance.tsx"),
+  route("solace", "routes/solace.tsx"),
+  route("kindle", "routes/kindle.tsx"),
 ] satisfies RouteConfig;

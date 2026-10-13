@@ -6,14 +6,14 @@ Full-scale online platform for Sausage Therapy / Therapy Sausages. Led by Emily 
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — 13 October 2026
+## Status: Tremendous Expansion — 14 October 2026
 
 Three brand-new online engines pushed to main. Vercel deploys from this branch.
 
-- **Aurora** (`/aurora`) — Full day pack rhythm. $39/month. Morning, midday, evening presence. $10 to dog welfare.
-- **Haven** (`/haven`) — Protected presence for sensitive systems. $57. Guided pack calm. $12 to dogs.
-- **Catalyst** (`/catalyst`) — 5-day team ignition. $297. Micro pack presence for workplaces. $50 to dog welfare. Door into Charter.
+- **Radiance** (`/radiance`) — Daily morning pack radiance. $29/month. Photo + 60-sec note. $8 to dog welfare.
+- **Solace** (`/solace`) — Instant protected calm. $37. Guided settle for hard days. $10 to dogs.
+- **Kindle** (`/kindle`) — 7-day digital pack immersion. $97. Daily presence and practices. $25 to dog welfare.
 
-Previous live layers remain: Spark, Thrive, Anchor, Flourish, Wick, Orchard, Spool, Vale, Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron, Relay, and the full empire.
+Previous layers remain live: Aurora, Haven, Catalyst, Wick, Orchard, Spool, Vale, Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron, Relay, Spark, Thrive, Anchor, Flourish and the full empire.
 
 Holds save on the device until Stripe payment links are attached. Giving-first. From true to tremendous.
