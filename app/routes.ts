@@ -131,4 +131,8 @@ export default [
   route("radiance", "routes/radiance.tsx"),
   route("solace", "routes/solace.tsx"),
   route("kindle", "routes/kindle.tsx"),
+  route("echo", "routes/echo.tsx"),
+  route("whisper", "routes/whisper.tsx"),
+  route("rhythm", "routes/rhythm.tsx"),
+  route("gather", "routes/gather.tsx"),
 ] satisfies RouteConfig;
