@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Echo, Whisper, Rhythm and Gather grow the dream from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Zenith, Spectrum, Echo, Whisper, Rhythm and Gather grow the dream from true to tremendous.",
     },
   ];
 }
@@ -21,6 +21,8 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
+            <Link to="/zenith" className="hover:text-[#c45c26]">Zenith</Link>
+            <Link to="/spectrum" className="hover:text-[#c45c26]">Spectrum</Link>
             <Link to="/echo" className="hover:text-[#c45c26]">Echo</Link>
             <Link to="/whisper" className="hover:text-[#c45c26]">Whisper</Link>
             <Link to="/rhythm" className="hover:text-[#c45c26]">Rhythm</Link>
@@ -36,12 +38,12 @@ export default function Home() {
           <p className="text-lg md:text-xl opacity-90 mb-3">Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Healing Hearts<br />with Every Wag</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Echo, Whisper, Rhythm and Gather join the live empire.
+            Led by Emily Blue Richards. From true to tremendous: Zenith, Spectrum, Echo, Whisper, Rhythm and Gather join the live empire.
             NDIS-friendly. Giving-first.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">Book a Session</Link>
-            <Link to="/echo" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
+            <Link to="/zenith" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
           </div>
         </div>
       </section>
@@ -72,28 +74,49 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#1a120c] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 15 October 2026 True to Tremendous</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Four new online engines. Daily echo, soft whisper, weekly rhythm, and monthly gather. Giving-first. From true to tremendous.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 21 October 2026 True to Tremendous</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Two new online engines. Peak presence circle and instant pathway assessment. Giving-first. From true to tremendous.</p>
+          <div className="grid md:grid-cols-2 gap-6">
+            <Link to="/zenith" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">⬆️</div>
+              <h3 className="text-xl font-bold mb-2">Zenith</h3>
+              <p className="text-sm opacity-95 mb-4">Peak presence coaching circle. $97/month. $25 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Enter Zenith →</span>
+            </Link>
+            <Link to="/spectrum" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🌈</div>
+              <h3 className="text-xl font-bold mb-2">Spectrum</h3>
+              <p className="text-sm opacity-95 mb-4">Instant healing pathway assessment. Free to start. Converts to the right engine.</p>
+              <span className="font-semibold text-[#d4a017]">Take Spectrum →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
+      <section className="py-16 px-4 bg-[#2d5016] text-white">
+        <div className="max-w-6xl mx-auto">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Live layer — 15 October</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Echo, Whisper, Rhythm and Gather remain the daily-to-monthly engines.</p>
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <Link to="/echo" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+            <Link to="/echo" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🔊</div>
               <h3 className="text-xl font-bold mb-2">Echo</h3>
               <p className="text-sm opacity-95 mb-4">Daily pack note. $24/month. $6 to the dogs.</p>
               <span className="font-semibold text-[#d4a017]">Begin the echo →</span>
             </Link>
-            <Link to="/whisper" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+            <Link to="/whisper" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🗣️</div>
               <h3 className="text-xl font-bold mb-2">Whisper</h3>
               <p className="text-sm opacity-95 mb-4">Daily soft note. $19/month. $5 to the dogs.</p>
               <span className="font-semibold text-[#d4a017]">Start the whisper →</span>
             </Link>
-            <Link to="/rhythm" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+            <Link to="/rhythm" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🎵</div>
               <h3 className="text-xl font-bold mb-2">Rhythm</h3>
               <p className="text-sm opacity-95 mb-4">Weekly cycle. $57. $14 to the dogs.</p>
               <span className="font-semibold text-[#d4a017]">Begin the rhythm →</span>
             </Link>
-            <Link to="/gather" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+            <Link to="/gather" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
               <div className="text-4xl mb-3">🤝</div>
               <h3 className="text-xl font-bold mb-2">Gather</h3>
               <p className="text-sm opacity-95 mb-4">Monthly circle. $77. $18 to the dogs.</p>
@@ -103,37 +126,22 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-16 px-4 bg-[#2d5016] text-white">
-        <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous layer — 14 October</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Radiance, Solace and Kindle remain live.</p>
-          <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/radiance" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">✨</div>
-              <h3 className="text-xl font-bold mb-2">Radiance</h3>
-              <p className="text-sm opacity-95 mb-4">Daily morning pack light. $29/month. $8 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Begin the light →</span>
-            </Link>
-            <Link to="/solace" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌿</div>
-              <h3 className="text-xl font-bold mb-2">Solace</h3>
-              <p className="text-sm opacity-95 mb-4">Instant protected calm. $37. $10 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Open Solace →</span>
-            </Link>
-            <Link to="/kindle" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🔥</div>
-              <h3 className="text-xl font-bold mb-2">Kindle</h3>
-              <p className="text-sm opacity-95 mb-4">7-day digital immersion. $97. $25 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Kindle the week →</span>
-            </Link>
-          </div>
-        </div>
-      </section>
-
       <section className="py-16 px-4 bg-[#1c140c] text-white">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Still live — earlier layers</h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+            <Link to="/radiance" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <h3 className="text-xl font-bold mb-2">Radiance</h3>
+              <p className="text-sm opacity-95">Daily morning pack light. $29/month.</p>
+            </Link>
+            <Link to="/solace" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <h3 className="text-xl font-bold mb-2">Solace</h3>
+              <p className="text-sm opacity-95">Instant protected calm. $37.</p>
+            </Link>
+            <Link to="/kindle" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <h3 className="text-xl font-bold mb-2">Kindle</h3>
+              <p className="text-sm opacity-95">7-day digital immersion. $97.</p>
+            </Link>
             <Link to="/aurora" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
               <h3 className="text-xl font-bold mb-2">Aurora</h3>
               <p className="text-sm opacity-95">Full day pack rhythm. $39/month.</p>
@@ -145,18 +153,6 @@ export default function Home() {
             <Link to="/catalyst" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
               <h3 className="text-xl font-bold mb-2">Catalyst</h3>
               <p className="text-sm opacity-95">5-day team ignition. $297.</p>
-            </Link>
-            <Link to="/wick" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <h3 className="text-xl font-bold mb-2">Wick</h3>
-              <p className="text-sm opacity-95">90-second spark. $9.</p>
-            </Link>
-            <Link to="/dawn" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <h3 className="text-xl font-bold mb-2">Dawn</h3>
-              <p className="text-sm opacity-95">Three-minute morning ritual. $19 a month.</p>
-            </Link>
-            <Link to="/spark" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <h3 className="text-xl font-bold mb-2">Spark</h3>
-              <p className="text-sm opacity-95">Instant pack greeting. $19.</p>
             </Link>
           </div>
         </div>
@@ -212,11 +208,12 @@ export default function Home() {
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
         <p className="mt-2">Giving-first · NDIS-friendly where the plan and practitioner allow · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
+          <Link to="/zenith" className="hover:text-[#c45c26]">Zenith</Link>
+          <Link to="/spectrum" className="hover:text-[#c45c26]">Spectrum</Link>
           <Link to="/echo" className="hover:text-[#c45c26]">Echo</Link>
           <Link to="/whisper" className="hover:text-[#c45c26]">Whisper</Link>
           <Link to="/rhythm" className="hover:text-[#c45c26]">Rhythm</Link>
           <Link to="/gather" className="hover:text-[#c45c26]">Gather</Link>
-          <Link to="/radiance" className="hover:text-[#c45c26]">Radiance</Link>
           <Link to="/ledger" className="hover:text-[#c45c26]">Ledger</Link>
         </div>
       </footer>
