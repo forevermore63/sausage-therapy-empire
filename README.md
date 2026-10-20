@@ -6,15 +6,13 @@ Full-scale online platform for Sausage Therapy / Therapy Sausages. Led by Emily 
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — 15 October 2026
+## Status: Tremendous Expansion — 21 October 2026
 
-Four brand-new online engines pushed to main. Vercel deploys from this branch.
+Two brand-new online engines pushed to main. Vercel deploys from this branch.
 
-- **Echo** (`/echo`) — Daily pack note. $24/month. Short presence message. $6 to dog welfare.
-- **Whisper** (`/whisper`) — Daily soft note. $19/month. Gentle morning presence. $5 to dogs.
-- **Rhythm** (`/rhythm`) — Weekly pack cycle. $57. Structured practices. $14 to dog welfare.
-- **Gather** (`/gather`) — Monthly virtual circle. $77. Live or recorded. $18 to dogs.
+- **Zenith** (`/zenith`) — Peak presence coaching circle. $97/month. Live or recorded. $25 to dog welfare.
+- **Spectrum** (`/spectrum`) — Instant healing pathway assessment. Free to start. Converts insight into the right engine.
 
-Previous layer remains live: Radiance, Solace, Kindle, Aurora, Haven, Catalyst, Wick, Orchard, Spool, Vale, Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron, Relay, Spark, Thrive, Anchor, Flourish and the full empire.
+Previous layer remains live: Echo, Whisper, Rhythm, Gather, Radiance, Solace, Kindle, Aurora, Haven, Catalyst, Wick, Orchard, Spool, Vale, Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron, Relay, Spark, Thrive, Anchor, Flourish and the full empire.
 
 Holds save on the device until Stripe payment links are attached. Giving-first. From true to tremendous.
