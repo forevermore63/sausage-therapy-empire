@@ -135,4 +135,6 @@ export default [
   route("whisper", "routes/whisper.tsx"),
   route("rhythm", "routes/rhythm.tsx"),
   route("gather", "routes/gather.tsx"),
+  route("nova", "routes/nova.tsx"),
+  route("apex", "routes/apex.tsx"),
 ] satisfies RouteConfig;
