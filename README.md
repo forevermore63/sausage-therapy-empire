@@ -6,13 +6,13 @@ Full-scale online platform for Sausage Therapy / Therapy Sausages. Led by Emily 
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — 21 October 2026
+## Status: Tremendous Expansion — 24 October 2026
 
 Two brand-new online engines pushed to main. Vercel deploys from this branch.
 
-- **Zenith** (`/zenith`) — Peak presence coaching circle. $97/month. Live or recorded. $25 to dog welfare.
-- **Spectrum** (`/spectrum`) — Instant healing pathway assessment. Free to start. Converts insight into the right engine.
+- **Nova** (`/nova`) — Instant digital pack immersion. $47 one-time. 7 micro-sessions of pure dachshund presence on demand. $12 to dog welfare.
+- **Apex** (`/apex`) — Annual peak mastery circle. $497/year. Live intensives + digital vault. $125 to dog welfare.
 
-Previous layer remains live: Echo, Whisper, Rhythm, Gather, Radiance, Solace, Kindle, Aurora, Haven, Catalyst, Wick, Orchard, Spool, Vale, Meridian, Charter, Dawn, Ribbon, Night Watch, Dispatch, Olympiad, Aftercare, Patron, Relay, Spark, Thrive, Anchor, Flourish and the full empire.
+Previous layer remains live: Zenith, Spectrum, Echo, Whisper, Rhythm, Gather, Radiance, Solace, Kindle, Aurora, Haven, Catalyst and the full empire.
 
 Holds save on the device until Stripe payment links are attached. Giving-first. From true to tremendous.
