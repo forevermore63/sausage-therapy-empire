@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Nova, Apex, Zenith, Spectrum and the full empire grow the dream from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Pinnacle, Lumina, Nova, Apex and the full empire grow the dream from true to tremendous.",
     },
   ];
 }
@@ -21,10 +21,10 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
+            <Link to="/pinnacle" className="hover:text-[#c45c26]">Pinnacle</Link>
+            <Link to="/lumina" className="hover:text-[#c45c26]">Lumina</Link>
             <Link to="/nova" className="hover:text-[#c45c26]">Nova</Link>
             <Link to="/apex" className="hover:text-[#c45c26]">Apex</Link>
-            <Link to="/zenith" className="hover:text-[#c45c26]">Zenith</Link>
-            <Link to="/spectrum" className="hover:text-[#c45c26]">Spectrum</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -36,12 +36,12 @@ export default function Home() {
           <p className="text-lg md:text-xl opacity-90 mb-3">Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Healing Hearts<br />with Every Wag</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Nova, Apex, Zenith, Spectrum, Echo, Whisper, Rhythm and Gather join the live empire.
+            Led by Emily Blue Richards. From true to tremendous: Pinnacle, Lumina, Nova, Apex, Zenith, Spectrum and the full live empire.
             NDIS-friendly. Giving-first.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">Book a Session</Link>
-            <Link to="/nova" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
+            <Link to="/pinnacle" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
           </div>
         </div>
       </section>
@@ -72,20 +72,20 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#1a120c] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 24 October 2026 True to Tremendous</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Two new online engines. Instant digital pack immersion and annual peak mastery circle. Giving-first. From true to tremendous.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 26 October 2026 True to Tremendous</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Two new online engines. Lifetime empire mastery and daily pack light immersion. Giving-first. From true to tremendous.</p>
           <div className="grid md:grid-cols-2 gap-6">
-            <Link to="/nova" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <div className="text-4xl mb-3">✨</div>
-              <h3 className="text-xl font-bold mb-2">Nova</h3>
-              <p className="text-sm opacity-95 mb-4">Instant digital pack immersion. $47. 7 micro-sessions. $12 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Ignite Nova →</span>
+            <Link to="/pinnacle" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🏔️</div>
+              <h3 className="text-xl font-bold mb-2">Pinnacle</h3>
+              <p className="text-sm opacity-95 mb-4">Lifetime empire mastery. $997. Full vault + monthly guidance. $250 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Reach the Pinnacle →</span>
             </Link>
-            <Link to="/apex" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <div className="text-4xl mb-3">🏆</div>
-              <h3 className="text-xl font-bold mb-2">Apex</h3>
-              <p className="text-sm opacity-95 mb-4">Annual peak mastery circle. $497/year. $125 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Reach the Apex →</span>
+            <Link to="/lumina" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">✨</div>
+              <h3 className="text-xl font-bold mb-2">Lumina</h3>
+              <p className="text-sm opacity-95 mb-4">Daily pack light immersion. $29/month. Visual + audio drops. $7 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Ignite Lumina →</span>
             </Link>
           </div>
         </div>
@@ -93,20 +93,20 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous layer — 21 October</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Zenith and Spectrum remain the peak and pathway engines.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous layer — 24 October</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Nova and Apex remain the instant immersion and annual peak engines.</p>
           <div className="grid md:grid-cols-2 gap-6">
-            <Link to="/zenith" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">⬆️</div>
-              <h3 className="text-xl font-bold mb-2">Zenith</h3>
-              <p className="text-sm opacity-95 mb-4">Peak presence coaching circle. $97/month. $25 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Enter Zenith →</span>
+            <Link to="/nova" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">✨</div>
+              <h3 className="text-xl font-bold mb-2">Nova</h3>
+              <p className="text-sm opacity-95 mb-4">Instant digital pack immersion. $47. 7 micro-sessions. $12 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Ignite Nova →</span>
             </Link>
-            <Link to="/spectrum" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🌈</div>
-              <h3 className="text-xl font-bold mb-2">Spectrum</h3>
-              <p className="text-sm opacity-95 mb-4">Instant healing pathway assessment. Free to start.</p>
-              <span className="font-semibold text-[#d4a017]">Take Spectrum →</span>
+            <Link to="/apex" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🏆</div>
+              <h3 className="text-xl font-bold mb-2">Apex</h3>
+              <p className="text-sm opacity-95 mb-4">Annual peak mastery circle. $497/year. $125 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Reach the Apex →</span>
             </Link>
           </div>
         </div>
@@ -190,10 +190,10 @@ export default function Home() {
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
         <p className="mt-2">Giving-first · NDIS-friendly where the plan and practitioner allow · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
+          <Link to="/pinnacle" className="hover:text-[#c45c26]">Pinnacle</Link>
+          <Link to="/lumina" className="hover:text-[#c45c26]">Lumina</Link>
           <Link to="/nova" className="hover:text-[#c45c26]">Nova</Link>
           <Link to="/apex" className="hover:text-[#c45c26]">Apex</Link>
-          <Link to="/zenith" className="hover:text-[#c45c26]">Zenith</Link>
-          <Link to="/spectrum" className="hover:text-[#c45c26]">Spectrum</Link>
           <Link to="/ledger" className="hover:text-[#c45c26]">Ledger</Link>
         </div>
       </footer>

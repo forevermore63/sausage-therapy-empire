@@ -137,4 +137,6 @@ export default [
   route("gather", "routes/gather.tsx"),
   route("nova", "routes/nova.tsx"),
   route("apex", "routes/apex.tsx"),
+  route("pinnacle", "routes/pinnacle.tsx"),
+  route("lumina", "routes/lumina.tsx"),
 ] satisfies RouteConfig;
