@@ -139,4 +139,6 @@ export default [
   route("apex", "routes/apex.tsx"),
   route("pinnacle", "routes/pinnacle.tsx"),
   route("lumina", "routes/lumina.tsx"),
+  route("vanguard", "routes/vanguard.tsx"),
+  route("nimbus", "routes/nimbus.tsx"),
 ] satisfies RouteConfig;
