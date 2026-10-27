@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Vanguard, Nimbus, Pinnacle, Lumina and the full empire grow the dream from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Aether, Helix, Vanguard, Nimbus and the full empire grow the dream from true to tremendous.",
     },
   ];
 }
@@ -21,10 +21,10 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
+            <Link to="/aether" className="hover:text-[#c45c26]">Aether</Link>
+            <Link to="/helix" className="hover:text-[#c45c26]">Helix</Link>
             <Link to="/vanguard" className="hover:text-[#c45c26]">Vanguard</Link>
             <Link to="/nimbus" className="hover:text-[#c45c26]">Nimbus</Link>
-            <Link to="/pinnacle" className="hover:text-[#c45c26]">Pinnacle</Link>
-            <Link to="/lumina" className="hover:text-[#c45c26]">Lumina</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -36,12 +36,12 @@ export default function Home() {
           <p className="text-lg md:text-xl opacity-90 mb-3">Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Healing Hearts<br />with Every Wag</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Vanguard, Nimbus, Pinnacle, Lumina and the full live empire.
+            Led by Emily Blue Richards. From true to tremendous: Aether, Helix, Vanguard, Nimbus and the full live empire.
             NDIS-friendly. Giving-first.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">Book a Session</Link>
-            <Link to="/vanguard" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
+            <Link to="/aether" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
           </div>
         </div>
       </section>
@@ -72,20 +72,20 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#1a120c] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 27 October 2026 True to Tremendous</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Two new online engines. Advanced practitioner mastery and daily micro-presence cloud. Giving-first. From true to tremendous.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 28 October 2026 True to Tremendous</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Two new online engines. Perpetual presence cloud and compounding operator spiral. Giving-first. From true to tremendous.</p>
           <div className="grid md:grid-cols-2 gap-6">
-            <Link to="/vanguard" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <div className="text-4xl mb-3">🛡️</div>
-              <h3 className="text-xl font-bold mb-2">Vanguard</h3>
-              <p className="text-sm opacity-95 mb-4">6-month advanced mastery. $2497. Live cohorts + systems. $600 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Lead the Vanguard →</span>
+            <Link to="/aether" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🌀</div>
+              <h3 className="text-xl font-bold mb-2">Aether</h3>
+              <p className="text-sm opacity-95 mb-4">Perpetual presence cloud. $39/month. Soft drops + live impact. $8 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Enter the Aether →</span>
             </Link>
-            <Link to="/nimbus" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <div className="text-4xl mb-3">☁️</div>
-              <h3 className="text-xl font-bold mb-2">Nimbus</h3>
-              <p className="text-sm opacity-95 mb-4">Daily pack micro-presence cloud. $19/month. Soft drops. $5 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Enter the Nimbus →</span>
+            <Link to="/helix" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🔄</div>
+              <h3 className="text-xl font-bold mb-2">Helix</h3>
+              <p className="text-sm opacity-95 mb-4">12-month compounding operator. $4997. Spiral systems. $1200 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Start the Helix →</span>
             </Link>
           </div>
         </div>
@@ -93,20 +93,20 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous layer — 26 October</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Pinnacle and Lumina remain the lifetime mastery and daily light engines.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous layer — 27 October</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Vanguard and Nimbus remain the advanced mastery and daily micro-presence engines.</p>
           <div className="grid md:grid-cols-2 gap-6">
-            <Link to="/pinnacle" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🏔️</div>
-              <h3 className="text-xl font-bold mb-2">Pinnacle</h3>
-              <p className="text-sm opacity-95 mb-4">Lifetime empire mastery. $997. Full vault + monthly guidance. $250 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Reach the Pinnacle →</span>
+            <Link to="/vanguard" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🛡️</div>
+              <h3 className="text-xl font-bold mb-2">Vanguard</h3>
+              <p className="text-sm opacity-95 mb-4">6-month advanced mastery. $2497. Live cohorts + systems. $600 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Lead the Vanguard →</span>
             </Link>
-            <Link to="/lumina" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">✨</div>
-              <h3 className="text-xl font-bold mb-2">Lumina</h3>
-              <p className="text-sm opacity-95 mb-4">Daily pack light immersion. $29/month. Visual + audio drops. $7 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Ignite Lumina →</span>
+            <Link to="/nimbus" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">☁️</div>
+              <h3 className="text-xl font-bold mb-2">Nimbus</h3>
+              <p className="text-sm opacity-95 mb-4">Daily pack micro-presence cloud. $19/month. Soft drops. $5 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Enter the Nimbus →</span>
             </Link>
           </div>
         </div>
@@ -190,10 +190,10 @@ export default function Home() {
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
         <p className="mt-2">Giving-first · NDIS-friendly where the plan and practitioner allow · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
+          <Link to="/aether" className="hover:text-[#c45c26]">Aether</Link>
+          <Link to="/helix" className="hover:text-[#c45c26]">Helix</Link>
           <Link to="/vanguard" className="hover:text-[#c45c26]">Vanguard</Link>
           <Link to="/nimbus" className="hover:text-[#c45c26]">Nimbus</Link>
-          <Link to="/pinnacle" className="hover:text-[#c45c26]">Pinnacle</Link>
-          <Link to="/lumina" className="hover:text-[#c45c26]">Lumina</Link>
           <Link to="/ledger" className="hover:text-[#c45c26]">Ledger</Link>
         </div>
       </footer>
