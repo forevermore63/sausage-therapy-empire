@@ -141,4 +141,6 @@ export default [
   route("lumina", "routes/lumina.tsx"),
   route("vanguard", "routes/vanguard.tsx"),
   route("nimbus", "routes/nimbus.tsx"),
+  route("aether", "routes/aether.tsx"),
+  route("helix", "routes/helix.tsx"),
 ] satisfies RouteConfig;
