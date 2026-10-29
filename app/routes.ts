@@ -143,4 +143,5 @@ export default [
   route("nimbus", "routes/nimbus.tsx"),
   route("aether", "routes/aether.tsx"),
   route("helix", "routes/helix.tsx"),
+  route("1000days", "routes/1000days.tsx"),
 ] satisfies RouteConfig;
