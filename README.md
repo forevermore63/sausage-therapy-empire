@@ -6,13 +6,14 @@ Full-scale online platform for Sausage Therapy / Therapy Sausages. Led by Emily 
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — 28 October 2026
+## Status: Tremendous Expansion — 30 October 2026
 
-Two brand-new online engines pushed to main. Vercel deploys from this branch.
+Three brand-new online engines pushed to main. Vercel deploys from this branch.
 
-- **Aether** (`/aether`) — Perpetual presence cloud. $39/month. Soft daily drops + live impact dashboard + auto-giving visibility. $8 to dog welfare.
-- **Helix** (`/helix`) — 12-month compounding operator program. $4997. Spiral systems, perpetual engines, NDIS/grant levers. $1200 to dog welfare.
+- **Prism** (`/prism`) — Visual wealth upsurge engine. $47/month. Content pipelines, stock photography and visual drops. $12 to dog welfare.
+- **Nexus** (`/nexus`) — Empire integration layer. $197/month. One live dashboard connecting bookings, NDIS, grants, visual and giving. $40 to dog welfare.
+- **Spire** (`/spire`) — 90-day true-to-tremendous sprint. $7997. Private systems install + coaching + perpetual engines. $2000 to dog welfare.
 
-Previous layer remains live: Vanguard, Nimbus, Pinnacle, Lumina, Nova, Apex, Zenith, Spectrum, Echo, Whisper, Rhythm, Gather and the full empire.
+Previous layer remains live: Aether, Helix, Vanguard, Nimbus, Pinnacle, Lumina, Nova, Apex, Zenith, Spectrum, Echo, Whisper, Rhythm, Gather and the full empire.
 
 Holds save on the device until Stripe payment links are attached. Giving-first. From true to tremendous.

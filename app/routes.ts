@@ -144,4 +144,7 @@ export default [
   route("aether", "routes/aether.tsx"),
   route("helix", "routes/helix.tsx"),
   route("1000days", "routes/1000days.tsx"),
+  route("prism", "routes/prism.tsx"),
+  route("nexus", "routes/nexus.tsx"),
+  route("spire", "routes/spire.tsx"),
 ] satisfies RouteConfig;
