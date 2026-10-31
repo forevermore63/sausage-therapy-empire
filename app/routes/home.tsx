@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Quasar, Liminal, Elysium, Prism, Nexus, Spire and the full empire grow the dream from true to tremendous.",
+        "Real dachshund therapy sessions across Gold Coast, Noosa and beyond. NDIS-friendly, giving-first animal-assisted healing led by Emily Blue Richards. Solara, Vector, Olympus, Quasar, Liminal, Elysium and the full empire grow the dream from true to tremendous.",
     },
   ];
 }
@@ -21,10 +21,10 @@ export default function Home() {
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
           <nav className="hidden lg:flex items-center gap-3 text-sm font-medium">
+            <Link to="/solara" className="hover:text-[#c45c26]">Solara</Link>
+            <Link to="/vector" className="hover:text-[#c45c26]">Vector</Link>
+            <Link to="/olympus" className="hover:text-[#c45c26]">Olympus</Link>
             <Link to="/quasar" className="hover:text-[#c45c26]">Quasar</Link>
-            <Link to="/liminal" className="hover:text-[#c45c26]">Liminal</Link>
-            <Link to="/elysium" className="hover:text-[#c45c26]">Elysium</Link>
-            <Link to="/prism" className="hover:text-[#c45c26]">Prism</Link>
             <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e] pulse-glow">Book Now</Link>
           </nav>
           <Link to="/book" className="lg:hidden bg-[#c45c26] text-white px-3 py-1.5 rounded-full text-sm">Book</Link>
@@ -36,12 +36,12 @@ export default function Home() {
           <p className="text-lg md:text-xl opacity-90 mb-3">Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm</p>
           <h1 className="text-4xl md:text-6xl font-bold mb-6 leading-tight">Healing Hearts<br />with Every Wag</h1>
           <p className="text-lg md:text-xl max-w-2xl mx-auto mb-8 opacity-95">
-            Led by Emily Blue Richards. From true to tremendous: Quasar, Liminal, Elysium, Prism, Nexus, Spire and the full live empire.
+            Led by Emily Blue Richards. From true to tremendous: Solara, Vector, Olympus, Quasar, Liminal, Elysium and the full live empire.
             NDIS-friendly. Giving-first.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link to="/book" className="bg-white text-[#c45c26] font-semibold px-8 py-3.5 rounded-full shadow-lg hover:bg-[#fdf6e3] transition">Book a Session</Link>
-            <Link to="/quasar" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
+            <Link to="/solara" className="border-2 border-white text-white font-semibold px-8 py-3.5 rounded-full hover:bg-white/10 transition">True → Tremendous →</Link>
           </div>
         </div>
       </section>
@@ -72,26 +72,26 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#1a120c] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 31 October 2026 True to Tremendous</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Three new online engines. Explosive growth, threshold membership and premium sanctuary. Giving-first. From true to tremendous.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Brand New — 1 November 2026 True to Tremendous</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Three new online engines. Solar alignment, trajectory systems and peak sanctuary. Giving-first. From true to tremendous.</p>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/quasar" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <div className="text-4xl mb-3">💥</div>
-              <h3 className="text-xl font-bold mb-2">Quasar</h3>
-              <p className="text-sm opacity-95 mb-4">Explosive growth engine. $127/month. Visual + systems. $25 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Ignite the Quasar →</span>
+            <Link to="/solara" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">☀️</div>
+              <h3 className="text-xl font-bold mb-2">Solara</h3>
+              <p className="text-sm opacity-95 mb-4">Solar alignment engine. $89/month. Daily drops + rituals. $20 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Align with Solara →</span>
             </Link>
-            <Link to="/liminal" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <div className="text-4xl mb-3">🚪</div>
-              <h3 className="text-xl font-bold mb-2">Liminal</h3>
-              <p className="text-sm opacity-95 mb-4">Threshold membership. $57/month. Guidance + rituals. $12 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Step into Liminal →</span>
+            <Link to="/vector" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🎯</div>
+              <h3 className="text-xl font-bold mb-2">Vector</h3>
+              <p className="text-sm opacity-95 mb-4">Trajectory engine. $167/month. Direction systems. $35 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Set the Vector →</span>
             </Link>
-            <Link to="/elysium" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
-              <div className="text-4xl mb-3">🏛️</div>
-              <h3 className="text-xl font-bold mb-2">Elysium</h3>
-              <p className="text-sm opacity-95 mb-4">Premium sanctuary. $297/month. Exclusive + high-touch. $60 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Enter Elysium →</span>
+            <Link to="/olympus" className="bg-white/10 rounded-2xl p-6 hover:bg-white/20 transition border border-white/20">
+              <div className="text-4xl mb-3">🏔️</div>
+              <h3 className="text-xl font-bold mb-2">Olympus</h3>
+              <p className="text-sm opacity-95 mb-4">Peak sanctuary. $397/month. High-touch + full weight. $80 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Ascend to Olympus →</span>
             </Link>
           </div>
         </div>
@@ -99,26 +99,26 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#2d5016] text-white">
         <div className="max-w-6xl mx-auto">
-          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous layer — 30 October</h2>
-          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Prism, Nexus and Spire remain the visual, integration and sprint engines.</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">Previous layer — 31 October</h2>
+          <p className="text-center opacity-95 mb-12 max-w-2xl mx-auto">Quasar, Liminal and Elysium remain the growth, threshold and premium engines.</p>
           <div className="grid md:grid-cols-3 gap-6">
-            <Link to="/prism" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🔮</div>
-              <h3 className="text-xl font-bold mb-2">Prism</h3>
-              <p className="text-sm opacity-95 mb-4">Visual wealth upsurge. $47/month. Content pipelines + stock. $12 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Enter the Prism →</span>
+            <Link to="/quasar" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">💥</div>
+              <h3 className="text-xl font-bold mb-2">Quasar</h3>
+              <p className="text-sm opacity-95 mb-4">Explosive growth engine. $127/month. Visual + systems. $25 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Ignite the Quasar →</span>
             </Link>
-            <Link to="/nexus" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🔗</div>
-              <h3 className="text-xl font-bold mb-2">Nexus</h3>
-              <p className="text-sm opacity-95 mb-4">Empire integration layer. $197/month. One dashboard. $40 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Connect the Nexus →</span>
+            <Link to="/liminal" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🚪</div>
+              <h3 className="text-xl font-bold mb-2">Liminal</h3>
+              <p className="text-sm opacity-95 mb-4">Threshold membership. $57/month. Guidance + rituals. $12 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Step into Liminal →</span>
             </Link>
-            <Link to="/spire" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
-              <div className="text-4xl mb-3">🏔️</div>
-              <h3 className="text-xl font-bold mb-2">Spire</h3>
-              <p className="text-sm opacity-95 mb-4">90-day true-to-tremendous sprint. $7997. Systems install. $2000 to the dogs.</p>
-              <span className="font-semibold text-[#d4a017]">Claim the Spire →</span>
+            <Link to="/elysium" className="bg-white/15 rounded-2xl p-6 hover:bg-white/25 transition border border-white/30">
+              <div className="text-4xl mb-3">🏛️</div>
+              <h3 className="text-xl font-bold mb-2">Elysium</h3>
+              <p className="text-sm opacity-95 mb-4">Premium sanctuary. $297/month. Exclusive + high-touch. $60 to the dogs.</p>
+              <span className="font-semibold text-[#d4a017]">Enter Elysium →</span>
             </Link>
           </div>
         </div>
@@ -202,12 +202,12 @@ export default function Home() {
         <p>Therapy Sausages · Forevermore Farm · Noosa Dachshunds · Emily Blue Richards</p>
         <p className="mt-2">Giving-first · NDIS-friendly where the plan and practitioner allow · From true to tremendous</p>
         <div className="mt-4 flex flex-wrap justify-center gap-4">
+          <Link to="/solara" className="hover:text-[#c45c26]">Solara</Link>
+          <Link to="/vector" className="hover:text-[#c45c26]">Vector</Link>
+          <Link to="/olympus" className="hover:text-[#c45c26]">Olympus</Link>
           <Link to="/quasar" className="hover:text-[#c45c26]">Quasar</Link>
           <Link to="/liminal" className="hover:text-[#c45c26]">Liminal</Link>
           <Link to="/elysium" className="hover:text-[#c45c26]">Elysium</Link>
-          <Link to="/prism" className="hover:text-[#c45c26]">Prism</Link>
-          <Link to="/nexus" className="hover:text-[#c45c26]">Nexus</Link>
-          <Link to="/spire" className="hover:text-[#c45c26]">Spire</Link>
           <Link to="/ledger" className="hover:text-[#c45c26]">Ledger</Link>
         </div>
       </footer>

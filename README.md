@@ -6,14 +6,14 @@ Full-scale online platform for Sausage Therapy / Therapy Sausages. Led by Emily 
 
 **Repo:** https://github.com/forevermore63/sausage-therapy-empire
 
-## Status: Tremendous Expansion — 31 October 2026
+## Status: Tremendous Expansion — 1 November 2026
 
 Three brand-new online engines pushed to main. Vercel deploys from this branch.
 
-- **Quasar** (`/quasar`) — Explosive growth engine. $127/month. Visual pipelines + perpetual systems. $25 to dog welfare.
-- **Liminal** (`/liminal`) — Threshold membership. $57/month. Guidance + rituals for stepping into full practice. $12 to dog welfare.
-- **Elysium** (`/elysium`) — Premium sanctuary. $297/month or $7997 lifetime. Exclusive visuals + high-touch support. $60/$1600 to dog welfare.
+- **Solara** (`/solara`) — Solar alignment engine. $89/month. Daily drops + rituals. $20 to dog welfare.
+- **Vector** (`/vector`) — Trajectory engine. $167/month. Direction systems + dashboards. $35 to dog welfare.
+- **Olympus** (`/olympus`) — Peak sanctuary. $397/month or $9977 lifetime. High-touch + full weight. $80/$2000 to dog welfare.
 
-Previous layer remains live: Prism, Nexus, Spire, Aether, Helix, Vanguard, Nimbus and the full empire.
+Previous layer remains live: Quasar, Liminal, Elysium, Prism, Nexus, Spire, Aether, Helix, Vanguard, Nimbus and the full empire.
 
 Holds save on the device until Stripe payment links are attached. Giving-first. From true to tremendous.

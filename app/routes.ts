@@ -150,4 +150,7 @@ export default [
   route("quasar", "routes/quasar.tsx"),
   route("liminal", "routes/liminal.tsx"),
   route("elysium", "routes/elysium.tsx"),
+  route("solara", "routes/solara.tsx"),
+  route("vector", "routes/vector.tsx"),
+  route("olympus", "routes/olympus.tsx"),
 ] satisfies RouteConfig;
