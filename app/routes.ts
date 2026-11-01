@@ -153,4 +153,7 @@ export default [
   route("solara", "routes/solara.tsx"),
   route("vector", "routes/vector.tsx"),
   route("olympus", "routes/olympus.tsx"),
+  route("zenith", "routes/zenith.tsx"),
+  route("equinox", "routes/equinox.tsx"),
+  route("solstice", "routes/solstice.tsx"),
 ] satisfies RouteConfig;
