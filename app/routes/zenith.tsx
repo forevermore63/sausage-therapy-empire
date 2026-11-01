@@ -4,11 +4,11 @@ import { useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Zenith | Peak Presence Coaching Circle | Therapy Sausages" },
+    { title: "Zenith | Peak Presence Engine | Therapy Sausages" },
     {
       name: "description",
       content:
-        "Zenith is the $97 monthly peak presence coaching circle from Therapy Sausages. Live and recorded. $25 to dog welfare. The high point that compounds the empire.",
+        "Zenith is the peak presence membership. High-frequency visual drops, compounding systems and live impact. $129/month. $28 to dog welfare. Grow the dream from true to tremendous.",
     },
   ];
 }
@@ -31,10 +31,10 @@ export default function Zenith() {
 
       <section className="hero-gradient text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="opacity-90 mb-3">New online element — 21 October 2026</p>
+          <p className="opacity-90 mb-3">Brand new online element — 2 November 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Zenith</h1>
           <p className="text-lg opacity-95">
-            Monthly peak presence coaching circle. Live or recorded guidance with the pack energy. Deeper than Gather. $25 of every month goes to dog welfare. The zenith that grows the dream from true to tremendous.
+            The peak presence engine. High-frequency visual drops from the pack and Forevermore Farm, compounding systems that keep the field elevated, and live impact that compounds while you rest. $28 of every Zenith month funds dog welfare, land care and free places. The quiet power that takes the dream from true to tremendous.
           </p>
         </div>
       </section>
@@ -43,14 +43,14 @@ export default function Zenith() {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Zenith · $97 / month</p>
-              <p className="text-sm text-gray-700">Peak presence coaching circle. Live or recorded. Cancel anytime.</p>
+              <p className="font-bold text-[#c45c26]">Zenith · $129/month</p>
+              <p className="text-sm text-gray-700">Peak drops + systems + impact pulse. Cancel anytime.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Zenith + Catalyst · $347</p>
-              <p className="text-sm text-gray-700">Coaching circle plus the 5-day team ignition path.</p>
+              <p className="font-bold text-[#c45c26]">Zenith + Solara · $199/month</p>
+              <p className="text-sm text-gray-700">Peak locked with solar alignment.</p>
             </div>
-            <p className="text-sm text-gray-700">Giving-first: $25 minimum to dog welfare every month. NDIS-friendly digital support where plans allow.</p>
+            <p className="text-sm text-gray-700">Giving-first: $28 minimum to dog welfare each month. Built for those who want the field elevated and the impact visible. Access opens immediately on hold.</p>
           </div>
           <form
             className="bg-white rounded-2xl p-6 shadow-md border border-[#c45c26]/10 space-y-4"
@@ -64,17 +64,17 @@ export default function Zenith() {
           >
             {!done ? (
               <>
-                <h2 className="text-xl font-bold text-[#2d5016]">Join Zenith</h2>
+                <h2 className="text-xl font-bold text-[#2d5016]">Rise to Zenith</h2>
                 <input className="w-full border rounded-xl px-4 py-3" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for circle access" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Enter Zenith</button>
+                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for peak drops" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Open the Peak</button>
               </>
             ) : (
               <div className="text-center py-6">
-                <p className="text-5xl mb-3">⬆️</p>
-                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Zenith is open</h3>
-                <p className="text-gray-700 mb-4">{name}, the first circle access arrives this month. Check your email.</p>
-                <Link to="/catalyst" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Catalyst for team ignition →</Link>
+                <p className="text-5xl mb-3">🏔️</p>
+                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Zenith is holding you</h3>
+                <p className="text-gray-700 mb-4">{name}, your first peak drop and system arrive within the hour. The field is elevated.</p>
+                <Link to="/solara" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Layer Solara for the alignment →</Link>
               </div>
             )}
           </form>
