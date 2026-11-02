@@ -4,11 +4,11 @@ import { useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Aurora | Full Day Pack Rhythm | Therapy Sausages" },
+    { title: "Aurora | Light Codes | Therapy Sausages" },
     {
       name: "description",
       content:
-        "Aurora is the $39 monthly full-day pack rhythm from Therapy Sausages. Morning light, midday presence, evening settle. $10 to dog welfare each month. Consistent calm that compounds.",
+        "Aurora is the daily light codes membership. Morning activations, dachshund wisdom drops and nervous-system brightening. $89/month. $20 to dog welfare. Grow the dream from true to tremendous.",
     },
   ];
 }
@@ -31,10 +31,10 @@ export default function Aurora() {
 
       <section className="hero-gradient text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="opacity-90 mb-3">New online element — 13 October 2026</p>
+          <p className="opacity-90 mb-3">Brand new online element — 3 November 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Aurora</h1>
           <p className="text-lg opacity-95">
-            The full day with the pack. Morning light, midday presence, evening settle. Delivered as short notes and photos. $10 of every monthly Aurora goes to dog care. Rhythm that holds while the empire grows.
+            The light codes. Daily morning activations, soft dachshund wisdom drops and the quiet brightening that resets your field before the day takes over. Visual light sequences, guided breath with pack energy and live impact that compounds while you rise. $20 of every Aurora month funds dog welfare, land care and free places. The luminous power that takes the dream from true to tremendous.
           </p>
         </div>
       </section>
@@ -43,14 +43,14 @@ export default function Aurora() {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Aurora · $39 / month</p>
-              <p className="text-sm text-gray-700">Three pack moments daily. Morning, midday, evening. Cancel anytime.</p>
+              <p className="font-bold text-[#c45c26]">Aurora · $89/month</p>
+              <p className="text-sm text-gray-700">Daily light codes + wisdom drops + rise systems. Cancel anytime.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Aurora Plus · $67 / month</p>
-              <p className="text-sm text-gray-700">Full day rhythm + one Meridian screen credit each month.</p>
+              <p className="font-bold text-[#c45c26]">Aurora + Eclipse · $169/month</p>
+              <p className="text-sm text-gray-700">Light locked with shadow sanctuary for full field balance.</p>
             </div>
-            <p className="text-sm text-gray-700">Giving-first: $10 minimum to dog welfare every month. NDIS-friendly digital support where plans allow.</p>
+            <p className="text-sm text-gray-700">Giving-first: $20 minimum to dog welfare each month. Built for those who want the morning clear and the impact visible. Access opens immediately on hold.</p>
           </div>
           <form
             className="bg-white rounded-2xl p-6 shadow-md border border-[#c45c26]/10 space-y-4"
@@ -64,17 +64,17 @@ export default function Aurora() {
           >
             {!done ? (
               <>
-                <h2 className="text-xl font-bold text-[#2d5016]">Begin Aurora</h2>
+                <h2 className="text-xl font-bold text-[#2d5016]">Enter the Aurora</h2>
                 <input className="w-full border rounded-xl px-4 py-3" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for daily delivery" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Start the Rhythm</button>
+                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for light codes" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Open the Light</button>
               </>
             ) : (
               <div className="text-center py-6">
                 <p className="text-5xl mb-3">🌅</p>
-                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Aurora is open</h3>
-                <p className="text-gray-700 mb-4">{name}, the pack rhythm begins tomorrow. Check your email.</p>
-                <Link to="/haven" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Haven for protected calm →</Link>
+                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Aurora is holding you</h3>
+                <p className="text-gray-700 mb-4">{name}, your first light code and morning activation arrive within the hour. The field is brightened.</p>
+                <Link to="/eclipse" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Layer Eclipse for the shadow →</Link>
               </div>
             )}
           </form>
