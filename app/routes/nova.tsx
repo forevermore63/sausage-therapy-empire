@@ -4,11 +4,11 @@ import { useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Nova | Instant Digital Pack Immersion | Therapy Sausages" },
+    { title: "Nova | Ignition Engine | Therapy Sausages" },
     {
       name: "description",
       content:
-        "Nova is the $47 instant digital pack immersion from Therapy Sausages. 7 micro-sessions of pure dachshund presence on demand. $12 to dog welfare. Grow from true to tremendous.",
+        "Nova is the personal ignition membership. Daily sparks, new-beginning systems and dachshund-powered momentum. $79/month. $18 to dog welfare. Grow the dream from true to tremendous.",
     },
   ];
 }
@@ -31,10 +31,10 @@ export default function Nova() {
 
       <section className="hero-gradient text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="opacity-90 mb-3">New online element — 24 October 2026</p>
+          <p className="opacity-90 mb-3">Brand new online element — 3 November 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Nova</h1>
           <p className="text-lg opacity-95">
-            Instant digital pack immersion. 7 micro-sessions of pure dachshund presence, delivered on demand. No travel. No wait. $12 of every Nova goes to dog welfare. The bright start that compounds the empire from true to tremendous.
+            The ignition. Daily sparks, fresh-start protocols and dachshund-powered momentum that turns quiet readiness into unstoppable movement. Short activations, decision frameworks and live impact that compounds while you begin again. $18 of every Nova month funds dog welfare, land care and free places. The first light that takes the dream from true to tremendous.
           </p>
         </div>
       </section>
@@ -43,14 +43,14 @@ export default function Nova() {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Nova · $47 one-time</p>
-              <p className="text-sm text-gray-700">Lifetime access to 7 micro-sessions. Audio + visual pack energy. Instant delivery.</p>
+              <p className="font-bold text-[#c45c26]">Nova · $79/month</p>
+              <p className="text-sm text-gray-700">Daily ignition drops + momentum systems. Cancel anytime.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Nova + Echo · $67</p>
-              <p className="text-sm text-gray-700">Immersion plus daily pack note for the first month.</p>
+              <p className="font-bold text-[#c45c26]">Nova + Aurora · $149/month</p>
+              <p className="text-sm text-gray-700">Ignite then illuminate. Full morning-to-momentum field.</p>
             </div>
-            <p className="text-sm text-gray-700">Giving-first: $12 minimum to dog welfare. NDIS-friendly digital support where plans allow. Perfect entry when travel is not possible.</p>
+            <p className="text-sm text-gray-700">Giving-first: $18 minimum to dog welfare each month. Built for those ready to start the next chapter. Access opens immediately on hold.</p>
           </div>
           <form
             className="bg-white rounded-2xl p-6 shadow-md border border-[#c45c26]/10 space-y-4"
@@ -64,17 +64,17 @@ export default function Nova() {
           >
             {!done ? (
               <>
-                <h2 className="text-xl font-bold text-[#2d5016]">Claim Nova</h2>
+                <h2 className="text-xl font-bold text-[#2d5016]">Enter the Nova</h2>
                 <input className="w-full border rounded-xl px-4 py-3" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for instant access" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Ignite Nova</button>
+                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for ignition drops" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Open the Ignition</button>
               </>
             ) : (
               <div className="text-center py-6">
-                <p className="text-5xl mb-3">✨</p>
-                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Nova is yours</h3>
-                <p className="text-gray-700 mb-4">{name}, the first micro-session lands in your inbox within the hour.</p>
-                <Link to="/echo" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Echo for daily rhythm →</Link>
+                <p className="text-5xl mb-3">🌟</p>
+                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Nova is holding you</h3>
+                <p className="text-gray-700 mb-4">{name}, your first spark and ignition protocol arrive within the hour. The new beginning has started.</p>
+                <Link to="/aurora" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Layer Aurora for the light →</Link>
               </div>
             )}
           </form>

@@ -10,10 +10,10 @@ Full-scale online platform for Sausage Therapy / Therapy Sausages. Led by Emily 
 
 Three brand-new online engines pushed to main. Vercel deploys from this branch.
 
-- **Aurora** (`/aurora`) — Light codes. $89/month. Daily morning activations + dachshund wisdom. $20 to dog welfare.
-- **Forge** (`/forge`) — Sanctuary builder. $129/month. Toolkits, blueprints and systems. $30 to dog welfare.
-- **Pack Circle** (`/pack`) — Private community. $59/month. Weekly drops + belonging. $15 to dog welfare.
+- **Nova** (`/nova`) — Ignition engine. $79/month. Daily sparks + momentum systems. $18 to dog welfare.
+- **Vesper** (`/vesper`) — Evening sanctuary. $45/month. Wind-down sequences + rest systems. $10 to dog welfare.
+- **Keystone** (`/keystone`) — Foundational operator. $199/month or $3997 lifetime. Integration lock + permanence. $50/$1000 to dog welfare.
 
-Previous layer remains live: Eclipse, Nebula, Comet, Zenith, Equinox, Solstice, Solara, Vector, Olympus, Quasar, Liminal, Elysium, Prism, Nexus, Spire, Aether, Helix, Vanguard, Nimbus and the full empire.
+Previous layer remains live: Aurora, Forge, Pack Circle, Eclipse, Nebula, Comet, Zenith, Equinox, Solstice, Solara, Vector, Olympus, Quasar, Liminal, Elysium, Prism, Nexus, Spire, Aether, Helix, Vanguard, Nimbus and the full empire.
 
 Holds save on the device until Stripe payment links are attached. Giving-first. From true to tremendous.
