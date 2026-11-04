@@ -4,11 +4,11 @@ import { useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Pulse | Weekly Pack Check-In | Therapy Sausages Empire" },
+    { title: "Pulse | Daily Pack Heartbeat | Therapy Sausages" },
     {
       name: "description",
       content:
-        "A 7-minute weekly nervous-system pulse with the pack. Low-energy days still count. $19 or inside Pact. Giving-first.",
+        "Pulse is the $49 monthly daily pack heartbeat from Therapy Sausages. One photo + 90-second presence pulse. $12 to dog welfare. The rhythm that grows the dream from true to tremendous.",
     },
   ];
 }
@@ -16,7 +16,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Pulse() {
   const [done, setDone] = useState(false);
   const [name, setName] = useState("");
-  const [energy, setEnergy] = useState("3");
+  const [email, setEmail] = useState("");
 
   return (
     <div className="min-h-screen">
@@ -25,15 +25,17 @@ export default function Pulse() {
           <Link to="/" className="flex items-center gap-2 font-bold text-xl text-[#c45c26]">
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
-          <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full text-sm">Book</Link>
+          <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full text-sm">Book Full Session</Link>
         </div>
       </header>
 
       <section className="hero-gradient text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="opacity-90 mb-3">Brand-New Online Element — 26 September 2026</p>
+          <p className="opacity-90 mb-3">New online element — 5 November 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Pulse</h1>
-          <p className="text-lg opacity-95">Seven minutes. One honest check-in. The pack holds the beat so you do not have to invent motivation every week.</p>
+          <p className="text-lg opacity-95">
+            Daily heartbeat with the pack. One photo. One 90-second presence pulse. Delivered each morning. $12 of every month goes to dog welfare. The rhythm that grows the dream from true to tremendous.
+          </p>
         </div>
       </section>
 
@@ -41,45 +43,38 @@ export default function Pulse() {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <h2 className="text-xl font-bold text-[#2d5016] mb-2">How Pulse works</h2>
-              <ol className="list-decimal list-inside text-gray-700 space-y-2 text-sm">
-                <li>Join for $19 / month or free inside Pact.</li>
-                <li>Every Sunday you get a 7-minute pack pulse: breath, body, load, one small next step.</li>
-                <li>Low-energy days still count. Zero performance.</li>
-                <li>A portion funds free places on Wellspring.</li>
-              </ol>
+              <p className="font-bold text-[#c45c26]">Pulse · $49 / month</p>
+              <p className="text-sm text-gray-700">Daily pack photo + short presence pulse. Morning delivery. Cancel anytime.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Solo Pulse · $19/mo</p>
-              <p className="text-sm text-gray-700">Weekly audio + written check-in. Cancel anytime.</p>
+              <p className="font-bold text-[#c45c26]">Pulse Plus · $79 / month</p>
+              <p className="text-sm text-gray-700">Full pulse + one Lumen credit each month for deeper light.</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Household Pulse · $29/mo</p>
-              <p className="text-sm text-gray-700">NDIS-friendly family check-in. Same beat, shared language.</p>
-            </div>
+            <p className="text-sm text-gray-700">Giving-first: $12 minimum to dog welfare every month. NDIS-friendly digital support where plans allow.</p>
           </div>
           <form
             className="bg-white rounded-2xl p-6 shadow-md border border-[#c45c26]/10 space-y-4"
             onSubmit={(e) => {
               e.preventDefault();
+              const held = JSON.parse(localStorage.getItem("st-pulse") || "[]");
+              held.push({ name, email, at: new Date().toISOString() });
+              localStorage.setItem("st-pulse", JSON.stringify(held));
               setDone(true);
             }}
           >
             {!done ? (
               <>
-                <h2 className="text-xl font-bold text-[#2d5016]">Start this week’s pulse</h2>
+                <h2 className="text-xl font-bold text-[#2d5016]">Begin the Pulse</h2>
                 <input className="w-full border rounded-xl px-4 py-3" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <label className="block text-sm text-gray-600">Energy today (1–5)</label>
-                <input type="range" min="1" max="5" value={energy} onChange={(e) => setEnergy(e.target.value)} className="w-full" />
-                <p className="text-center font-bold text-[#c45c26]">{energy} / 5</p>
-                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Lock my Pulse</button>
+                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for daily pulse" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Start the Rhythm</button>
               </>
             ) : (
               <div className="text-center py-6">
-                <p className="text-5xl mb-3">❤️</p>
-                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Pulse held</h3>
-                <p className="text-gray-700 mb-4">{name || "You"} checked in at energy {energy}. That is enough.</p>
-                <Link to="/book" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add a live session →</Link>
+                <p className="text-5xl mb-3">💓</p>
+                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Pulse is open</h3>
+                <p className="text-gray-700 mb-4">{name}, the pack heartbeat begins tomorrow morning. Check your email.</p>
+                <Link to="/lumen" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Lumen for soft light →</Link>
               </div>
             )}
           </form>
