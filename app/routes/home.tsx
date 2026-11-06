@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm. From true to tremendous: Spark, Sanctuary, Legacy and the full live empire. NDIS-friendly. Giving-first.",
+        "Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm. From true to tremendous: Pinnacle, Oracle, Phoenix and the full live empire. NDIS-friendly. Giving-first.",
     },
   ];
 }
@@ -27,7 +27,7 @@ export default function Home() {
       <section className="hero-gradient text-white py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Healing Hearts<br />with Every Wag</h1>
-          <p className="text-xl opacity-95 mb-6">Led by Emily Blue Richards.<br />From true to tremendous: Spark, Sanctuary, Legacy and the full live empire.<br />NDIS-friendly. Giving-first.</p>
+          <p className="text-xl opacity-95 mb-6">Led by Emily Blue Richards.<br />From true to tremendous: Pinnacle, Oracle, Phoenix and the full live empire.<br />NDIS-friendly. Giving-first.</p>
           <div className="flex flex-wrap justify-center gap-4 text-lg font-semibold">
             <div>247+ Hearts Healed</div>
             <div>$18.4k Given Back to Dogs</div>
@@ -39,34 +39,34 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-[#2d5016] mb-10">Brand New — 6 November 2026 True to Tremendous</h2>
+          <h2 className="text-3xl font-bold text-center text-[#2d5016] mb-10">Brand New — 7 November 2026 True to Tremendous</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">✨</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">Spark</h3>
-              <p className="text-sm text-gray-700 my-2">Daily micro-ignitions. $39/month. Spark word + pack photo. $10 to the dogs.</p>
-              <Link to="/spark" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Ignite the Spark →</Link>
+              <p className="text-4xl mb-3">🏔️</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">Pinnacle</h3>
+              <p className="text-sm text-gray-700 my-2">Peak presence. $79/month. Daily high-point + pack affirmation. $20 to the dogs.</p>
+              <Link to="/pinnacle" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Reach the Pinnacle →</Link>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">🛡️</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">Sanctuary</h3>
-              <p className="text-sm text-gray-700 my-2">Digital safe haven. $59/month. Guided presence. $15 to the dogs.</p>
-              <Link to="/sanctuary" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Enter the Sanctuary →</Link>
+              <p className="text-4xl mb-3">🔮</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">Oracle</h3>
+              <p className="text-sm text-gray-700 my-2">Pack wisdom. $49/month. Weekly insight + daily guidance. $12 to the dogs.</p>
+              <Link to="/oracle" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Consult the Oracle →</Link>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">🌟</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">Legacy</h3>
-              <p className="text-sm text-gray-700 my-2">Compounding impact. $99/month. Named contribution. $25 to the dogs.</p>
-              <Link to="/legacy" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Begin the Legacy →</Link>
+              <p className="text-4xl mb-3">🔥</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">Phoenix</h3>
+              <p className="text-sm text-gray-700 my-2">Renewal rising. $69/month. Guided reset + rising story. $18 to the dogs.</p>
+              <Link to="/phoenix" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Rise as Phoenix →</Link>
             </div>
           </div>
         </div>
       </section>
 
       <section className="py-12 px-4 text-center">
-        <Link to="/pulse" className="text-[#c45c26] underline mx-3">Pulse</Link>
-        <Link to="/lumen" className="text-[#c45c26] underline mx-3">Lumen</Link>
-        <Link to="/tide" className="text-[#c45c26] underline mx-3">Tide</Link>
+        <Link to="/spark" className="text-[#c45c26] underline mx-3">Spark</Link>
+        <Link to="/sanctuary" className="text-[#c45c26] underline mx-3">Sanctuary</Link>
+        <Link to="/legacy" className="text-[#c45c26] underline mx-3">Legacy</Link>
         <Link to="/book" className="text-[#c45c26] underline mx-3">Book a Session</Link>
         <Link to="/farm" className="text-[#c45c26] underline mx-3">Forevermore Farm</Link>
       </section>

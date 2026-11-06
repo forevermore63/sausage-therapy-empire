@@ -4,11 +4,11 @@ import { useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Pinnacle | Lifetime Empire Mastery | Therapy Sausages" },
+    { title: "Pinnacle | Peak Presence | Therapy Sausages" },
     {
       name: "description",
       content:
-        "Pinnacle is the $997 lifetime empire mastery from Therapy Sausages. Full digital vault, practitioner pathways, monthly guidance and highest giving. $250 to dog welfare. The pinnacle that grows the dream from true to tremendous.",
+        "Pinnacle is the $79 monthly peak presence from Therapy Sausages. Daily high-point reflection + pack affirmation. $20 to dog welfare. The summit that grows the dream from true to tremendous.",
     },
   ];
 }
@@ -31,10 +31,10 @@ export default function Pinnacle() {
 
       <section className="hero-gradient text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="opacity-90 mb-3">Brand new online element — 26 October 2026</p>
+          <p className="opacity-90 mb-3">New online element — 7 November 2026</p>
           <h1 className="text-4xl md:text-5xl font-bold mb-4">Pinnacle</h1>
           <p className="text-lg opacity-95">
-            Lifetime empire mastery. Full digital vault of every engine, practitioner and operator pathways, monthly live guidance with Emily and the pack, and the highest compounding presence. $250 of every Pinnacle goes to dog welfare and free access. The pinnacle that locks the dream from true to tremendous forever.
+            Peak presence with the pack. Daily high-point reflection + pack affirmation. $20 of every month goes to dog welfare. The summit that grows the dream from true to tremendous.
           </p>
         </div>
       </section>
@@ -43,14 +43,14 @@ export default function Pinnacle() {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Pinnacle · $997 one-time</p>
-              <p className="text-sm text-gray-700">Lifetime access. Full vault + monthly guidance + operator pathways. One payment, forever compounding.</p>
+              <p className="font-bold text-[#c45c26]">Pinnacle · $79 / month</p>
+              <p className="text-sm text-gray-700">Daily high-point reflection + pack affirmation. Cancel anytime.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Pinnacle + Apex · $1,297</p>
-              <p className="text-sm text-gray-700">Lifetime mastery plus the annual peak circle for the first year.</p>
+              <p className="font-bold text-[#c45c26]">Pinnacle Plus · $109 / month</p>
+              <p className="text-sm text-gray-700">Full pinnacle + one Oracle credit for deeper wisdom.</p>
             </div>
-            <p className="text-sm text-gray-700">Giving-first: $250 minimum to dog welfare and free places. Built for therapists, NDIS providers, farm operators and anyone ready to scale their own giving-first presence. NDIS-friendly documentation available.</p>
+            <p className="text-sm text-gray-700">Giving-first: $20 minimum to dog welfare every month. NDIS-friendly digital support where plans allow.</p>
           </div>
           <form
             className="bg-white rounded-2xl p-6 shadow-md border border-[#c45c26]/10 space-y-4"
@@ -64,17 +64,17 @@ export default function Pinnacle() {
           >
             {!done ? (
               <>
-                <h2 className="text-xl font-bold text-[#2d5016]">Claim Pinnacle</h2>
+                <h2 className="text-xl font-bold text-[#2d5016]">Reach the Pinnacle</h2>
                 <input className="w-full border rounded-xl px-4 py-3" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for lifetime access" value={email} onChange={(e) => setEmail(e.target.value)} required />
-                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Reach the Pinnacle</button>
+                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for peak presence" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Claim the Summit</button>
               </>
             ) : (
               <div className="text-center py-6">
                 <p className="text-5xl mb-3">🏔️</p>
-                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Pinnacle is yours</h3>
-                <p className="text-gray-700 mb-4">{name}, your lifetime vault opens within the hour. Monthly guidance invitation follows.</p>
-                <Link to="/apex" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Apex for the first year →</Link>
+                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Pinnacle is open</h3>
+                <p className="text-gray-700 mb-4">{name}, the pack summits begin tomorrow. Check your email.</p>
+                <Link to="/oracle" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Oracle for deeper wisdom →</Link>
               </div>
             )}
           </form>

@@ -1,80 +1,85 @@
 import type { Route } from "./+types/oracle";
 import { Link } from "react-router";
+import { useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Sausage Oracle • Daily Dachshund Wisdom | Therapy Sausages Empire" },
+    { title: "Oracle | Pack Wisdom | Therapy Sausages" },
     {
       name: "description",
       content:
-        "Receive daily sausage wisdom, nervous-system resets and personalized guidance from the pack. Free interactive oracle + form for deeper insight. Part of the giving-first Therapy Sausages empire.",
+        "Oracle is the $49 monthly pack wisdom from Therapy Sausages. Weekly oracle insight + daily micro-guidance. $12 to dog welfare. The vision that grows the dream from true to tremendous.",
     },
   ];
 }
 
-const dailyWisdom = [
-  "A sausage dog does not rush the walk. The path reveals itself one paw at a time.",
-  "When the world feels too loud, press your forehead to a warm dachshund side and breathe with the rise and fall.",
-  "Healing is not linear. It is a series of gentle wags that slowly rewire the heart.",
-  "The pack stays close. You are never truly alone when you choose connection.",
-  "Soft eyes. Soft belly. Soft nervous system. This is the sausage way.",
-  "Every booking that funds a free place for someone in need multiplies the light.",
-  "Rest is not laziness. A dachshund knows the power of the perfect sun-patch nap.",
-];
-
 export default function Oracle() {
-  const todayIndex = new Date().getDate() % dailyWisdom.length;
-  const wisdom = dailyWisdom[todayIndex];
+  const [done, setDone] = useState(false);
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
 
   return (
-    <div className="min-h-screen bg-[#fdf6e3]">
+    <div className="min-h-screen">
       <header className="sticky top-0 z-50 bg-[#fdf6e3]/95 backdrop-blur border-b border-[#c45c26]/20">
         <div className="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
           <Link to="/" className="flex items-center gap-2 font-bold text-xl text-[#c45c26]">
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
-          <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full hover:bg-[#a34a1e]">Book Now</Link>
+          <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full text-sm">Book Full Session</Link>
         </div>
       </header>
 
-      <section className="py-16 px-4 max-w-3xl mx-auto text-center">
-        <p className="text-[#c45c26] font-semibold mb-2">🔮 New Online Element</p>
-        <h1 className="text-4xl md:text-5xl font-bold text-[#2d5016] mb-4">Sausage Oracle</h1>
-        <p className="text-lg text-gray-700 mb-10">
-          Daily dachshund wisdom for nervous-system regulation, emotional clarity and empire alignment. Free. Always giving-first.
-        </p>
-
-        <div className="bg-white rounded-3xl p-8 md:p-12 shadow-lg border border-[#c45c26]/15 mb-12">
-          <p className="text-sm uppercase tracking-widest text-[#c45c26] mb-4">Today's Oracle</p>
-          <p className="text-2xl md:text-3xl font-medium text-[#2d5016] leading-relaxed italic">
-            “{wisdom}”
+      <section className="hero-gradient text-white py-16 px-4">
+        <div className="max-w-3xl mx-auto text-center">
+          <p className="opacity-90 mb-3">New online element — 7 November 2026</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Oracle</h1>
+          <p className="text-lg opacity-95">
+            Pack wisdom with the dachshunds. Weekly oracle insight + daily micro-guidance. $12 of every month goes to dog welfare. The vision that grows the dream from true to tremendous.
           </p>
-          <p className="mt-6 text-sm text-gray-500">— The Pack</p>
-        </div>
-
-        <div className="bg-white rounded-2xl p-8 shadow-md border border-[#c45c26]/10 text-left">
-          <h2 className="text-2xl font-bold text-[#2d5016] mb-4">Ask for Personal Guidance</h2>
-          <p className="text-gray-600 mb-6">Share what is present for you. Emily or the team will reply with sausage-aligned insight (usually within 48 hours).</p>
-          <form action="mailto:emily@therapysausages.com?subject=Sausage%20Oracle%20Guidance%20Request" method="get" className="space-y-4">
-            <input type="text" name="name" placeholder="Your name" required className="w-full border border-gray-300 rounded-full px-5 py-3 focus:ring-2 focus:ring-[#c45c26] outline-none" />
-            <input type="email" name="email" placeholder="Your email" required className="w-full border border-gray-300 rounded-full px-5 py-3 focus:ring-2 focus:ring-[#c45c26] outline-none" />
-            <textarea name="body" rows={5} placeholder="What is on your heart or what guidance do you seek?" required className="w-full border border-gray-300 rounded-2xl px-5 py-3 focus:ring-2 focus:ring-[#c45c26] outline-none"></textarea>
-            <button type="submit" className="w-full bg-[#c45c26] text-white font-semibold py-3.5 rounded-full hover:bg-[#a34a1e] transition">
-              Send to the Oracle
-            </button>
-          </form>
-        </div>
-
-        <div className="mt-12 flex flex-wrap justify-center gap-4">
-          <Link to="/calm" className="text-[#c45c26] font-semibold hover:underline">7-Day Calm Challenge →</Link>
-          <Link to="/wisdom" className="text-[#c45c26] font-semibold hover:underline">Wisdom Library →</Link>
-          <Link to="/membership" className="text-[#c45c26] font-semibold hover:underline">Join Sausage Circle →</Link>
         </div>
       </section>
 
-      <footer className="bg-[#1a1a1a] text-white py-8 px-4 text-center text-sm opacity-70">
-        © {new Date().getFullYear()} Therapy Sausages · From true to tremendous · Giving-first
-      </footer>
+      <section className="py-14 px-4 bg-[#fdf6e3]">
+        <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
+          <div className="space-y-4">
+            <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
+              <p className="font-bold text-[#c45c26]">Oracle · $49 / month</p>
+              <p className="text-sm text-gray-700">Weekly insight + daily micro-guidance. Cancel anytime.</p>
+            </div>
+            <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
+              <p className="font-bold text-[#c45c26]">Oracle Plus · $79 / month</p>
+              <p className="text-sm text-gray-700">Full oracle + one Phoenix credit for renewal rising.</p>
+            </div>
+            <p className="text-sm text-gray-700">Giving-first: $12 minimum to dog welfare every month. NDIS-friendly digital support where plans allow.</p>
+          </div>
+          <form
+            className="bg-white rounded-2xl p-6 shadow-md border border-[#c45c26]/10 space-y-4"
+            onSubmit={(e) => {
+              e.preventDefault();
+              const held = JSON.parse(localStorage.getItem("st-oracle") || "[]");
+              held.push({ name, email, at: new Date().toISOString() });
+              localStorage.setItem("st-oracle", JSON.stringify(held));
+              setDone(true);
+            }}
+          >
+            {!done ? (
+              <>
+                <h2 className="text-xl font-bold text-[#2d5016]">Consult the Oracle</h2>
+                <input className="w-full border rounded-xl px-4 py-3" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
+                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for pack wisdom" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Receive the Vision</button>
+              </>
+            ) : (
+              <div className="text-center py-6">
+                <p className="text-5xl mb-3">🔮</p>
+                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Oracle is open</h3>
+                <p className="text-gray-700 mb-4">{name}, the pack insights begin tomorrow. Check your email.</p>
+                <Link to="/phoenix" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Phoenix for renewal rising →</Link>
+              </div>
+            )}
+          </form>
+        </div>
+      </section>
     </div>
   );
 }
