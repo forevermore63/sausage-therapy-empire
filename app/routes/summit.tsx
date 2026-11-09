@@ -4,11 +4,11 @@ import { useState } from "react";
 
 export function meta({}: Route.MetaArgs) {
   return [
-    { title: "Summit 2027 | Therapy Sausages Empire" },
+    { title: "Summit | Peak Daily Presence | Therapy Sausages" },
     {
       name: "description",
       content:
-        "The first Therapy Sausages Summit — therapists, NDIS providers, founders and pack people in one room so the method becomes an industry lane.",
+        "Summit is the $89 monthly peak presence from Therapy Sausages. Daily summit drops + pack peak. $22 to dog welfare. The peak that grows the dream from true to tremendous.",
     },
   ];
 }
@@ -16,7 +16,7 @@ export function meta({}: Route.MetaArgs) {
 export default function Summit() {
   const [done, setDone] = useState(false);
   const [name, setName] = useState("");
-  const [seat, setSeat] = useState("practitioner");
+  const [email, setEmail] = useState("");
 
   return (
     <div className="min-h-screen">
@@ -25,16 +25,16 @@ export default function Summit() {
           <Link to="/" className="flex items-center gap-2 font-bold text-xl text-[#c45c26]">
             <span className="text-2xl">🐾</span> Therapy Sausages
           </Link>
-          <Link to="/certify" className="bg-[#c45c26] text-white px-4 py-2 rounded-full text-sm">Certify</Link>
+          <Link to="/book" className="bg-[#c45c26] text-white px-4 py-2 rounded-full text-sm">Book Full Session</Link>
         </div>
       </header>
 
       <section className="hero-gradient text-white py-16 px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <p className="opacity-90 mb-3">Brand-New Online Element — 30 September 2026</p>
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Summit 2027</h1>
+          <p className="opacity-90 mb-3">New online element — 10 November 2026</p>
+          <h1 className="text-4xl md:text-5xl font-bold mb-4">Summit</h1>
           <p className="text-lg opacity-95">
-            One gathering so Sausage Therapy stops being a private miracle and becomes a teachable, billable, Olympic-ready lane. Hybrid farm + live stream. Founding tickets now.
+            Peak daily presence with the pack. Daily summit drops + pack peak. $22 of every month goes to dog welfare. The peak that grows the dream from true to tremendous.
           </p>
         </div>
       </section>
@@ -43,42 +43,38 @@ export default function Summit() {
         <div className="max-w-4xl mx-auto grid md:grid-cols-2 gap-8">
           <div className="space-y-4">
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Practitioner seat · $1,200</p>
-              <p className="text-sm text-gray-700">Two days on land + replay vault + certificate hours.</p>
+              <p className="font-bold text-[#c45c26]">Summit · $89 / month</p>
+              <p className="text-sm text-gray-700">Daily peak summit drops + pack peak. Cancel anytime.</p>
             </div>
             <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">NDIS / org table · $3,800</p>
-              <p className="text-sm text-gray-700">Four seats, brand placement, pack meet, follow-up clinic.</p>
+              <p className="font-bold text-[#c45c26]">Summit Plus · $119 / month</p>
+              <p className="text-sm text-gray-700">Full summit + priority pack presence credits.</p>
             </div>
-            <div className="bg-white rounded-2xl p-6 border border-[#c45c26]/10 shadow-sm">
-              <p className="font-bold text-[#c45c26]">Stream pass · $197</p>
-              <p className="text-sm text-gray-700">Live + 90-day replay. Feeds Academy upsell.</p>
-            </div>
+            <p className="text-sm text-gray-700">Giving-first: $22 minimum to dog welfare every month. NDIS-friendly digital support where plans allow.</p>
           </div>
           <form
             className="bg-white rounded-2xl p-6 shadow-md border border-[#c45c26]/10 space-y-4"
             onSubmit={(e) => {
               e.preventDefault();
+              const held = JSON.parse(localStorage.getItem("st-summit") || "[]");
+              held.push({ name, email, at: new Date().toISOString() });
+              localStorage.setItem("st-summit", JSON.stringify(held));
               setDone(true);
             }}
           >
             {!done ? (
               <>
-                <h2 className="text-xl font-bold text-[#2d5016]">Reserve founding interest</h2>
+                <h2 className="text-xl font-bold text-[#2d5016]">Claim the Summit</h2>
                 <input className="w-full border rounded-xl px-4 py-3" placeholder="Your name" value={name} onChange={(e) => setName(e.target.value)} required />
-                <select className="w-full border rounded-xl px-4 py-3" value={seat} onChange={(e) => setSeat(e.target.value)}>
-                  <option value="practitioner">Practitioner seat</option>
-                  <option value="org">NDIS / org table</option>
-                  <option value="stream">Stream pass</option>
-                </select>
-                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Hold my Summit place</button>
+                <input className="w-full border rounded-xl px-4 py-3" type="email" placeholder="Email for summit drops" value={email} onChange={(e) => setEmail(e.target.value)} required />
+                <button className="w-full bg-[#c45c26] text-white font-semibold py-3 rounded-full">Reach the Peak</button>
               </>
             ) : (
               <div className="text-center py-6">
-                <p className="text-5xl mb-3">🏆</p>
-                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Place held</h3>
-                <p className="text-gray-700 mb-4">{name} — {seat} is on the founding list.</p>
-                <Link to="/academy" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Start Academy now →</Link>
+                <p className="text-5xl mb-3">🏔️</p>
+                <h3 className="text-2xl font-bold text-[#2d5016] mb-2">Summit is open</h3>
+                <p className="text-gray-700 mb-4">{name}, the pack peak begins tomorrow. Check your email.</p>
+                <Link to="/haven" className="bg-[#c45c26] text-white font-semibold px-6 py-3 rounded-full inline-block">Add Haven for grounded base →</Link>
               </div>
             )}
           </form>
