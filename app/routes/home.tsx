@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm. From true to tremendous: Eternal, Manifest, Ascend and the full live empire. NDIS-friendly. Giving-first.",
+        "Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm. From true to tremendous: Infinity, Genesis, Mythos and the full live empire. NDIS-friendly. Giving-first.",
     },
   ];
 }
@@ -27,7 +27,7 @@ export default function Home() {
       <section className="hero-gradient text-white py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Healing Hearts<br />with Every Wag</h1>
-          <p className="text-xl opacity-95 mb-6">Led by Emily Blue Richards.<br />From true to tremendous: Eternal, Manifest, Ascend and the full live empire.<br />NDIS-friendly. Giving-first.</p>
+          <p className="text-xl opacity-95 mb-6">Led by Emily Blue Richards.<br />From true to tremendous: Infinity, Genesis, Mythos and the full live empire.<br />NDIS-friendly. Giving-first.</p>
           <div className="flex flex-wrap justify-center gap-4 text-lg font-semibold">
             <div>247+ Hearts Healed</div>
             <div>$18.4k Given Back to Dogs</div>
@@ -39,25 +39,25 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-[#2d5016] mb-10">Brand New — 12 November 2026 True to Tremendous</h2>
+          <h2 className="text-3xl font-bold text-center text-[#2d5016] mb-10">Brand New — 14 November 2026 True to Tremendous</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">♾️</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">Eternal</h3>
-              <p className="text-sm text-gray-700 my-2">Perpetual presence. $29/month. Continuous soft drops + living pack energy. $7 to the dogs.</p>
-              <Link to="/eternal" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Claim the Eternal →</Link>
+              <p className="text-4xl mb-3">∞</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">Infinity</h3>
+              <p className="text-sm text-gray-700 my-2">Infinite spiral presence. $49/month. Continuous infinite drops + pack resonance. $12 to the dogs.</p>
+              <Link to="/infinity" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Enter Infinity →</Link>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">✨</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">Manifest</h3>
-              <p className="text-sm text-gray-700 my-2">Empire manifestation. $79/month. Daily manifestation drops + compound growth tools. $20 to the dogs.</p>
-              <Link to="/manifest" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Start Manifesting →</Link>
+              <p className="text-4xl mb-3">🌱</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">Genesis</h3>
+              <p className="text-sm text-gray-700 my-2">Origin engine. $129/month. Daily genesis drops + foundation systems. $35 to the dogs.</p>
+              <Link to="/genesis" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Begin Genesis →</Link>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">⬆️</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">Ascend</h3>
-              <p className="text-sm text-gray-700 my-2">Higher trajectory. $199/month. Premium ascend drops + empire elevation systems. $50 to the dogs.</p>
-              <Link to="/ascend" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Begin Ascending →</Link>
+              <p className="text-4xl mb-3">📜</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">Mythos</h3>
+              <p className="text-sm text-gray-700 my-2">Living story engine. $35/month. Weekly mythos + daily pack lore. $9 to the dogs.</p>
+              <Link to="/mythos" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Enter Mythos →</Link>
             </div>
           </div>
         </div>
@@ -67,6 +67,7 @@ export default function Home() {
         <Link to="/true" className="text-[#c45c26] underline mx-3">True</Link>
         <Link to="/surge" className="text-[#c45c26] underline mx-3">Surge</Link>
         <Link to="/tremendous" className="text-[#c45c26] underline mx-3">Tremendous</Link>
+        <Link to="/eternal" className="text-[#c45c26] underline mx-3">Eternal</Link>
         <Link to="/book" className="text-[#c45c26] underline mx-3">Book a Session</Link>
         <Link to="/farm" className="text-[#c45c26] underline mx-3">Forevermore Farm</Link>
       </section>
