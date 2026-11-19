@@ -7,7 +7,7 @@ export function meta({}: Route.MetaArgs) {
     {
       name: "description",
       content:
-        "Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm. From true to tremendous: TrueApex, TremendousCrown, PackPhoenix and the full live empire. NDIS-friendly. Giving-first.",
+        "Real dachshund therapy • Gold Coast, Noosa & Forevermore Farm. From true to tremendous: TrueSummit, TremendousBeacon, PackDawn and the full live empire. NDIS-friendly. Giving-first.",
     },
   ];
 }
@@ -27,7 +27,7 @@ export default function Home() {
       <section className="hero-gradient text-white py-20 px-4 text-center">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl md:text-6xl font-bold mb-4">Healing Hearts<br />with Every Wag</h1>
-          <p className="text-xl opacity-95 mb-6">Led by Emily Blue Richards.<br />From true to tremendous: TrueApex, TremendousCrown, PackPhoenix and the full live empire.<br />NDIS-friendly. Giving-first.</p>
+          <p className="text-xl opacity-95 mb-6">Led by Emily Blue Richards.<br />From true to tremendous: TrueSummit, TremendousBeacon, PackDawn and the full live empire.<br />NDIS-friendly. Giving-first.</p>
           <div className="flex flex-wrap justify-center gap-4 text-lg font-semibold">
             <div>247+ Hearts Healed</div>
             <div>$18.4k Given Back to Dogs</div>
@@ -39,35 +39,35 @@ export default function Home() {
 
       <section className="py-16 px-4 bg-[#fdf6e3]">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-3xl font-bold text-center text-[#2d5016] mb-10">Brand New — 19 November 2026 True to Tremendous</h2>
+          <h2 className="text-3xl font-bold text-center text-[#2d5016] mb-10">Brand New — 20 November 2026 True to Tremendous</h2>
           <div className="grid md:grid-cols-3 gap-6">
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
               <p className="text-4xl mb-3">🏔️</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">TrueApex</h3>
-              <p className="text-sm text-gray-700 my-2">Daily true apex presence. $49/month. Apex steps + pack peak. $12 to the dogs.</p>
-              <Link to="/trueapex" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Reach TrueApex →</Link>
+              <h3 className="text-2xl font-bold text-[#c45c26]">TrueSummit</h3>
+              <p className="text-sm text-gray-700 my-2">Daily true summit presence. $55/month. Summit steps + pack peak. $14 to the dogs.</p>
+              <Link to="/truesummit" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Reach TrueSummit →</Link>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">👑</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">TremendousCrown</h3>
-              <p className="text-sm text-gray-700 my-2">The crown of tremendous. $99/month. Crown systems + pack sovereignty. $25 to the dogs.</p>
-              <Link to="/tremendouscrown" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Claim the Crown →</Link>
+              <p className="text-4xl mb-3">💡</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">TremendousBeacon</h3>
+              <p className="text-sm text-gray-700 my-2">The beacon of tremendous. $85/month. Beacon systems + pack light. $21 to the dogs.</p>
+              <Link to="/tremendousbeacon" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Activate Beacon →</Link>
             </div>
             <div className="bg-white rounded-2xl p-6 shadow border border-[#c45c26]/10 text-center">
-              <p className="text-4xl mb-3">🐦</p>
-              <h3 className="text-2xl font-bold text-[#c45c26]">PackPhoenix</h3>
-              <p className="text-sm text-gray-700 my-2">Pack phoenix engine. $69/month. Phoenix drops + perpetual rebirth. $17 to the dogs.</p>
-              <Link to="/packphoenix" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Rise with Phoenix →</Link>
+              <p className="text-4xl mb-3">🌅</p>
+              <h3 className="text-2xl font-bold text-[#c45c26]">PackDawn</h3>
+              <p className="text-sm text-gray-700 my-2">Pack dawn engine. $59/month. Dawn drops + perpetual renewal. $15 to the dogs.</p>
+              <Link to="/packdawn" className="inline-block bg-[#c45c26] text-white px-5 py-2 rounded-full text-sm font-semibold">Rise with Dawn →</Link>
             </div>
           </div>
         </div>
       </section>
 
       <section className="py-12 px-4 text-center">
+        <Link to="/trueapex" className="text-[#c45c26] underline mx-3">TrueApex</Link>
+        <Link to="/tremendouscrown" className="text-[#c45c26] underline mx-3">TremendousCrown</Link>
+        <Link to="/packphoenix" className="text-[#c45c26] underline mx-3">PackPhoenix</Link>
         <Link to="/trueforge" className="text-[#c45c26] underline mx-3">TrueForge</Link>
-        <Link to="/tremendousnexus" className="text-[#c45c26] underline mx-3">TremendousNexus</Link>
-        <Link to="/packascend" className="text-[#c45c26] underline mx-3">PackAscend</Link>
-        <Link to="/truepath" className="text-[#c45c26] underline mx-3">TruePath</Link>
         <Link to="/book" className="text-[#c45c26] underline mx-3">Book a Session</Link>
         <Link to="/farm" className="text-[#c45c26] underline mx-3">Forevermore Farm</Link>
       </section>
